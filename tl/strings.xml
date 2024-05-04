@@ -1,0 +1,565 @@
+<resources>
+    <string name="call">Tawag</string>
+    <string name="permission_read_phone_state">Basahin ang Estado ng Telepono</string>
+    <string name="permission_read_contacts">Basahin ang mga Kontak</string>
+    <string name="permission_answer_phone_calls">Sagutin ang mga Tawag</string>
+    <string name="permission_call_phone">Tumawag</string>
+    <string name="My_Country_Code">Kodigo ng Aking Bansa</string>
+    <string name="blocked_call_notifications">Pumili ng Abiso sa mga Na-block na Tawag</string>
+    <string-array name="notification_options">
+        <item>Agad na Abisuhan</item>
+        <!-- <item>Abisuhan sa Pagtatapos ng Araw</item> -->
+        <item>Walang Abiso</item>
+    </string-array>
+    <string name="call_was_blocked">ang tawag ay na-block</string>
+    <string name="rate_limit_exceeded_message">Naabot mo na ang limitasyon. Maghintay ng 5 minuto at subukang muli.</string>
+    <string name="delete_data_popup_message">Gusto kong burahin ang aking data mula sa KarmaCall. Nauunawaan ko na wala na akong access sa aking nano account na nakaugnay sa aking KarmaCall account.</string>
+    <string name="delete_data_long">Kung nais mong burahin ang iyong data mula sa aming mga talaan, pakipindot ang pindutan sa ibaba. BABALA - kapag binura mo ang iyong data, hindi ka na makakapag-access ng iyong nano account.</string>
+    <string name="delete_data">Burahin ang Aking Data</string>
+    <string name="shareBody">Binabayaran ako para harangin ang mga spam na tawag sa telepono gamit ang KarmaCall!&#160; Mag-sign up dito at tayong dalawa ay makakatanggap ng karagdagang bayad kapag hinadlangan mo ang iyong unang tawag.\n</string>
+    <string name="invite">Imbitahan</string>
+    <string name="referrals">Mga Reperal</string>
+    <string name="label_is">ay</string>
+    <string name="errorRetrievingFunds">Error sa Pagkuha ng Pondo</string>
+    <string name="codeColon">Kodigo:</string>
+    <string name="referralShare">Ibahagi ang Aking Reperal</string>
+    <string name="referralInfo">Makakatanggap ka ng bayad sa tuwing ang iyong kaibigan ay mag-sign up gamit ang iyong reperal code at hadlangan ang kanilang unang tawag!</string>
+    <string name="enjoyUsing">Kung ikaw ay nasisiyahan sa paggamit ng&#160;</string>
+    <string name="rateUsPlease">, mangyaring maglaan ng oras para i-rate kami. Salamat sa iyong suporta!</string>
+    <string name="rate">I-rate ang&#160;</string>
+    <string name="remindMeLater">Paalalahanan ako mamaya</string>
+    <string name="noThanks">Hindi, salamat</string>
+    <string name="permissionRequestPaid">Humihingi ng Pahintulot Upang Magbayad Sayo sa Pag-block ng Spam</string>
+    <string name="registerToGetPaid">Magrehistro ng Iyong Numero ng Telepono Para Makatanggap ng Bayad</string>
+    <string name="referralRewards">Gantimpala sa Referral</string>
+    <string name="blockingOff">Pag-block sa Tawag ay Naka-off</string>
+    <string name="blockingOn">Pag-block sa Tawag ay Naka-on</string>
+    <string name="stopBlockingCalls">Itigil ang Pag-block ng Tawag</string>
+    <string name="stopBlocking">Itigil ang Pag-block</string>
+    <string name="startBlockingCalls">Simulan ang Pag-block ng Tawag</string>
+    <string name="managePhoneNumber">Pamahalaan ang Numero ng Telepono</string>
+    <string name="startBlocking">Simulan ang Pag-block</string>
+    <string name="registerPhoneCashBack">Mangyaring irehistro ang iyong numero ng telepono para makatanggap ng cash back.</string>
+    <string name="privateNumber">Pribadong Numero</string>
+    <string name="no_blocking_simple">Hindi. Payagan ang sinumang tumawag sakin.</string>
+    <string name="yes_blocking_simple">Oo. Tanging mga tawag mula sa cash o contactos lang ang may pahintulot makatawag sakin.</string>
+    <string name="check_stop_blocking_simple">Nais mo bang i-block ang mga tawag?</string>
+    <string name="iKnowProceedWithoutPermission">Alam ko ang aking ginagawa, hayaan mo akong makita ang iyong app muna!</string>
+    <string name="iWantToSelectCheckboxPermission">Gusto kong piliin ang checkbox para gawin kang My KarmaCall!</string>
+    <string name="yes">Oo</string>
+    <string name="welcomeBack">Maligayang pagbabalik!</string>
+    <string name="notRegisteredYet">hindi pa nakarehistro</string>
+    <string name="pleaseAcceptPermissions">Pakiusap tanggapin muna ang mga pahintulot</string>
+    <string name="myPhoneNumberIs">Ang aking numero ng telepono ay&#160;</string>
+    <string name="failedMakeNewNanoAccount">Nabigo sa paglikha ng bagong nano Account. Mayroon ka na ba? Subukang mag-verify ng iyong numero ng telepono</string>
+    <string name="couldNotConfirmNumber">Hindi makumpirma ang iyong numero, mangyaring subukang mag-update ng iyong numero ng telepono, salamat</string>
+    <string name="errorGettingExistingNanoAccount">May naganap na error sa pagkuha ng umiiral na nano account</string>
+    <string name="noPhoneEntered">Walang naipasok na numero ng telepono para sa beripikasyon</string>
+    <string name="smsCodeNotEntered">OTP hindi naipasok, mangyaring mag-update o mag-verify ng iyong numero ng telepono</string>
+    <string name="verifyFailed">Nabigo ang Pagpapatunay</string>
+    <string name="successWelcomeFuture">Tagumpay! Maligayang pagdating sa kinabukasan!</string>
+    <string name="code_not_entered">Hindi naipasok ang SMS code</string>
+    <string name="phoneNumberBlank">Walang naipasok na numero ng telepono para sa pagbabago. Subukang muli.</string>
+    <string name="phoneNumberUpdateCancelled">Kinansela ang pagbabago ng numero ng telepono</string>
+    <string name="already_registered_phone_number">Nakarehistro Na ang Iyong Numero ng Telepono</string>
+    <string name="sorry_some_error_balance">Pasensya na, may naganap na error habang tinitingnan ang iyong balanse</string>
+    <string name="sorry_some_error">Pasensya na, may naganap na error</string>
+    <string name="withdraw_failed">Nabigo ang pag-withdraw. Doblehin ang pagsusuri ng iyong halaga o nano withdrawal address</string>
+    <string name="withdraw_success">Tagumpay ang iyong pagpadala!</string>
+    <string name="invalid_nano_format">Hindi wasto ang anyo ng nano account. Mangyaring suriin muli ang iyong nano account entry para sa mga pagkakamali</string>
+    <string name="enter_amount_withdraw">Kailangan mong magpasok ng halaga para mag-withdraw</string>
+    <string name="error_with_faucet">May naganap na error sa paggamit ng faucet, mangyaring subukang muli</string>
+    <string name="coming_soon">Malapit na!</string>
+    <string name="faucet_of_knowledge">Nagamit mo na ang faucet, mangyaring hayaan ang iba na uminom mula sa batis ng kaalaman</string>
+    <string name="no_nano_account_register_please">Wala ka pang nano account. Subukang magrehistro ng iyong numero ng telepono</string>
+    <string name="faucet_nano_received">Nakatanggap ka ng 0.0001 nano!</string>
+    <string name="terms_conditions">Sa Pag-gamit ng Aming Serbisyo, Kinikilala Mo Ang Aming Patakaran sa Privacy at Mga Tuntunin at Kundisyon</string>
+    <string name="faucet_free">Faucet = Libre $$$</string>
+    <string name="send_email">Magpadala ng Email</string>
+    <string name="feedback_comments">Mangyaring Mag-iwan ng Iyong Feedback, Komento, Katanungan, o Alalahanin. Maraming salamat!</string>
+    <string name="choose_your_language">Mangyaring pumili ng iyong wika</string>
+    <string name="check_stop_blocking">Nais ko lamang na ang cash calls at mga contact ang tatawag sa aking telepono.</string>
+    <string name="stop_start_blocking">Itigil/Simulan ang Pag-block</string>
+    <string name="blockedCalls">Na-block na mga Tawag</string>
+    <string name="version">Bersyon&#160;</string>
+    <string name="label_Wallet">Pitaka</string>
+    <string name="label_Withdraw">Mag-withdraw</string>
+    <string name="Withdrawal_Request">Kahilingan sa Pag-withdraw</string>
+    <string name="label_Deposit">Magdeposito</string>
+    <string name="Faucet">Gamitin ang Faucet - Makakuha ng Libreng $$ Agad-agad</string>
+    <string name="Nano_address">nano Address</string>
+    <string name="See_my_Nano_account">Tingnan ang aking nano account</string>
+    <string name="Nano_account">nano account</string>
+    <string name="Here_is_your_Nano_account">Narito ang iyong nano account</string>
+    <string name="Cash_out_to_USD">I-cash out sa USD</string>
+    <string name="Nano_value">Halaga ng nano</string>
+    <string name="USD">Halaga sa USD</string>
+    <string name="USD_Funds">Pondo sa USD</string>
+    <string name="Nano_Funds">Pondo sa nano</string>
+    <string name="USD_Earned">Kinitang USD</string>
+    <string name="Update_My_Nano_Account">I-update ang aking nano account</string>
+    <string name="Submit_Ticket">Isumite ang Tiket</string>
+    <string name="View_Gift_Cards">Tingnan ang Mga Gift Card</string>
+
+
+
+    <string name="My_Phone_Number">Ang Aking Numero ng Telepono</string>
+    <string name="Update_My_Phone_Number">I-update ang aking numero ng telepono</string>
+    <string name="Verify_My_Phone_Number">Beripikahin ang aking numero ng telepono</string>
+    <string name="Register_My_Phone_Number">Irehistro ang aking numero ng telepono</string>
+    <string name="Enter_Phone_Number_For_OTP">Pakilagay ang numero ng telepono ng aparatong ito upang makatanggap ng isang beses na password sa pamamagitan ng SMS</string>
+    <string name="Enter_OTP_Response">Pakilagay ang password na ipinadala sa iyo</string>
+    <string name="My_OTP">Ang aking 6 na digit na code</string>
+    <string name="Amount_To_Withdraw">Ipasok ang halaga ng nano na gustong i-withdraw</string>
+    <string name="Enter_Nano_Account_To_Withdraw_To_Below">Ipasok sa ibaba ang iyong panlabas na nano account</string>
+    <string name="Open_navigation_drawer">Buksan ang navigation drawer</string>
+    <string name="Close_navigation_drawer">Isara ang navigation drawer</string>
+    <string name="label_Information">Impormasyon</string>
+    <string name="label_Exit">Lumabas</string>
+    <string name="SELECT_ALL">PILIIN LAHAT</string>
+    <string name="label_DELETE">BURAHIN</string>
+    <string name="label_CANCEL">KANSELAHIN</string>
+    <string name="label_CONTINUE">MAGPATULOY</string>
+    <string name="label_ADD">MAGDAGDAG</string>
+    <string name="Adding_contact">Nagdadagdag ng kontak</string>
+    <string name="Saving_">Nagse-save…</string>
+    <string name="call_is_blocked">ang tawag ay hinarangan</string>
+    <string name="message_is_blocked">ang mensahe ay hinarangan</string>
+    <string name="message_is_received">ang mensahe ay natanggap</string>
+    <string name="Search_action">Maghanap</string>
+    <string name="Starts_with">Nagsisimula sa:</string>
+    <string name="Ends_with">Nagtatapos sa:</string>
+    <string name="Delete_record">Burahin ang rekord</string>
+    <string name="Copy_number">Kopyahin ang numero</string>
+    <string name="Copy_text">Kopyahin ang teksto</string>
+    <string name="Find_similar_records">Hanapin ang katulad na mga rekord</string>
+    <string name="Exclude_from_black_list">Alisin ang kontak mula sa Itim na Listahan</string>
+    <string name="Move_to_white_list">Ilipat ang kontak sa Puting Listahan</string>
+    <string name="Move_to_black_list">Ilipat ang kontak sa Itim na Listahan</string>
+    <string name="needs_permission">nangangailangan ng pahintulot</string>
+    <string name="needs_permissions">nangangailangan ng mga pahintulot</string>
+    <string name="Write_message">Magsulat ng mensahe</string>
+    <string name="Copied_to_clipboard">Nakopya sa clipboard</string>
+    <string name="Menu_button">Buton ng Menu</string>
+    <string name="List_is_empty">Walang laman ang listahan</string>
+    <string name="Logo_motto">Kumita sa Pagtigil ng Spam</string>
+    <string name="label_About">Tungkol Sa</string>
+    <string name="Welcome">Maligayang pagdating!</string>
+    <string name="Info_welcome">
+    Lalagay namin ang lahat ng hindi kilalang mga tawag sa iyong voicemail maliban kung mag-iiwan sila sa iyo ng $0.05 NanoDeposit.
+    Kung ang hindi kilalang tawag ay nag-ring nang higit sa isang beses, ibig sabihin ay nag-iwan sila sa iyo ng NanoDeposit.
+    Sagutin ang tawag para malaman kung sino ang nag-iwan sa iyo ng deposito.
+    Kung hindi mo gusto ang tawag, ibaba mo lang bago mag-25 segundo at mapapasaiyo ang deposito.
+	</string>
+    <string name="label_FAQ">Mga Madalas Itanong (FAQ)</string>
+    <string name="TBD_value">Itatakda</string>
+    <string name="permissionRequest">Humihiling ng Pahintulot Upang Maging Iyong Cash-Back Spam Blocker</string>
+    <string name="permissionWarning">
+		Kung walang mga pahintulot na ito, hindi namin mahaharang ang mga tawag para sa iyo. Sigurado ka bang nais mong magpatuloy?
+		Maaari mong irehistro ang iyong numero ng telepono para sa pag-block ng tawag sa app mamaya.
+	</string>
+    <string name="permissionPurpose">
+		Kailangan namin ng mga pahintulot upang magsilbing iyong pansariling paywall.
+		Kami ay gumagamit lamang ng mga pahintulot na ito upang payagan ang mga cash-calls at ang iyong mga kaibigan/pamilya na tumawag, habang hinaharang ang hindi bayad na hindi hinihinging mga tawag.
+	</string>
+    <string name="permissionRequired">Paganahin ang mga pahintulot</string>
+    <string name="permissionRequestInformation">
+		Ilagay dito ang tungkol sa string kung kinakailangan
+	</string>
+    <string name="attention">Atensyon</string>
+    <string name="messaging">Paggamit ng Mensahe</string>
+    <string name="Info_messaging">Mga SMS.</string>
+    <string name="Black_list">Itim na Listahan</string>
+    <string name="White_list">Puti na Listahan</string>
+    <string name="Info_white_list">Puti na Listahan.</string>
+    <string name="Info_journal">
+    Ito ang listahan ng mga rekord na may impormasyon tungkol sa mga pangyayari ng pag-block ng mga tawag/SMS.
+    Ang pag-disable sa pag-log ng mga pangyayari ay maaaring gawin sa mga Setting.
+	</string>
+    <string name="label_License">Lisensya</string>
+    <string name="Info_licence">Karapatang-ari</string>
+    <string name="label_Author">May-akda</string>
+    <string name="About_us_message">
+		Isipin ang isang hinaharap kung saan ang bawat hindi kilalang tawag sa telepono ay may kasamang garantiya ng AGARANG pinansiyal
+		na kompensasyon.
+		\nSa paggamit ng app na ito, ginagawa mong realidad ang hinaharap na iyon. Salamat.
+
+		\n\nBinuo namin ang aplikasyong ito para labanan ang mga scammers na nagnanakaw ng higit sa $10 Bilyon
+
+		bawat taon mula sa mga mahihinang tao sa pamamagitan ng pandaraya sa telepono. Bibigyan ka namin ng kapangyarihan sa iyong pinaka
+
+		mahalagang bagay. Ang iyong Oras.
+
+		\n\nAng app na ito ay palaging libreng gamitin, dahil ang bawat sumasali sa amin ay bahagi ng
+
+		mas malaking larawan ng rebolusyon sa datos. Kung sapat na tayo na tumanggi sa pagsagot ng mga tawag, mapapansin ito ng mga masasamang aktor at babayaran ka para sa iyong datos.
+
+		\n\nSalamat sa pagiging parte ng rebolusyon.
+
+		\n\nTulungan kami sa walang pagkukunwaring makatotohanang feedback at mga ulat ng bug.
+
+		\n\nTaos-pusong,
+
+		\nAEG, DRJ, VJ, JC, PJG, CR.
+
+	</string>
+    <string name="Our_Commitment">Ang Aming Pangako</string>
+    <string name="Our_Commitment_Description">
+		Ang aming misyon ay lumikha ng isang merkado na pampinansyal na nagbibigay ng gantimpala sa lahat ng mga kalahok at pinapalakas ng bilang. Sa pamamagitan ng KarmaCall, ang iyong datos ay nagiging isang kalakal na may kapangyarihan kang ibenta o itago para sa iyong sarili. Naniniwala kami na ang kinabukasan ng magagandang negosyo ay nasa
+		ibinahaging kasaganaan at nangangailangan iyon na ikaw ay pinansyal na babayaran para sa iyong datos at oras.
+		\n\nKami ay naninindigan sa bagong patakaran ng European Union, na nagbibigay ng higit na sasabihin sa aming mga kliyente at gumagamit sa
+		kung ano ang mangyayari sa kanilang datos.
+	</string>
+    <string name="GDPR">Ano ang GDPR?</string>
+    <string name="GDPR_Description">Ang GDPR (General Data Protection Regulation) ay naging epektibo noong Mayo 25, 2018 sa
+		European Union. Ang GDPR ay nalalapat sa lahat ng kumpanya na nagpo-proseso ng PII
+		(Personally Identifiable Information) ng mga mamamayan ng EU. Ang bagong batas na ito ay nagbibigay-diin sa kahalagahan ng
+		proteksyon at pribasiya ng iyong personal na impormasyon sa ilang pangunahing mga lugar. Kamakailan lamang ay pinasa ng estado ng
+		California ang California Consumer Privacy Act (CCPA). Lahat ng mga karapatan ng
+		CCPA ay natutugunan sa pamamagitan ng pagsunod sa GDPR na ginagawa ng KarmaCall, gaya ng inilarawan sa ibaba.
+		\n\nUna, ang KarmaCall ay nagbibigay ng kakayahan na sumang-ayon sa koleksyon ng datos sa isang madaling ma-access
+		na format. Sa KarmaCall, iniimbak namin ang iyong personal na impormasyon sa pagkontak – numero ng telepono, digital wallet,
+		pati na rin ang datos na may kinalaman sa aming pagganap ng kontrata na bahagi nitong kinukuha ang mga digital
+		wallet transactions para sa anti-spam na layunin at kahabaan ng iyong oras ng tawag para mapabuti ang aming
+		mga serbisyo. Kasama ng iyong pangunahing impormasyon sa pagkontak, ginagamit namin ang Flurry Analytics upang masubaybayan kung paano mo
+		ginagamit ang aming aplikasyon upang matuto kami kung paano ito mapapabuti upang maging mas kaaya-aya ang iyong karanasan.
+		Anumang iba pang datos na KUSANG ibinigay ng iyong sarili (demograpiko at psychographics), ngunit hindi kinakailangan para sa aming mga tampok na kontra-spam, ay iimbakin din.
+		\n\nPangalawa, nagbibigay ang KarmaCall ng pagkakataon na humingi ng iyong datos. Ipinapakita namin ang datos
+		na kasalukuyang hawak sa ilalim ng iyong user at/o entidad ng negosyo sa isang user-friendly na format.
+		Hindi binebenta o ibinibigay ng KarmaCall ang iyong datos sa anumang ikatlong partido na pinagkukunan para sa anumang dahilan.
+		\n\nPangatlo, nag-aalok ang KarmaCall ng pagpipilian na ipa-delete ang lahat ng datos na aming nakolekta, sa kahilingan.
+		Kung hilingin mo ito, tutugon kami nang walang di-makatarungang pagka-antala maliban na lang kung hinihiling ng iba
+		pang mga batas. Halimbawa, ang ilang datos pinansyal ay maaaring hindi burahin kung ito ay kinakailangan para sa mga rekord ng buwis.
+		\n\nPara sa karagdagang impormasyon,
+		<a href="https://www.techrepublic.com/article/the-eu-general-data-protection-regulation-gdpr-the-smart-persons-guide/">isang pangkalahatang ideya ng mga regulasyon ng EU GDPR
+			ay makikita dito.
+		</a>
+	</string>
+    <string-array name="phone_metadata">
+        <item>kasing halaga ng:</item>
+        <item>naglalaman ng:</item>
+        <item>nagsisimula sa:</item>
+        <item>nagtatapos sa:</item>
+    </string-array>
+    <string name="previous">Nakaraang</string>
+    <string name="label_CALL">TUMAWAG</string>
+    <string name="readyToHandle">Handa na para hawakan ang papasok na mga tawag</string>
+    <string name="protectedWord">Protektado</string>
+    <string name="press">Pindutin</string>
+    <string name="toStop">para itigil</string>
+    <string name="onboarding_title">Makabagong digital\nfinancial planner &amp;\n pamamahala</string>
+    <string name="onboarding_message">Idinisenyo para tulungan kang pamahalaan at ilipat ang iyong pera nang madali,\nefisiente, at ligtas.</string>
+    <string name="get_started">Magsimula</string>
+    <string name="by_continue_you_agree_terms">Sa pagpapatuloy, sumasang-ayon ka sa mga</string>
+    <string name="terms_and_conditions">Mga Tuntunin &amp; Mga Kondisyon</string>
+    <string name="privacy_and_policies">Patakaran sa Privacy</string>
+    <string name="sign_in_with_apple">Mag-sign in gamit ang Apple</string>
+    <string name="sign_in_with_google">Mag-sign in gamit ang Google</string>
+    <string name="create_an_account">Gumawa ng account</string>
+    <string name="phone_number">Numero ng Telepono</string>
+    <string name="verify_phone_number">Beripikahin ang Numero ng Telepono</string>
+    <string name="need_help">Kailangan ng Tulong?</string>
+    <string name="key">Susi</string>
+    <string name="you_will_receive_an_otp">Makakatanggap ka ng isang OTP upang beripikahin ang teleponong ito.</string>
+    <string name="phone_verification">Beripikasyon ng Telepono</string>
+    <string name="please_enter_otp_sent">Pakilagay ang verification code</string>
+    <string name="resend_code">Ipadala ulit ang code</string>
+    <string name="change_phone_number">Kailangan mo bang palitan ang numero? I-swipe pabalik</string>
+    <string name="verify_code">Beripikahin ang Code</string>
+    <string name="enter_phone_number">Ilagay ang Numero ng Telepono</string>
+    <string name="identity_verification">Beripikasyon ng Pagkakakilanlan</string>
+    <string name="scan_national_id">I-scan ang dokumento ng ID para\n beripikahin ang iyong pagkakakilanlan</string>
+    <string name="confirm_your_identity_with_few_taps">Kumpirmahin ang iyong pagkakakilanlan sa ilang tap lang sa\n iyong telepono</string>
+    <string name="camera_permission_required">Kinakailangan ng pahintulot sa camera, pakibigay ito upang magpatuloy!</string>
+    <string name="why_is_it_required">Bakit ito kinakailangan?</string>
+    <string name="scan_id_tips">Mga tip sa pag-scan ng ID</string>
+    <string name="find_a_well_lit_area">Maghanap ng lugar na maliwanag</string>
+    <string name="steady_your_camera">Panatilihing matatag ang iyong camera</string>
+    <string name="position_the_id_properly">Iposisyon ng maayos ang ID</string>
+    <string name="zoom_in_if_necessary">Palakihin kung kinakailangan</string>
+    <string name="focus_on_the_id">Pagtuunan ng pansin ang ID</string>
+    <string name="requiring_id_overall_desc">Ang paghingi ng national ID kapag nagbubukas ng bank account ay nakakatulong na protektahan pareho ang bangko at ang customer sa pamamagitan ng pagtiyak na sumusunod sa mga regulasyon,
+		pag-iwas sa pandaraya, at pagpapalakas ng seguridad.
+	</string>
+    <string name="start_scanning">Simulan ang pag-scan</string>
+    <string name="i_agree_on_id_scanning_policies">
+		<![CDATA[Ako ay nakabasa, nakaunawa at tinatanggap ang mga tuntunin at kundisyon ng serbisyo, at ako ay nagpapahintulot sa serbisyo na i-scan ang aking national ID at i-save at gamitin ito nang ligtas para sa mga ibinigay na serbisyo.]]></string>
+    <string name="id_reason_verification_of_identity">Beripikasyon ng pagkakakilanlan: Ang national ID ay isang maaasahan at pamantayan na uri ng pagkakakilanlan na tumutulong
+		sa mga bangko na beripikahin ang pagkakakilanlan ng may-ari ng account.
+	</string>
+    <string name="id_reason_compliance_with_regulations">Pagsunod sa mga regulasyon: Ang mga bangko ay kinakailangan na sumunod sa iba\'t ibang mga regulasyon, tulad ng
+		anti-money laundering (AML) at know your customer (KYC) na mga patakaran.
+	</string>
+    <string name="id_reason_enhance_security">Pinahusay na seguridad: Sa pamamagitan ng paghingi ng national ID, maaaring palakasin ng mga bangko ang seguridad ng mga account ng kanilang mga customer. Ito
+		ay tumutulong na protektahan laban sa di-awtorisadong akses at nagtitiyak na tanging ang may-ari ng account lamang ang maaaring magsagawa ng mga transaksyon.
+	</string>
+    <string name="id_reason_prevention_of_fin_crimes">Pag-iwas sa mga pinansyal na krimen: Ang national ID ay maaaring makatulong sa mga bangko sa kanilang mga pagsisikap na maiwasan ang mga pinansyal na krimen,
+		tulad ng money laundering, teroristang pagpopondo, at pag-iwas sa buwis.
+	</string>
+    <string name="id_reason_streamlined_processes">Pinasimpleng mga proseso: Ang paghingi ng national ID ay tumutulong sa mga bangko na gawing simple ang kanilang mga proseso sa pagbubukas ng account. Ito
+		ay nagbibigay ng pamantayan at madaling maberipika na uri ng pagkakakilanlan, ginagawang mas madali para sa mga bangko na beripikahin ang impormasyon ng customer at makumpleto ang
+		kinakailangang papeles.
+	</string>
+    <string name="scan_front_of_id">Paki-scan ang harapang bahagi ng ID</string>
+    <string name="scan_back_of_id">Paki-scan ang likurang bahagi ng ID</string>
+    <string name="verify_identity_requirements">Bago magsimula, mangyaring sundin ang mga tip na ito</string>
+    <string name="start_verification">Simulan ang Beripikasyon</string>
+    <string name="follow_instructions">Sundan ang gabay at mga tagubilin</string>
+    <string name="get_cap_off">Siguraduhing tanggalin ang iyong takip kung ikaw ay may suot nito.</string>
+    <string name="take_off_glasses">Siguraduhing tanggalin ang iyong salamin kung ikaw ay may suot nito.</string>
+    <string name="take_selfie_to_verify_identity">Kumuha ng selfie upang beripikahin\n ang iyong pagkakakilanlan</string>
+    <string name="quick_and_easy_identity_verification">Mabilis at madaling beripikasyon ng pagkakakilanlan gamit\n ang camera ng iyong telepono. Kumpirmahin ang iyong pagkakakilanlan sa pamamagitan ng
+		isang sariling kinuhang larawan</string>
+    <string name="please_wait_a_seconds">Mangyaring maghintay ng ilang segundo …</string>
+    <string name="do_you_want_to_proceed_with_this_image">Nais mo bang magpatuloy gamit ang larawang ito?</string>
+    <string name="ensure_image_is_completely_clear">Ito ay gagamitin upang beripikahin ang iyong pagkakakilanlan, kaya mangyaring siguraduhing malinaw ito.</string>
+    <string name="verifying_your_identity">Beripikasyon ng iyong pagkakakilanlan</string>
+    <string name="it_will_take_seconds">Aabutin ng |%1$d| segundo, mangyaring maghintay …</string>
+    <string name="complete_account_registration">Kumpletuhin ang Pagrehistro ng Account</string>
+    <string name="enter_your_pin">Ilagay ang iyong PIN code</string>
+    <string name="it_will_not_take_long">Hindi ito aabutin ng matagal</string>
+    <string name="id_verification_in_progress">Beripikasyon ng ID\nay kasalukuyang isinasagawa</string>
+    <string name="available_balance">Magagamit na Balanse</string>
+    <string name="see_all">Tingnan Lahat</string>
+    <string name="current_activity">Kasalukuyang Aktibidad</string>
+    <string name="last_5">Huling 5</string>
+    <string name="last_3_days">Huling 3 araw</string>
+    <string name="last_week">Nakaraang linggo</string>
+    <string name="last_month">Nakaraang buwan</string>
+    <string name="last_3_months">Huling 3 buwan</string>
+    <string name="last_6_months">Huling 6 na buwan</string>
+    <string name="last_9_months">Huling 9 na buwan</string>
+    <string name="last_year">Huling Taon</string>
+    <string name="add_money">Magdagdag ng pera</string>
+    <string name="send_money">Magpadala ng pera</string>
+    <string name="request_money">Humiling ng pera</string>
+    <string name="no_transactions_in_this_period">Mukhang wala kang ginawang anumang transaksyon sa panahong ito</string>
+    <string name="home">Bahay</string>
+    <string name="wallet">Pitaka</string>
+    <string name="qr_code">QR Code</string>
+    <string name="profile">Profile</string>
+    <string name="top_up">Magdagdag ng Load</string>
+    <string name="transactions">Mga Transaksyon</string>
+    <string name="name_return">Pangalan\n</string>
+    <string name="exp">Exp %1$s</string>
+    <string name="my_q_code">Ang Aking Q Code</string>
+    <string name="scan_the_qr_to_send_the_money">I-scan ang QR para magpadala ng pera</string>
+    <string name="search_a_name">Hanapin ang isang pangalan</string>
+    <string name="contacts">Mga Kontak</string>
+    <string name="safeToAnswer">Ligtas na sumagot sa iyong telepono muli.</string>
+    <string name="finish">Tapos</string>
+    <string name="sent_to">Ipinadala sa</string>
+    <string name="verify">Beripikahin</string>
+    <string name="resend">Ipadala Muli</string>
+    <string name="new_question_mark">Bago?</string>
+    <string name="friend">Kaibigan</string>
+    <string name="alreadyHaveAnAccount">Mayroon nang account?</string>
+    <string name="aboutUs">Tungkol Sa Amin</string>
+    <string name="accept">Tanggapin</string>
+    <string name="accepting">Tinatanggap</string>
+    <string name="account">Account</string>
+    <string name="accountDetails">Detalye ng Account</string>
+    <string name="addContact">Magdagdag ng kontak</string>
+    <string name="allowAccessToContactsToBlockSpamCalls">Pahintulutan ang akses sa Mga Kontak para awtomatikong i-whitelist</string>
+    <string name="grantAccessToContactsToAllowGoodCalls">Ipagkaloob ang akses sa Mga Kontak upang Payagan ang Mabuting mga Tawag</string>
+    <string name="grantAccessToCallsToStopUnwantedOnes">Ipagkaloob ang akses sa Tawag upang Ihinto ang mga Hindi Gustong Tawag</string>
+    <string name="granttCallManagerRole">Ipagkaloob ang Pangasiwaan sa Tawag sa KarmaCall</string>
+    <string name="areYouSureThatYouWantToBlockThisContact">Sigurado ka bang gusto mong harangan ang kontak na ito?</string>
+    <string name="areYouSureThatYouWantToDeleteYourAccount">Sigurado ka bang gusto mong burahin ang iyong account?</string>
+    <string name="areYouSureThatYouWantToLogOut">Sigurado ka bang gusto mong mag-logout?</string>
+    <string name="areYouSureThatYouWantToUnblockThisContact">Sigurado ka bang gusto mong alisin sa pagkakaharang ang kontak na ito?</string>
+    <string name="auto">Awtomatiko</string>
+    <string name="blockContact">Harangan ang Kontak</string>
+    <string name="blockScamCalls">Harangan\nang mga Tawag na Scam</string>
+    <string name="blockScamCallsOneLine">Harangan ang mga Tawag na Scam</string>
+    <string name="blocked">Naharang</string>
+    <string name="blockedCallsWillAppearHere">Dito lilitaw ang mga tawag na naharang</string>
+    <string name="blocking">Pagharang</string>
+    <string name="callForwarding">Pagpapasa ng Tawag</string>
+    <string name="callLog">Talaan ng Tawag</string>
+    <string name="cancel">Kansela</string>
+    <string name="cash">Cash</string>
+    <string name="cashCalls">Cash na mga Tawag</string>
+    <string name="chooseCarrier">Pumili ng carrier</string>
+    <string name="contactDetails">Detalye ng Kontak</string>
+    <string name="contactName">Pangalan ng kontak</string>
+    <string name="contactNameHasToContainAtLeastTwoCharacters">Ang pangalan ng kontak ay dapat na maglaman ng hindi bababa sa dalawang karakter</string>
+    <string name="contactUs">Makipag-ugnayan sa Amin</string>
+    <string name="continue_label">Magpatuloy</string>
+    <string name="customAmount">Pasadyang Halaga</string>
+    <string name="delete">Burahin</string>
+    <string name="deleteAccount">Burahin ang Account</string>
+    <string name="disable">I-disable</string>
+    <string name="disableCallForwarding">I-disable ang Pagpapasa ng Tawag</string>
+    <string name="doLater">Gawin Mamaya</string>
+    <string name="done">Tapos na</string>
+    <string name="earnNanoForTheirFirstBlockedCall">Kumita ng Nano para sa kanilang unang naharang na tawag!</string>
+    <string name="editContact">I-edit ang kontak</string>
+    <string name="enable">Paganahin</string>
+    <string name="enterAddress">Ipasok ang Address</string>
+    <string name="enterAmount">Ipasok ang Halaga</string>
+    <string name="enter_your_name">Ipasok ang iyong pangalan</string>
+    <string name="enter_your_phone">Ipasok ang iyong telepono</string>
+    <string name="entertainment">Aliwan</string>
+    <string name="verificationFailedTryAgain">Nabigo ang beripikasyon. Pakisubukan ulit.</string>
+    <string name="failed_lower">nabigo</string>
+    <string name="faQs">Mga Madalas Itanong</string>
+    <string name="food">Pagkain</string>
+    <string name="freeNano">Libreng Nano</string>
+    <string name="getPaidTo">Kumitang mag...</string>
+    <string name="giftCards">Mga Gift Card</string>
+    <string name="goodAfternoon">Magandang Hapon</string>
+    <string name="goodEvening">Magandang Gabi</string>
+    <string name="goodMorning">Magandang Umaga</string>
+    <string name="hello">Kamusta</string>
+    <string name="history">Kasaysayan</string>
+    <string name="howItWorks">Paano Ito Gumagana</string>
+    <string name="iGetPaidToBlockPhoneSpamCallsWithKarmaCallNSignUpHereAndWeWillBothGetPaidExtraWhenYouBlockYourFirstCall">Ako ay binabayaran para harangan ang mga tawag na spam sa telepono
+		sa pamamagitan ng KarmaCall!\nMag-sign up dito at tayong dalawa ay kikita ng ekstra kapag hinarangan mo ang iyong unang tawag.
+	</string>
+    <string name="karmaCallInvite">Imbitasyon sa KarmaCall</string>
+    <string name="language">Wika</string>
+    <string name="learnMoreAboutKarmaCall">Matuto pa tungkol sa KarmaCall</string>
+    <string name="loading">Naglo-load…</string>
+    <string name="locked">Nakakandado</string>
+    <string name="logo">Logo</string>
+    <string name="logOut">Mag-Logout</string>
+    <string name="login">Mag-log in</string>
+    <string name="login_spaced">Maglog-in</string>
+    <string name="manageFunds">Pamahalaan ang mga Pondo</string>
+    <string name="myWallet">Ang Aking Pitaka</string>
+    <string name="name">Pangalan</string>
+    <string name="nanoAddress">Nano Address</string>
+    <string name="next">Susunod</string>
+    <string name="no">Hindi</string>
+    <string name="nothingFound">Walang Natagpuan</string>
+    <string name="notification">Abiso</string>
+    <string name="openSettings">Buksan ang mga Setting</string>
+    <string name="other">Iba pa</string>
+    <string name="pleaseSelectCategoriesThatYouLike">Mangyaring pumili ng mga kategoryang nakakagusto.</string>
+    <string name="pointCameraAtQRCode">Itapat ang kamera sa QR Code</string>
+    <string name="premiumSubscription">Premium na Subscription</string>
+    <string name="privacyPolicy">Patakaran sa Privacy</string>
+    <string name="pushNotifications">Mga Abisong Push</string>
+    <string name="realEstate">Real Estate</string>
+    <string name="recentActivity">Kamakailang Aktibidad</string>
+    <string name="recentCallsFromContacts">Kamakailang mga Tawag mula sa mga Kontak</string>
+    <string name="recentCallsFromContactsWillAppearHere">Dito lilitaw ang kamakailan na mga tawag mula sa mga kontak</string>
+    <string name="recentTransactions">Kamakailang Mga Transaksyon</string>
+    <string name="recentTransactionsWillAppearHere">Dito lilitaw ang kamakailan na mga transaksyon</string>
+    <string name="referral">Mga Referral</string>
+    <string name="requiredQuestion">Kinakailangang katanungan</string>
+    <string name="retail">Retail</string>
+    <string name="saveChanges">I-save ang mga pagbabago</string>
+    <string name="saveContact">I-save ang Kontak</string>
+    <string name="scamCalls">Mga Tawag na Scam</string>
+    <string name="scanQRCode">I-scan ang QR Code</string>
+    <string name="scanningNotSupported">Hindi suportado ang pag-scan</string>
+    <string name="searchContact">Hanapin ang kontak</string>
+    <string name="searchEmailOrName">Hanapin ang email o pangalan</string>
+    <string name="searchPhoneNumberOrName">Hanapin ang numero ng telepono o pangalan</string>
+    <string name="send">Ipadala</string>
+    <string name="settings">Mga Setting</string>
+    <string name="setupCallForwarding">I-setup ang Pagpapasa ng Tawag</string>
+    <string name="shareYourLink">Ibahagi ang iyong link</string>
+    <string name="signIn">Mag-sign In</string>
+    <string name="signUp">Mag-sign Up</string>
+    <string name="skip">Laktawan</string>
+    <string name="smsNotifications">Mga Notification ng SMS</string>
+    <string name="spamCallsAreBlocked">Ang mga Tawag na Scam ay Naharang</string>
+    <string name="spamCallsAreUnblocked">Ang mga Tawag na Scam ay Hindi Naharang</string>
+    <string name="startEarningMoney">Magsimulang Kumita ng Pera</string>
+    <string name="syncContacts">I-sync ang mga Kontak</string>
+    <string name="inTwoWays">sa dalawang paraan</string>
+    <string name="surveyToUnlock">Survey para mag-unlock</string>
+    <string name="takeSurveys">Kumuha ng mga Survey</string>
+    <string name="thereIsNotEnoughFundsToProceed">Hindi sapat ang mga pondo para magpatuloy</string>
+    <string name="thisPhoneNumberCannotReceiveFundsInNano">Hindi makakatanggap ng pondo sa Nano ang numerong ito.</string>
+    <string name="toEnableSpamBlockingPleaseEnableCallForwardingAtTheSideOfYourCarrier">Upang mapagana ang Spam na Pagharang, pakigana ang Pagpapasa ng Tawag. Magkakaroon ka ng parehong numero ng telepono at maaari mong i-on ang Pagpapasa ng Tawag sa iyong mga setting.
+	</string>
+    <string name="totalBalance">Kabuuang Balanse</string>
+    <string name="transfer">Ilipat</string>
+    <string name="transferAmount">Halaga ng Paglipat:</string>
+    <string name="transferConfirmation">Kumpirmasyon ng Paglipat</string>
+    <string name="transferCustomAmount">Ilipat ang Pasadyang Halaga</string>
+    <string name="transferToEmail">Ilipat sa email</string>
+    <string name="transferToPhoneNumber">Ilipat sa numero ng telepono</string>
+    <string name="transferred">Naipadala</string>
+    <string name="unblockContact">Alisin ang Harang ng Kontak</string>
+    <string name="validationErrorFillOutFields">Pakiusap, punan ang lahat ng kinakailangang mga larangan</string>
+    <string name="validationErrorFillOutValidPhone">Pakiusap, magpasok ng wastong numero ng telepono</string>
+    <string name="validationErrorNameTooShort">Ang iyong pangalan ay dapat na maglaman ng hindi bababa sa dalawang karakter</string>
+    <string name="wantToEarnMoneyByInvitingYourFriendsToJoin">Gusto mo bang kumita ng pera sa pamamagitan ng pag-imbita sa iyong mga kaibigan na sumali?</string>
+    <string name="withdraw">Mag-withdraw</string>
+    <string name="withdrawIntoCash">I-convert sa cash</string>
+    <string name="withdrawToAGiftCard">I-withdraw sa isang gift card</string>
+    <string name="withdrawToANanoAddress">I-withdraw sa isang nano address</string>
+    <string name="withdrawToNanoAddress">I-withdraw sa Nano Address</string>
+    <string name="withdrawalConfirmation">Kumpirmasyon sa Pag-withdraw</string>
+    <string name="youCurrentlyHave">Mayroon kang sa kasalukuyan</string>
+    <string name="youWillBeAbleToSetCallForwardingInSettingsLater">Magagawa mong itakda ang Pagpapasa ng Tawag sa Mga Setting mamaya.</string>
+    <string name="yourCallsWillAppearHere">Lilitaw dito ang iyong mga tawag</string>
+    <string name="yourPhoneNumber">Ang iyong numero ng telepono</string>
+    <string name="karmaCallRequiresAccessToContactsToProceedGoToSettingsToGrantAccess">Nangangailangan ang KarmaCall ng akses sa Mga Kontak para magpatuloy. Pumunta sa Mga Setting upang magbigay ng akses.
+	</string>
+    <string name="nothingFoundYouCanEnterANewPhoneNumber">Walang natagpuan. Maaari kang magpasok ng bagong numero ng telepono.</string>
+    <string name="yourDeviceDoesNotSupportScanningACodeFromAnItemPleaseUseADeviceWithACamera">Ang iyong device ay hindi sumusuporta sa pag-scan ng code mula sa isang item. Paki-gamit ng device na may camera.
+	</string>
+    <string name="onboardingCashCalls">Agad na makakakuha ng bayad lang sa pagsagot sa isang tawag. I-on o i-off anumang oras. Naghahanap ang mga negosyo ng mga bagong paraan upang makipag-usap sa mga tao.
+		Ang KarmaCall ay isa sa mga paraang iyon na naglalagay ng ganap na kontrol sa iyo. Ang premium na subscription ay nagpapahintulot sa iyong itakda ang pinakamababang rate bawat minuto. Ikaw ang magpapasya sa halaga ng iyong oras!
+	</string>
+    <string name="onboardingBlockScamCalls">Sa tuwing hayaan mo ang KarmaCall na harangan ang isang scam call para sa iyo, babayaran ka namin! Walang minimum na limit sa pag-withdraw o mga bayarin, maaari kang mag-cash out anumang oras sa pamamagitan ng aming in-app na pitaka.
+	</string>
+    <string name="onboardingSurvyes">Mas marami pang impormasyon ang malalaman ng mga negosyo tungkol sa iyo, mas nagiging mahalaga ka para sa kanila para sa feedback. Magbabayad ang mga negosyo ng mas malaki upang makausap ka kung umakma ka sa kanilang mga kwalipikasyon.
+	</string>
+    <string name="onboardingCallForwarding">Upang mabayaran sa pagharang ng scam na tawag, pakiusap na paganahin ang Pag-papasa ng Tawag. Pinapanatili mo ang iyong numero ng telepono, ngunit kailangang dumaan ang mga tawag sa aming mga servers para maproseso namin. Kung gusto mo lang ang Cash na mga Tawag, hindi mo kailangan tapusin ang hakbang na ito.
+	</string>
+    <string name="failed_capital">Nabigo</string>
+    <string name="cash_out_to">I-cash out sa&#160;</string>
+    <string name="failed_getting_preferences">Nabigo ang pagkuha ng mga kagustuhan. Subukan muli?</string>
+    <string name="unable_to_send_otp">Hindi makapagpadala ng OTP ngayon. Subukan mamaya.</string>
+    <string name="otp_entered_not_valid">Ang naipasok na OTP ay hindi balido.</string>
+    <string name="error_capital">Error</string>
+    <string name="error_lower">error</string>
+    <string name="unknown_capital">Hindi Alam</string>
+    <string name="error_unknown">Hindi Kilalang Error</string>
+    <string name="please_complete_your_reg">Pakikumpleto muna ng iyong rehistrasyon</string>
+    <string name="first_name">Una pangalan</string>
+    <string name="first_low">Una</string>
+    <string name="last_name">Huling pangalan</string>
+    <string name="email_string">Email</string>
+    <string name="unsaved_changes">Mga hindi nai-save na pagbabago!</string>
+    <string name="are_sure_discard_changes">Sigurado ka bang nais mong itapon ang iyong mga pagbabago?</string>
+    <string name="personalized">Naka-personalize</string>
+    <string name="business_options">Mga Opsyon sa Negosyo</string>
+    <string name="profile_picture">" Larawan sa Profile"</string>
+    <string name="options_word">Mga Opsyon</string>
+    <string name="inbox_label">Inbox</string>
+    <string name="spam_label">Spam</string>
+    <string name="promotions_label">Mga promosyon</string>
+    <string name="auto_respond_emails">Awtomatikong tugon sa mga email?</string>
+    <string name="change_auto_responder_template">Baguhin ang template ng email ng auto responder?</string>
+    <string name="try_again_later">Subukan muli mamaya</string>
+    <string name="pleaseConfirmYouAgreeToTransfer">Mangyaring kumpirmahin na sumasang-ayon kang ilipat ang %1$s sa %2$s</string>
+    <string name="confirm_string">Kumpirmahin</string>
+    <string name="transferToNanoAddress">Maglipat sa nano address</string>
+    <string name="transferSelectionChoice">Piliin ang iyong paraan ng paglilipat</string>
+    <string name="recipientPhoneNumber">Numero ng telepono ng tatanggap</string>
+    <string name="recipient_string">Tatanggap</string>
+    <string name="recipientNumber">Numero ng tatanggap</string>
+    <string name="recipientEmail">Email ng tatanggap</string>
+    <string name="amount_greater_than_zero">Ang halaga ay dapat na higit sa 0</string>
+    <string name="pageXofY">Pahina %1$s ng %2$s</string>
+    <string name="errorWithXHappened">May naganap na error sa code %1$s!</string>
+    <string name="blockMoreCallGift">Mag-block ng higit pang mga tawag upang makakuha ng regalo</string>
+    <string name="copyNumber">Kopyahin ang numerong ito</string>
+    <string name="contactAdded">Naidagdag ang contact</string>
+    <string name="share_word">Ibahagi</string>
+    <string name="checkInSummer">Tingnan muli sa tag-init ng 2024</string>
+    <string name="venmoComingSoon">Venmo (US lamang) darating sa Agosto 2024</string>
+    <string name="unknownCallerMinimum">Ang mga hindi kilalang tumatawag ay dapat magdeposito ng %1$s%2$s (~ %3$s nano) upang tawagan ka. Mababalik nila ito kung sasagutin mo at makikipag-usap nang higit sa %4$s segundo.</string>
+    <string name="unknownBusinessCalls">Maaaring magbayad sa iyo ang mga hindi kilalang tumatawag na negosyo ng %1$s%2$s bawat minuto upang makipag-usap sa iyo (~ %3$s nano bawat minuto).</string>
+    <string name="amountPaidPerCall">Binabayaran ka ng %1$s %2$s para sa bawat tawag na hinayaan mong i-block namin.</string>
+    <string name="setOwnRatesComingSoon">"Itakda ang iyong sariling rate" paparating na!</string>
+    <string name="benefitsNotAvailableYet">Ang mga benepisyo sa ibaba ay hindi available hanggang sa ipagkaloob ang mga pahintulot</string>
+</resources>

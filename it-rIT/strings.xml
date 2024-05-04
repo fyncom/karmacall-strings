@@ -1,0 +1,585 @@
+<resources>
+    tools:ignore="id"
+    <string name="call">Chiamata</string>
+    <string name="permission_read_phone_state">Leggi Stato del Telefono</string>
+    <string name="permission_read_contacts">Leggi Contatti</string>
+    <string name="permission_answer_phone_calls">Rispondi alle chiamate</string>
+    <string name="permission_call_phone">Effettua chiamate</string>
+    <string name="My_Country_Code">Il mio codice paese</string>
+    <string name="blocked_call_notifications">Seleziona Avvisi Chiamate Bloccate</string>
+    <string-array name="notification_options">
+        <item>Notifica Immediatamente</item>
+        <!--        <item>Notifica alla Fine della Giornata</item>-->
+        <item>Nessuna Notifica</item>
+    </string-array>
+    <string name="call_was_blocked">la chiamata è stata bloccata</string>
+    <string name="rate_limit_exceeded_message">Hai raggiunto il limite. Attendi 5 minuti e riprova.</string>
+    <string name="delete_data_popup_message">Voglio eliminare i miei dati da KarmaCall. Capisco che non avrò più accesso al mio account nano, che è associato al
+        mio account KarmaCall.
+    </string>
+    <string name="delete_data_long">Se desideri eliminare i tuoi dati dai nostri archivi, fai clic sul pulsante sottostante. ATTENZIONE - una volta eliminati i
+        tuoi dati, non potrai più accedere al tuo account nano.
+    </string>
+    <string name="delete_data">Elimina i miei dati</string>
+    <string name="shareBody">Vengo pagato per bloccare le chiamate telefoniche spam con KarmaCall!&#160;
+        Iscriviti qui e verremo entrambi pagati in più quando bloccherai la tua prima chiamata.\n
+    </string>
+    <string name="invite">Invitare</string>
+    <string name="referrals">Referral</string>
+    <string name="label_is">è</string>
+    <string name="errorRetrievingFunds">Errore durante il recupero dei fondi</string>
+    <string name="codeColon">Codice:</string>
+    <string name="referralShare">Condividi il mio referral</string>
+    <string name="referralInfo">Ricevi un pagamento ogni volta che il tuo amico si iscrive
+        il tuo codice di riferimento e blocca la loro prima chiamata!
+    </string>
+    <string name="enjoyUsing">Se ti piace usare&#160;</string>
+    <string name="rateUsPlease">, please take a moment to rate us. Thanks for your support!</string>
+    <string name="rate">Vota&#160;</string>
+    <string name="remindMeLater">Ricordamelo più tardi</string>
+    <string name="noThanks">No grazie</string>
+    <string name="permissionRequestPaid">Richiesta di autorizzazioni per pagarti per bloccare lo spam</string>
+    <string name="registerToGetPaid">Registra il tuo numero di telefono per ricevere il pagamento</string>
+    <string name="referralRewards">Referral Rewards</string>
+    <string name="blockingOff">Blocco</string>
+    <string name="blockingOn">Blocco attivo</string>
+    <string name="stopBlockingCalls">Smetti di bloccare le chiamate</string>
+    <string name="stopBlocking">Smetti di bloccare</string>
+    <string name="startBlockingCalls">Inizia a bloccare le chiamate</string>
+    <string name="managePhoneNumber">Gestisci numero di telefono</string>
+    <string name="startBlocking">Inizio Blocco</string>
+    <string name="registerPhoneCashBack">Registra il tuo numero di telefono per ottenere il rimborso</string>
+    <string name="privateNumber">Numero privato</string>
+    <string name="no_blocking_simple">No. Lascia che qualcuno mi chiami.</string>
+    <string name="yes_blocking_simple">Sì. Solo le chiamate in contanti o i contatti dovrebbero essere in grado di chiamarmi.</string>
+    <string name="check_stop_blocking_simple">Vuoi bloccare le chiamate?</string>
+    <string name="iKnowProceedWithoutPermission">So cosa sto facendo, fammi vedere prima la tua app!</string>
+    <string name="iWantToSelectCheckboxPermission">Voglio selezionare la casella di controllo per farti diventare il mio KarmaCall!</string>
+    <string name="yes">Sì</string>
+    <string name="welcomeBack">Ben tornato!</string>
+    <string name="notRegisteredYet">Non sei ancora registrato</string>
+    <string name="pleaseAcceptPermissions">Per favore accetta prima le autorizzazioni</string>
+    <string name="myPhoneNumberIs">Il mio numero di telefono è&#160;</string>
+    <string name="failedMakeNewNanoAccount">non è riuscito a creare un nuovo account nano. Ne hai già uno? Prova a verificare il tuo numero di telefono</string>
+    <string name="couldNotConfirmNumber">Impossibile confermare il tuo numero, prova ad aggiornare il tuo numero di telefono, grazie</string>
+    <string name="errorGettingExistingNanoAccount">Errore durante il recupero dell\'account nano esistente</string>
+    <string name="noPhoneEntered">Nessun numero di telefono inserito per la verifica</string>
+    <string name="smsCodeNotEntered">OTP non inserito, aggiorna o verifica il tuo numero di telefono</string>
+    <string name="verifyFailed">Verifica fallita</string>
+    <string name="successWelcomeFuture">Successo! Benvenuto nel futuro!</string>
+    <string name="code_not_entered">Codice SMS non inserito</string>
+    <string name="phoneNumberBlank">Il numero di telefono per l\'aggiornamento è stato lasciato vuoto. Per favore riprova.</string>
+    <string name="phoneNumberUpdateCancelled">Aggiornamento del numero di telefono annullato</string>
+    <string name="already_registered_phone_number">Hai già registrato il tuo numero di telefono</string>
+    <string name="sorry_some_error_balance">Spiacenti, si è verificato un errore durante la ricerca del saldo</string>
+    <string name="sorry_some_error">Spiacenti, si è verificato un errore</string>
+    <string name="withdraw_failed">Ritiro fallito. Controlla il tuo importo o l\'indirizzo di prelievo di nano</string>
+    <string name="withdraw_success">Il tuo invio è andato a buon fine!</string>
+    <string name="invalid_nano_format">Formato dell\'account nano non valido. Si prega di ricontrollare la voce del proprio account nano per errori di
+        battitura
+    </string>
+    <string name="enter_amount_withdraw">Devi inserire un importo per prelevare</string>
+    <string name="error_with_faucet">Errore durante l\'utilizzo del rubinetto, riprova</string>
+    <string name="coming_soon">Prossimamente!</string>
+    <string name="faucet_of_knowledge">Hai già usato il rubinetto, per favore permetti ad altri di bere alla fontana della conoscenza</string>
+    <string name="no_nano_account_register_please">Non hai ancora un account nano. Prova a registrare il tuo numero di telefono</string>
+    <string name="faucet_nano_received">Hai ricevuto 0.0001 nano!</string>
+    <string name="terms_conditions">Utilizzando i nostri servizi, accetti la nostra politica sulla privacy</string>
+    <string name="faucet_free">Rubinetto = gratis $$$</string>
+    <string name="send_email">Invia una email</string>
+    <string name="feedback_comments">Si prega di lasciare feedback, commenti, domande o dubbi. Grazie!</string>
+    <string name="choose_your_language">Scegli la tua lingua</string>
+    <string name="check_stop_blocking">Voglio solo che i contatti e le chiamate in contanti squillino sul mio telefono.</string>
+    <string name="stop_start_blocking">Fermare / Inizio Blocco</string>
+    <string name="blockedCalls">Chiamate bloccate</string>
+    <string name="version">Versione&#160;</string>
+    <string name="label_Wallet">Portafoglio</string>
+    <string name="label_Withdraw">Ritira</string>
+    <string name="Withdrawal_Request">Richiesta di prelievo</string>
+    <string name="label_Deposit">Depositare</string>
+    <string name="Faucet">Usa Faucet - Ottieni subito $$ gratis</string>
+    <string name="Nano_address">Indirizzo nano</string>
+    <string name="See_my_Nano_account">Visualizza il mio account nano</string>
+    <string name="Nano_account">Account nano</string>
+    <string name="Here_is_your_Nano_account">Ecco il tuo account nano</string>
+    <string name="Cash_out_to_USD">Incassare in USD</string>
+    <string name="Nano_value">Valore nano</string>
+    <string name="USD">Valore USD</string>
+    <string name="USD_Funds">Fondi USD</string>
+    <string name="Nano_Funds">nano Funds</string>
+    <string name="USD_Earned">USD guadagnati</string>
+    <string name="Update_My_Nano_Account">Aggiorna il mio account nano</string>
+    <string name="Submit_Ticket">Presentare il biglietto</string>
+    <string name="View_Gift_Cards">Visualizza buoni regalo</string>
+    <string name="My_Phone_Number">Il mio numero di telefono</string>
+    <string name="Update_My_Phone_Number">Aggiorna il mio numero di telefono</string>
+    <string name="Verify_My_Phone_Number">Verifica il mio numero di telefono</string>
+    <string name="Register_My_Phone_Number">Registra il mio numero di telefono</string>
+    <string name="Enter_Phone_Number_For_OTP">Inserisci il numero di telefono di questo dispositivo per ricevere una password monouso inviata tramite SMS
+    </string>
+    <string name="Enter_OTP_Response">Inserisci la password che ti è stata inviata</string>
+    <string name="My_OTP">Il mio codice a 6 cifre</string>
+    <string name="Amount_To_Withdraw">Immettere l\'importo di nano da prelevare</string>
+    <string name="Enter_Nano_Account_To_Withdraw_To_Below">Inserisci il tuo account nano esterno di seguito</string>
+    <string name="Open_navigation_drawer">Apri il cassetto di navigazione</string>
+    <string name="Close_navigation_drawer">Chiudi il riquadro a scomparsa di navigazione</string>
+    <string name="label_Information">Informazione</string>
+    <string name="label_Exit">Uscita</string>
+    <string name="SELECT_ALL">SELEZIONA TUTTO</string>
+    <string name="label_DELETE">ELIMINA</string>
+    <string name="label_CANCEL">ANNULLA</string>
+    <string name="label_CONTINUE">CONTINUA</string>
+    <string name="label_ADD">INSERISCI</string>
+    <string name="Adding_contact">Aggiunta di un contatto</string>
+    <string name="Saving_">Salvataggio…</string>
+    <string name="call_is_blocked">la chiamata è bloccata</string>
+    <string name="message_is_blocked">il messaggio è bloccato</string>
+    <string name="message_is_received">messaggio viene ricevuto</string>
+    <string name="Search_action">Ricerca</string>
+    <string name="Starts_with">Inizia con:</string>
+    <string name="Ends_with">Finisce con:</string>
+    <string name="Delete_record">Elimina record</string>
+    <string name="Copy_number">Copiare il numero</string>
+    <string name="Copy_text">Copia testo</string>
+    <string name="Find_similar_records">Trova record simili</string>
+    <string name="Exclude_from_black_list">Escludi contatto dalla lista nera</string>
+    <string name="Move_to_white_list">Sposta il contatto nella whitelist</string>
+    <string name="Move_to_black_list">Sposta il contatto nella lista nera</string>
+    <string name="needs_permission">ha bisogno del permesso</string>
+    <string name="needs_permissions">necessita di autorizzazioni</string>
+    <string name="Write_message">Scrivi un messaggio</string>
+    <string name="Copied_to_clipboard">Copiato negli appunti</string>
+    <string name="Menu_button">Pulsante menu</string>
+    <string name="List_is_empty">L\'elenco è vuoto</string>
+    <string name="Logo_motto">Stop Spam. Guadagnare soldi.</string>
+    <string name="label_About">Di</string>
+    <string name="Welcome">Benvenuto!</string>
+    <string name="Info_welcome">Invieremo tutte le chiamate sconosciute alla tua casella vocale a meno che non ti lascino un NanoDeposit di $ 0,05.
+        Se una chiamata sconosciuta squilla più di una volta, significa che ti ha lasciato un NanoDeposit.
+        Raccogli per scoprire chi si è preoccupato abbastanza del tuo tempo da rischiare di perdere un NanoDeposit.
+        Non ti piace la chiamata? Riaggancia prima di 25 secondi e raccogli il loro NanoDeposit per sprecare il tuo tempo.
+        Ascolta attentamente, alcuni chiamanti potrebbero volerti pagare più di $ 0,05 per farti parlare ;)
+    </string>
+    <string name="label_FAQ">FAQ</string>
+    <string name="TBD_value">TBD</string>
+    <string name="permissionRequest">Richiesta di autorizzazioni per essere il tuo blocco dello spam di rimborso</string>
+    <string name="permissionWarning">Senza queste autorizzazioni, non possiamo bloccare le chiamate per te. Sei sicuro di voler procedere?
+        Puoi registrare il tuo numero di telefono per la funzionalità di blocco delle chiamate nell\'app in un secondo momento.
+    </string>
+    <string name="permissionPurpose">Abbiamo bisogno delle autorizzazioni per fungere da paywall personale.
+        \nUtilizziamo queste autorizzazioni solo per consentire le chiamate in contanti e i tuoi amici /familiari, bloccando le chiamate non pagate e non
+        richieste
+    </string>
+    <string name="permissionRequired">Abilita le autorizzazioni</string>
+    <string name="permissionRequestInformation">Metti qui la stringa se necessario</string>
+    <string name="attention">Attenzione</string>
+    <string name="messaging">Messaggistica</string>
+    <string name="Info_messaging">SMS.</string>
+    <string name="Black_list">Lista nera</string>
+    <string name="White_list">Lista bianca</string>
+    <string name="Info_white_list">Lista bianca.</string>
+    <string name="Info_journal">Questo è l\'elenco dei record con informazioni sugli eventi di blocco chiamate /SMS.
+        La disabilitazione della registrazione degli eventi può essere eseguita nelle Impostazioni.
+    </string>
+    <string name="label_License">Licenza</string>
+    <string name="Info_licence">Diritto d\'autore</string>
+    <string name="label_Author">Autore</string>
+    <string name="About_us_message">Immagina un futuro in cui ogni telefonata sconosciuta arriva con una garanzia finanziaria IMMEDIATA
+        compenso, se quello sconosciuto chiamante ti fa perdere tempo.
+        \nUtilizzando questa app, ci stai aiutando a trasformare il futuro in realtà. Grazie.
+        \n\nLo abbiamo realizzato per aiutarti a combattere i truffatori che rubano più di $ 10 miliardi
+        ogni anno da persone vulnerabili attraverso frodi telefoniche. Ti daremo potere sul tuo massimo
+        merce preziosa. Il tuo tempo.
+        \n\nQuesta app sarà sempre gratuita, perché tutti quelli che si uniscono a noi entrano a far parte del
+        quadro più ampio della proprietà dei dati. Se un numero sufficiente di noi rifiuta di rispondere alle chiamate a meno che non arrivino
+        con un nanoDeposit allegato, indovina cosa DEVE succedere alle persone che regolarmente rendono non richieste
+        chiamate? DEVONO iniziare a utilizzare NanoDeposits. Finisci per essere pagato per i tuoi dati,
+        il modo in cui avrebbe dovuto essere sempre.
+        \n\nGrazie per far parte della nostra rivoluzione.
+        \n\nAiutaci con feedback brutalmente onesti e segnalazioni di bug.
+        \n\nSinceramente,
+        \nAEG, DRJ, VJ, JC, PJG, CR
+    </string>
+    <string name="Our_Commitment">Il nostro impegno</string>
+    <string name="Our_Commitment_Description">La nostra missione è creare un mercato che premia finanziariamente tutti i suoi partecipanti ed è
+        rafforzato dai numeri. Attraverso KarmaCall, i tuoi dati diventano una merce che hai
+        il potere di vendere o tenere per te. Crediamo che il futuro delle grandi imprese sia dentro
+        prosperità condivisa e ciò richiede un compenso finanziario per i dati e il tempo.
+        \n\nSosteniamo la nuova politica dell\'Unione europea, offrendo ai nostri clienti e utenti una voce più ampia
+        cosa succede con i loro dati.
+    </string>
+    <string name="GDPR">Cos\'è il GDPR?</string>
+    <string name="GDPR_Description">Il GDPR (General Data Protection Regulation) è entrato in vigore il 25 maggio 2018 nel
+        Unione europea. Il GDPR si applica a ogni azienda che elabora le PII dei cittadini dell\'UE
+        (Informazioni di identificazione personale). Questa nuova legge dà la priorità all\'importanza del
+        protezione e privacy delle tue informazioni personali in diverse aree chiave. Lo stato di
+        La California ha recentemente approvato il California Consumer Privacy Act (CCPA). Tutti i diritti di
+        CCPA sono soddisfatte rispettando il GDPR che KarmaCall fa, come descritto di seguito.
+        \n\nIn primo luogo, KarmaCall offre la possibilità di acconsentire alla raccolta dei dati in modo facilmente accessibile
+        formato. In KarmaCall, memorizziamo le tue informazioni di contatto personali: numero di telefono, portafoglio digitale,
+        così come i dati relativi alla nostra esecuzione del contratto che in parte acquisisce digitale
+        transazioni del portafoglio per scopi anti-spam e durata dei tempi di chiamata per migliorare il nostro
+        Servizi. Insieme alle tue informazioni di contatto di base, utilizziamo Flurry Analytics per monitorare come te
+        usa la nostra applicazione in modo che possiamo imparare come migliorarla per rendere la tua esperienza piacevole come
+        possibile. Tutti gli altri dati forniti VOLONTARIAMENTE da te (dati demografici e
+        psychographics), ma non è necessario per le nostre funzionalità di blocco dello spam, verranno archiviati.
+        \n\nIn secondo luogo, KarmaCall fornisce l\'opportunità di richiedere i tuoi dati. Mostriamo i dati
+        attualmente detenuto dal tuo utente e /o entità aziendale in un formato user-friendly.
+        KarmaCall non vende né fornisce i tuoi dati a fonti di terze parti per nessun motivo.
+        \n\nIn terzo luogo, KarmaCall offre la possibilità di cancellare su richiesta tutti i dati che abbiamo raccolto.
+        Se effettui questa richiesta, risponderemo senza indebito ritardo ad eccezione di quanto richiesto da altri
+        legislazione. Ad esempio, alcuni dati finanziari potrebbero non essere eliminati se sono necessari per i record fiscali.
+        \n\nPer ulteriori informazioni,
+        <a href="https://www.techrepublic.com/article/the-eu-general-data-protection-regulation-gdpr-the-smart-persons-guide/">una panoramica dei regolamenti
+            GDPR dell\'UE può essere trovata qui.
+        </a>
+    </string>
+    <string-array name="phone_metadata">
+        <item>è uguale a:</item>
+        <item>contiene:</item>
+        <item>inizia con:</item>
+        <item>finisce con:</item>
+    </string-array>
+    <string name="previous">Precedente</string>
+    <string name="label_CALL">CHIAMATA</string>
+    <string name="readyToHandle">Pronto a gestire le chiamate in arrivo</string>
+    <string name="protectedWord">Protetto</string>
+    <string name="press">Premere</string>
+    <string name="toStop">per fermare</string>
+    <!--    From other repo  -->
+    <!--    From other repo  -->
+    <!--    From other repo  -->
+    <!--    From other repo  -->
+    <!--    From other repo  -->
+    <!-- English to Italian -->
+    <string name="onboarding_title">Pianificatore finanziario digitale innovativo &amp; gestione</string>
+    <string name="onboarding_message">Progettato per aiutarti a gestire e trasferire i tuoi soldi facilmente, in modo efficiente e sicuro.</string>
+    <string name="get_started">Inizia</string>
+    <string name="by_continue_you_agree_terms">Continuando accetti i termini di KarmaCall</string>
+    <string name="terms_and_conditions">Termini &amp; Condizioni</string>
+    <string name="privacy_and_policies">Privacy &amp; Politiche</string>
+    <string name="sign_in_with_apple">Accedi con Apple</string>
+    <string name="sign_in_with_google">Accedi con Google</string>
+    <string name="create_an_account">Crea un account</string>
+    <string name="phone_number">Numero di Telefono</string>
+    <string name="verify_phone_number">Verifica Numero di Telefono</string>
+    <string name="need_help">Ho bisogno di aiuto?</string>
+    <string name="key">Chiave</string>
+    <string name="you_will_receive_an_otp">Riceverai un OTP per verificare questo telefono.</string>
+    <string name="phone_verification">Verifica del Telefono</string>
+    <string name="please_enter_otp_sent">Inserisci il codice di verifica</string>
+    <string name="resend_code">Rinvia il codice</string>
+    <!--    <string name="change_phone_number">Cambia numero di telefono</string>-->
+    <string name="change_phone_number">¿Necesitas cambiar los números? deslizar hacia atrás</string>
+    <string name="verify_code">Verifica il Codice</string>
+    <string name="enter_phone_number">Inserisci Numero di Telefono</string>
+    <string name="identity_verification">Verifica dell\'Identità</string>
+    <string name="scan_national_id">Scansiona il documento d\'identità per verificare la tua identità</string>
+    <string name="confirm_your_identity_with_few_taps">Conferma la tua identità con pochi tocchi sul tuo telefono</string>
+    <string name="camera_permission_required">Permesso della fotocamera richiesto, forniscilo per continuare!</string>
+    <string name="why_is_it_required">Perché è richiesto?</string>
+    <string name="scan_id_tips">Consigli per la scansione dell\'ID</string>
+    <string name="find_a_well_lit_area">Trova un\'area ben illuminata</string>
+    <string name="steady_your_camera">Stabilizza la tua fotocamera</string>
+    <string name="position_the_id_properly">Posiziona correttamente l\'ID</string>
+    <string name="zoom_in_if_necessary">Ingrandisci se necessario</string>
+    <string name="focus_on_the_id">Concentrati sull\'ID</string>
+    <string name="requiring_id_overall_desc">Richiedere un ID nazionale quando si apre un conto bancario aiuta a proteggere sia la banca che il cliente
+        garantendo la conformità alle normative, prevenendo frodi e migliorando la sicurezza.
+    </string>
+    <string name="start_scanning">Inizia la Scansione</string>
+    <string name="i_agree_on_id_scanning_policies">
+        <![CDATA[Ho letto, compreso e accetto i termini e le condizioni del servizio, e autorizzo il fornitore del servizio a scansionare il mio ID nazionale e a salvarlo e utilizzarlo in modo sicuro per i servizi forniti.]]></string>
+    <string name="id_reason_verification_of_identity">Verifica dell\'identità: Un ID nazionale è una forma affidabile e standardizzata di identificazione che
+        aiuta le banche a verificare l\'identità del titolare del conto.
+    </string>
+    <string name="id_reason_compliance_with_regulations">Conformità alle normative: Le banche sono tenute a rispettare varie normative, come quelle contro il
+        riciclaggio di denaro (AML) e conosci il tuo cliente (KYC).
+    </string>
+    <string name="id_reason_enhance_security">Maggiore sicurezza: Richiedendo un ID nazionale, le banche possono migliorare la sicurezza dei conti dei loro
+        clienti. Aiuta a proteggere contro l\'accesso non autorizzato e garantisce che solo il titolare del conto possa eseguire transazioni.
+    </string>
+    <string name="id_reason_prevention_of_fin_crimes">Prevenzione dei crimini finanziari: Un ID nazionale può aiutare le banche nei loro sforzi per prevenire
+        crimini finanziari, come il riciclaggio di denaro, il finanziamento del terrorismo e l\'evasione fiscale.
+    </string>
+    <string name="id_reason_streamlined_processes">Processi semplificati: Richiedere un ID nazionale aiuta le banche a semplificare i loro processi di apertura
+        del conto. Fornisce una forma di identificazione standardizzata e facilmente verificabile, rendendo più facile per le banche verificare le informazioni
+        dei clienti e completare le pratiche necessarie.
+    </string>
+    <string name="scan_front_of_id">Scansiona il lato anteriore dell\'ID</string>
+    <string name="scan_back_of_id">Scansiona il lato posteriore dell\'ID</string>
+    <string name="verify_identity_requirements">Prima di iniziare, segui questi consigli</string>
+    <string name="start_verification">Inizia la Verifica</string>
+    <string name="follow_instructions">Segui la guida e le istruzioni</string>
+    <string name="get_cap_off">Assicurati di togliere il cappello nel caso lo stessi indossando.</string>
+    <string name="take_off_glasses">Assicurati di togliere gli occhiali nel caso li stessi indossando.</string>
+    <string name="take_selfie_to_verify_identity">Scatta un selfie per verificare la tua identità</string>
+    <string name="quick_and_easy_identity_verification">Verifica dell\'identità rapida e facile usando la fotocamera del tuo telefono. Conferma la tua identità
+        con una foto scattata da te stesso
+    </string>
+    <string name="please_wait_a_seconds">Attendi qualche secondo…</string>
+    <string name="do_you_want_to_proceed_with_this_image">Vuoi procedere con questa immagine?</string>
+    <string name="ensure_image_is_completely_clear">Verrà utilizzata per verificare la tua identità, quindi assicurati che sia completamente chiara.</string>
+    <string name="verifying_your_identity">Verifica della tua identità</string>
+    <string name="it_will_take_seconds">Ci vorranno |%1$d| secondi, attendi per favore…</string>
+    <string name="complete_account_registration">Completa la Registrazione dell\'Account</string>
+    <string name="enter_your_pin">Inserisci il tuo codice PIN</string>
+    <string name="it_will_not_take_long">Non ci vorrà molto</string>
+    <string name="id_verification_in_progress">Verifica dell\'ID\nin corso</string>
+    <string name="available_balance">Saldo Disponibile</string>
+    <string name="see_all">Vedi tutti</string>
+    <string name="current_activity">Attività Corrente</string>
+    <string name="last_5">Ultimi 5</string>
+    <string name="last_3_days">Ultimi 3 giorni</string>
+    <string name="last_week">Ultima settimana</string>
+    <string name="last_month">Ultimo mese</string>
+    <string name="last_3_months">Ultimi 3 mesi</string>
+    <string name="last_6_months">Ultimi 6 mesi</string>
+    <string name="last_9_months">Ultimi 9 mesi</string>
+    <string name="last_year">Ultimo anno</string>
+    <string name="add_money">Aggiungi denaro</string>
+    <string name="send_money">Invia denaro</string>
+    <string name="request_money">Richiedi denaro</string>
+    <string name="no_transactions_in_this_period">Sembra che tu non abbia effettuato transazioni in questo periodo</string>
+    <string name="home">Home</string>
+    <string name="wallet">Portafoglio</string>
+    <string name="qr_code">Codice QR</string>
+    <string name="profile">Profilo</string>
+    <string name="top_up">Ricarica</string>
+    <string name="transactions">Transazioni</string>
+    <string name="name_return">Nome\n</string>
+    <string name="exp">Scad %1$s</string>
+    <string name="my_q_code">Il mio Q Codice</string>
+    <string name="scan_the_qr_to_send_the_money">Scansiona il QR per inviare il denaro</string>
+    <string name="search_a_name">Cerca un nome</string>
+    <string name="contacts">Contatti</string>
+    <!--    Converted String resources from iOS-->
+    <!--    Converted String resources from iOS-->
+    <!--    Converted String resources from iOS-->
+    <!--    Converted String resources from iOS-->
+    <string name="safeToAnswer">È sicuro rispondere di nuovo al telefono.</string>
+    <string name="finish">Finire</string>
+    <string name="sent_to">Inviato a</string>
+    <string name="resend">Rinvia</string>
+    <string name="verify">Verifica</string>
+    <string name="new_question_mark">Nuovo?</string>
+    <string name="friend">Amic@</string>
+    <string name="alreadyHaveAnAccount">Hai già un account?</string>
+    <string name="aboutUs">Chi Siamo</string>
+    <string name="accept">Accettare</string>
+    <string name="accepting">Accettazione</string>
+    <string name="account">Account</string>
+    <string name="accountDetails">Dettagli Account</string>
+    <string name="addContact">Aggiungi Contatto</string>
+    <string name="allowAccessToContactsToBlockSpamCalls">Consenti l\'Accesso ai Contatti per Bloccare le Chiamate Spam</string>
+    <string name="grantAccessToContactsToAllowGoodCalls">Concedi l\'Accesso ai Contatti per Consentire Chiamate Valide</string>
+    <string name="grantAccessToCallsToStopUnwantedOnes">Concedi l\'Accesso ai Chiamate per Bloccare Quelle Indesiderate</string>
+    <string name="granttCallManagerRole">Concedi il ruolo di gestore delle chiamate a KarmaCall</string>
+    <string name="areYouSureThatYouWantToBlockThisContact">Sei sicuro di voler bloccare questo contatto?</string>
+    <string name="areYouSureThatYouWantToDeleteYourAccount">Sei sicuro di voler eliminare il tuo account?</string>
+    <string name="areYouSureThatYouWantToLogOut">Sei sicuro di voler uscire?</string>
+    <string name="areYouSureThatYouWantToUnblockThisContact">Sei sicuro di voler sbloccare questo contatto?</string>
+    <string name="auto">Auto</string>
+    <string name="blockContact">Blocca Contatto</string>
+    <string name="blockScamCalls">Blocca\nChiamate Truffa</string>
+    <string name="blockScamCallsOneLine">Blocca Chiamate Truffe</string>
+    <string name="blocked">Bloccato</string>
+    <string name="blockedCallsWillAppearHere">Le chiamate bloccate appariranno qui</string>
+    <string name="blocking">Blocco</string>
+    <string name="callForwarding">Inoltro Chiamate</string>
+    <string name="callLog">Registro Chiamate</string>
+    <string name="cancel">Annulla</string>
+    <string name="cash">Contanti</string>
+    <string name="cashCalls">Chiamate Remunerate</string>
+    <string name="chooseCarrier">Scegli Operatore</string>
+    <string name="contactDetails">Dettagli Contatto</string>
+    <string name="contactName">Nome Contatto</string>
+    <string name="contactNameHasToContainAtLeastTwoCharacters">Il nome del contatto deve contenere almeno due caratteri</string>
+    <string name="contactUs">Contattaci</string>
+    <string name="continue_label">Continua</string>
+    <string name="customAmount">Importo Personalizzato</string>
+    <string name="delete">Elimina</string>
+    <string name="deleteAccount">Elimina Account</string>
+    <string name="disable">Disabilita</string>
+    <string name="disableCallForwarding">Disabilita Inoltro Chiamate</string>
+    <string name="doLater">Fai Dopo</string>
+    <string name="done">Fatto</string>
+    <string name="earnNanoForTheirFirstBlockedCall">Guadagna Nano per la loro prima chiamata bloccata!</string>
+    <string name="editContact">Modifica contatto</string>
+    <string name="enable">Abilita</string>
+    <string name="enterAddress">Inserisci Indirizzo</string>
+    <string name="enterAmount">Inserisci Importo</string>
+    <string name="enter_your_name">Inserisci il Tuo Nome</string>
+    <string name="enter_your_phone">Inserisci il Tuo Telefono</string>
+    <string name="entertainment">Intrattenimento</string>
+    <string name="verificationFailedTryAgain">Verifica fallita. Per favore riprova.</string>
+    <string name="failed_lower">fallito</string>
+    <string name="faQs">FAQ</string>
+    <string name="food">Cibo</string>
+    <string name="freeNano">Nano Gratuito</string>
+    <string name="getPaidTo">Ricevi Pagamenti Per…</string>
+    <string name="giftCards">Carte Regalo</string>
+    <string name="goodAfternoon">Buon Pomeriggio</string>
+    <string name="goodEvening">Buona Sera</string>
+    <string name="goodMorning">Buongiorno</string>
+    <string name="hello">Ciao</string>
+    <string name="history">Storico</string>
+    <string name="howItWorks">Come Funziona</string>
+    <string name="iGetPaidToBlockPhoneSpamCallsWithKarmaCallNSignUpHereAndWeWillBothGetPaidExtraWhenYouBlockYourFirstCall">
+        Ricevo pagamenti per bloccare le chiamate spam telefoniche con KarmaCall!\nIscriviti qui e entrambi riceveremo un pagamento extra quando blocchi la tua
+        prima chiamata.
+    </string>
+    <string name="karmaCallInvite">Invito KarmaCall</string>
+    <string name="language">Lingua</string>
+    <string name="learnMoreAboutKarmaCall">Scopri di più su KarmaCall</string>
+    <string name="loading">Caricamento…</string>
+    <string name="locked">Bloccato</string>
+    <string name="logo">Logo</string>
+    <string name="logOut">Esci</string>
+    <string name="login">Accedi</string>
+    <string name="login_spaced">Accedi</string>
+    <string name="manageFunds">Gestisci Fondi</string>
+    <string name="myWallet">Il Mio Portafoglio</string>
+    <string name="name">Nome</string>
+    <string name="nanoAddress">Indirizzo Nano</string>
+    <string name="next">Avanti</string>
+    <string name="no">No</string>
+    <string name="nothingFound">Nessun Risultato</string>
+    <string name="notification">Notifica</string>
+    <string name="openSettings">Apri Impostazioni</string>
+    <string name="other">Altro</string>
+    <string name="pleaseSelectCategoriesThatYouLike">Si prega di selezionare le categorie che ti piacciono.</string>
+    <string name="pointCameraAtQRCode">Punta la fotocamera sul Codice QR</string>
+    <string name="premiumSubscription">Abbonamento Premium</string>
+    <string name="privacyPolicy">Politica sulla Privacy</string>
+    <string name="pushNotifications">Notifiche Push</string>
+    <string name="realEstate">Immobili</string>
+    <string name="recentActivity">Attività Recente</string>
+    <string name="recentCallsFromContacts">Chiamate Recenti dai Contatti</string>
+    <string name="recentCallsFromContactsWillAppearHere">Le chiamate recenti dai contatti appariranno qui</string>
+    <string name="recentTransactions">Transazioni Recenti</string>
+    <string name="recentTransactionsWillAppearHere">Le transazioni recenti appariranno qui</string>
+    <string name="referral">Riferimento</string>
+    <string name="requiredQuestion">Domanda Obbligatoria</string>
+    <string name="retail">Vendita al Dettaglio</string>
+    <string name="saveChanges">Salva Modifiche</string>
+    <string name="saveContact">Salva Contatto</string>
+    <string name="scamCalls">Chiamate Truffa</string>
+    <string name="scanQRCode">Scansiona Codice QR</string>
+    <string name="scanningNotSupported">Scansione non supportata</string>
+    <string name="searchContact">Cerca Contatto</string>
+    <string name="searchEmailOrName">Cerca Email o Nome</string>
+    <string name="searchPhoneNumberOrName">Cerca Numero di Telefono o Nome</string>
+    <string name="send">Invia</string>
+    <string name="settings">Impostazioni</string>
+    <string name="setupCallForwarding">Configura Inoltro Chiamate</string>
+    <string name="shareYourLink">Condividi il Tuo Link</string>
+    <string name="signIn">Accedi</string>
+    <string name="signUp">Iscriviti</string>
+    <string name="skip">Salta</string>
+    <string name="smsNotifications">Notifiche SMS</string>
+    <string name="spamCallsAreBlocked">Le Chiamate Spam sono Bloccate</string>
+    <string name="spamCallsAreUnblocked">Le Chiamate Spam sono Sbloccate</string>
+    <string name="startEarningMoney">Inizia a Guadagnare</string>
+    <string name="syncContacts">Sincronizza Contatti</string>
+    <string name="inTwoWays">in due modi</string>
+    <string name="surveyToUnlock">Sondaggio per Sbloccare</string>
+    <string name="takeSurveys">Partecipa ai Sondaggi</string>
+    <string name="thereIsNotEnoughFundsToProceed">Non ci sono fondi sufficienti per procedere</string>
+    <string name="thisPhoneNumberCannotReceiveFundsInNano">Questo numero di telefono non può ricevere fondi in Nano.</string>
+    <string name="toEnableSpamBlockingPleaseEnableCallForwardingAtTheSideOfYourCarrier">Per abilitare il Blocco Spam, abilita l\'Inoltro Chiamate dal lato del
+        tuo operatore.
+    </string>
+    <string name="totalBalance">Saldo Totale</string>
+    <string name="transfer">Trasferisci</string>
+    <string name="transferAmount">Importo Trasferimento:</string>
+    <string name="transferConfirmation">Conferma Trasferimento</string>
+    <string name="transferCustomAmount">Trasferisci Importo Personalizzato</string>
+    <string name="transferToEmail">Trasferisci a Email</string>
+    <string name="transferToPhoneNumber">Trasferisci a Numero di Telefono</string>
+    <string name="transferred">Trasferito</string>
+    <string name="unblockContact">Sblocca Contatto</string>
+    <string name="validationErrorFillOutFields">Si prega di compilare tutti i campi richiesti</string>
+    <string name="validationErrorFillOutValidPhone">Si prega di inserire un numero di telefono valido</string>
+    <string name="validationErrorNameTooShort">Il tuo nome deve contenere almeno due caratteri</string>
+    <string name="wantToEarnMoneyByInvitingYourFriendsToJoin">Vuoi guadagnare invitando i tuoi amici a partecipare?</string>
+    <string name="withdraw">Preleva</string>
+    <string name="withdrawIntoCash">Preleva in Contanti</string>
+    <string name="withdrawToAGiftCard">Preleva su una Carta Regalo</string>
+    <string name="withdrawToANanoAddress">Preleva su un Indirizzo Nano</string>
+    <string name="withdrawToNanoAddress">Preleva su Indirizzo Nano</string>
+    <string name="withdrawalConfirmation">Conferma Prelievo</string>
+    <string name="youCurrentlyHave">Attualmente hai</string>
+    <string name="youWillBeAbleToSetCallForwardingInSettingsLater">Potrai impostare l\'Inoltro Chiamate nelle Impostazioni in seguito.</string>
+    <string name="yourCallsWillAppearHere">Le tue chiamate appariranno qui</string>
+    <string name="yourPhoneNumber">Il Tuo Numero di Telefono</string>
+    <string name="karmaCallRequiresAccessToContactsToProceedGoToSettingsToGrantAccess">KarmaCall richiede l\'accesso ai Contatti per procedere. Vai alle
+        Impostazioni per concedere l\'accesso.
+    </string>
+    <string name="nothingFoundYouCanEnterANewPhoneNumber">Nessun risultato. Puoi inserire un nuovo numero di telefono.</string>
+    <string name="yourDeviceDoesNotSupportScanningACodeFromAnItemPleaseUseADeviceWithACamera">Il tuo dispositivo non supporta la scansione di un codice da un
+        oggetto. Si prega di utilizzare un dispositivo con fotocamera.
+    </string>
+    <string name="onboardingCashCalls">Ricevi un pagamento istantaneo semplicemente rispondendo a una chiamata. Attiva e disattiva in qualsiasi momento. Le
+        aziende cercano nuovi modi per parlare con le persone. KarmaCall è uno di quei modi che ti dà il pieno controllo. Un abbonamento premium ti permette di
+        impostare una tariffa minima al minuto. Decidi tu il valore del tuo tempo!
+    </string>
+    <string name="onboardingBlockScamCalls">Ogni volta che lasci che KarmaCall blocchi per te una chiamata truffa, ti paghiamo! Senza limiti minimi di prelievo
+        o commissioni, puoi incassare in qualsiasi momento attraverso il nostro portafoglio nell\'app.
+    </string>
+    <string name="onboardingSurvyes">Più le aziende sanno informazioni su di te, più diventi prezioso per loro per i feedback. Le aziende ti pagheranno di più
+        per parlare con loro se corrispondi alle loro qualifiche.
+    </string>
+    <string name="onboardingCallForwarding">Per essere pagato per bloccare le chiamate truffa, per favore attiva il Trasferimento di Chiamata. Mantieni il tuo
+        numero di telefono, ma le chiamate devono passare attraverso i nostri server per poterle elaborare. Se vuoi solo Chiamate Cash, non è necessario
+        completare questo passaggio.
+    </string>
+    <string name="failed_capital">Fallito</string>
+    <string name="cash_out_to">Incassare in&#160;</string>
+    <string name="failed_getting_preferences">Errore durante il recupero delle preferenze. Riprova?</string>
+    <string name="unable_to_send_otp">Impossibile inviare OTP in questo momento. Prova più tardi.</string>
+    <string name="otp_entered_not_valid">OTP inserita, ma non valida.</string>
+    <string name="error_capital">Errore</string>
+    <string name="error_lower">errore</string>
+    <string name="unknown_capital">Sconosciuto</string>
+    <string name="error_unknown">Errore Sconosciuto</string>
+    <string name="please_complete_your_reg">Per favore completa prima la registrazione</string>
+    <string name="first_name">Nome</string>
+    <string name="first_low">primo</string>
+    <string name="last_name">Cognome</string>
+    <string name="email_string">Email</string>
+    <string name="unsaved_changes">Modifiche non salvate!</string>
+    <string name="are_sure_discard_changes">Sei sicuro di voler annullare le modifiche?</string>
+    <string name="personalized">Personalizzato</string>
+    <string name="business_options">Opzioni Aziendali</string>
+    <string name="profile_picture">" Foto del Profilo"</string>
+    <string name="options_word">Opzioni</string>
+    <string name="inbox_label">Posta in arrivo</string>
+    <string name="spam_label">Spam</string>
+    <string name="promotions_label">Promozioni</string>
+    <string name="auto_respond_emails">Risposta automatica alle email?</string>
+    <string name="change_auto_responder_template">Modificare il modello di email di risposta automatica?</string>
+    <string name="try_again_later">Riprova più tardi</string>
+    <string name="pleaseConfirmYouAgreeToTransfer">Per favore, conferma che accetti di trasferire %1$s a %2$s</string>
+    <string name="confirm_string">Conferma</string>
+    <string name="transferToNanoAddress">Trasferisci all\'indirizzo nano</string>
+    <string name="transferSelectionChoice">Scegli il tuo metodo di trasferimento</string>
+    <string name="recipientPhoneNumber">Numero di telefono del destinatario</string>
+    <string name="recipient_string">Destinatario</string>
+    <string name="recipientNumber">Numero del destinatario</string>
+    <string name="recipientEmail">Email del destinatario</string>
+    <string name="amount_greater_than_zero">L\'importo deve essere maggiore di 0</string>
+    <string name="pageXofY">Pagina %1$s di %2$s</string>
+    <string name="errorWithXHappened">Si è verificato un errore con il codice %1$s!</string>
+    <string name="blockMoreCallGift">Blocca più chiamate per ricevere un regalo</string>
+    <string name="copyNumber">Copia questo numero</string>
+    <string name="contactAdded">Il contatto è stato aggiunto</string>
+    <string name="share_word">Condividi</string>
+    <string name="checkInSummer">Ricontrolla nell\'estate 2024</string>
+    <string name="venmoComingSoon">Venmo (solo negli Stati Uniti) in arrivo entro agosto 2024</string>
+    <string name="unknownCallerMinimum">I chiamanti sconosciuti devono depositare %1$s%2$s (~ %3$s nano) per chiamarti. Lo riotterranno se rispondi e parli per più di %4$s secondi.</string>
+    <string name="unknownBusinessCalls">I chiamanti aziendali sconosciuti possono pagarti %1$s%2$s al minuto per parlare con te (~ %3$s nano al minuto).</string>
+    <string name="amountPaidPerCall">Ricevi %1$s %2$s per ogni chiamata che ci permetti di bloccare.</string>
+    <string name="setOwnRatesComingSoon">"Imposta la tua tariffa" prossimamente!</string>
+    <string name="benefitsNotAvailableYet">I benefici sottostanti non sono disponibili fino a quando non vengono concessi i permessi</string>
+</resources>

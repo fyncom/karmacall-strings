@@ -1,0 +1,594 @@
+<resources>
+    <string name="permission_read_phone_state">फोन की स्थिति पढ़ें</string>
+    <string name="permission_read_contacts">संपर्क पढ़ें</string>
+    <string name="permission_answer_phone_calls">कॉल का जवाब दें</string>
+    <string name="permission_call_phone">कॉल करें</string>
+    <string name="My_Country_Code">मेरा देश कोड</string>
+    <string name="blocked_call_notifications">अवरुद्ध कॉल सूचनाएं चुनें</string>
+    <string-array name="notification_options">
+        <item>तुरंत सूचित करें</item> <!-- <item>दिन के अंत में सूचित करें</item>-->
+        <item>सूचनाएं नहीं</item>
+    </string-array>
+    <string name="call_was_blocked">कॉल अवरुद्ध किया गया था</string>
+    <string name="rate_limit_exceeded_message">आपने सीमा तक पहुँच चुके हैं। कृपया 5 मिनट प्रतीक्षा करें और पुनः प्रयास करें।</string>
+    <string name="delete_data_popup_message">मैं KarmaCall से अपना डेटा हटाना चाहता हूं। मुझे समझ में आता है कि मेरे KarmaCall खाते से जुड़े मेरे नैनो खाते तक
+        मेरी पहुंच नहीं होगी।
+    </string>
+    <string name="delete_data_long">यदि आप हमारे रिकॉर्ड से अपना डेटा हटाना चाहते हैं, तो कृपया नीचे दिए गए बटन पर क्लिक करें। चेतावनी - एक बार जब आप अपना डेटा
+        हटा देंगे, तो आप अपने नैनो खाते तक नहीं पहुंच पाएंगे।
+    </string>
+    <string name="delete_data">मेरा डेटा हटाएं</string>
+    \
+    <string name="shareBody">मैं KarmaCall के साथ फोन स्पैम कॉल को ब्लॉक करके पैसे कमाता हूं!&#160; यहां
+        साइन अप करें और जब आप अपना पहला कॉल ब्लॉक करेंगे तो हम दोनों को अतिरिक्त भुगतान मिलेगा।\n
+    </string>
+    <string name="invite">आमंत्रित करें</string>
+    <string name="referrals">रेफरल</string>
+    <string name="label_is">है</string>
+    <string name="errorRetrievingFunds">धन पुनः प्राप्त करने में त्रुटि</string>
+    <string name="codeColon">कोड:</string>
+    <string name="referralShare">मेरा रेफरल शेयर करें</string>
+    <string name="referralInfo">हर बार भुगतान प्राप्त करें जब आपका दोस्त आपके रेफरल कोड से साइन अप करता है और अपना पहला कॉल ब्लॉक करता है!</string>
+
+
+    <string name="enjoyUsing">&#160; का उपयोग करने में आनंद लें</string>
+    <string name="rateUsPlease">, कृपया हमें रेटिंग देने का समय निकालें। आपके समर्थन के लिए धन्यवाद!</string>
+    <string name="rate">&#160; रेटिंग दें</string>
+    <string name="remindMeLater">मुझे बाद में याद दिलाएं</string>
+    <string name="noThanks">नहीं धन्यवाद</string>
+    <string name="permissionRequestPaid">अवांछित कॉल ब्लॉक करने के लिए आपको भुगतान करने के लिए अनुमति का अनुरोध किया जा रहा है</string>
+    <string name="registerToGetPaid">भुगतान प्राप्त करने के लिए अपना फोन नंबर पंजीकृत करें</string>
+    <string name="referralRewards">रेफरल रिवॉर्ड्स</string>
+    <string name="blockingOff">ब्लॉकिंग बंद है</string>
+    <string name="blockingOn">ब्लॉकिंग चालू है</string>
+    <string name="stopBlockingCalls">कॉल ब्लॉक करना बंद करें</string>
+    <string name="stopBlocking">ब्लॉकिंग बंद करें</string>
+    <string name="startBlockingCalls">कॉल ब्लॉक करना शुरू करें</string>
+    <string name="managePhoneNumber">फोन नंबर प्रबंधित करें</string>
+    <string name="startBlocking">ब्लॉकिंग शुरू करें</string>
+    <string name="registerPhoneCashBack">कैशबैक पाने के लिए कृपया अपना फोन नंबर पंजीकृत करें।</string>
+    <string name="privateNumber">प्राइवेट नंबर</string>
+    <string name="no_blocking_simple">नहीं। कोई भी मुझे कॉल कर सकता है।</string>
+    <string name="yes_blocking_simple">हां। केवल कैश कॉल या संपर्क मुझे कॉल कर सकते हैं।</string>
+    <string name="check_stop_blocking_simple">क्या आप कॉल ब्लॉक करना चाहते हैं?</string>
+    <string name="iKnowProceedWithoutPermission">मैं जानता हूं कि मैं क्या कर रहा हूं, मुझे पहले आपका ऐप देखने दें!</string>
+    <string name="iWantToSelectCheckboxPermission">मैं आपको अपना KarmaCall बनाने के लिए चेक बॉक्स चुनना चाहता हूं!</string>
+    <string name="yes">हां</string>
+    <string name="welcomeBack">वापस स्वागत है!</string>
+    <string name="notRegisteredYet">अभी तक पंजीकृत नहीं</string>
+    <string name="pleaseAcceptPermissions">कृपया पहले अनुमतियां स्वीकार करें</string>
+    <string name="myPhoneNumberIs">मेरा फोन नंबर है&#160;</string>
+    <string name="failedMakeNewNanoAccount">नया नैनो खाता बनाने में विफल। क्या आपके पास पहले से एक है? अपना फ़ोन नंबर सत्यापित करने का प्रयास करें</string>
+    <string name="couldNotConfirmNumber">आपका नंबर सत्यापित नहीं किया जा सका, कृपया अपना फोन नंबर अपडेट करने का प्रयास करें, धन्यवाद</string>
+    <string name="errorGettingExistingNanoAccount">मौजूदा नैनो खाता पुनः प्राप्त करते समय त्रुटि</string>
+    <string name="noPhoneEntered">सत्यापन के लिए कोई फोन नंबर दर्ज नहीं किया गया था</string>
+    <string name="smsCodeNotEntered">OTP दर्ज नहीं किया गया, कृपया अपना फोन नंबर अपडेट करें या सत्यापित करें</string>
+    <string name="verifyFailed">सत्यापन विफल</string>
+    <string name="successWelcomeFuture">सफलता! भविष्य में आपका स्वागत है!</string>
+    <string name="code_not_entered">SMS कोड दर्ज नहीं किया गया</string>
+    <string name="phoneNumberBlank">फोन नंबर अपडेट के लिए खाली छोड़ा गया था। कृपया पुनः प्रयास करें।</string>
+    <string name="phoneNumberUpdateCancelled">फोन नंबर अपडेट रद्द किया गया</string>
+    <string name="already_registered_phone_number">आपने पहले से ही अपना फोन नंबर पंजीकृत कर लिया है</string>
+    <string name="sorry_some_error_balance">क्षमा करें, आपका बैलेंस देखते समय कुछ त्रुटि हुई</string>
+    <string name="sorry_some_error">क्षमा करें, कुछ त्रुटि हुई</string>
+    <string name="withdraw_failed">निकासी विफल रही। अपनी राशि या नैनो निकासी पते की दोबारा जांच करें</string>
+    <string name="withdraw_success">आपका भेजा गया पैसा सफल हुआ!</string>
+    <string name="invalid_nano_format">अमान्य नैनो खाता प्रारूप। कृपया टाइपो के लिए अपनी नैनो खाता प्रविष्टि की दोबारा जांच करें</string>
+    <string name="enter_amount_withdraw">निकालने के लिए नैनो की राशि दर्ज करें</string>
+    <string name="error_with_faucet">फॉसेट का उपयोग करते समय त्रुटि, कृपया पुनः प्रयास करें</string>
+    <string name="coming_soon">जल्द आ रहा है!</string>
+    <string name="faucet_of_knowledge">आपने पहले ही फॉसेट का उपयोग कर लिया है, कृपया दूसरों को ज्ञान के फव्वारे से पीने दें</string>
+    <string name="no_nano_account_register_please">आपके पास अभी तक नैनो खाता नहीं है। अपना फोन नंबर पंजीकृत करने का प्रयास करें</string>
+    <string name="faucet_nano_received">आपको 0.0001 नैनो प्राप्त हुआ है!</string>
+    <string name="terms_conditions">हमारी सेवाओं का उपयोग करके, आप एतद्द्वारा हमारी गोपनीयता नीति और नियम और शर्तों को स्वीकार करते हैं</string>
+    <string name="faucet_free">फॉसेट = मुफ़्त $$$</string>
+    <string name="send_email">ईमेल भेजें</string>
+    <string name="feedback_comments">कृपया हमें प्रतिक्रिया, टिप्पणी, प्रश्न या चिंता छोड़ें। धन्यवाद!</string>
+    <string name="choose_your_language">कृपया अपनी भाषा चुनें</string>
+    <string name="check_stop_blocking">मैं चाहता हूं कि केवल कैश कॉल और संपर्क मेरे फोन पर रिंग करें।</string>
+    <string name="stop_start_blocking">ब्लॉकिंग बंद/शुरू करें</string>
+    <string name="blockedCalls">अवरुद्ध कॉल</string>
+    <string name="version">संस्करण&#160;</string>
+    <string name="label_Wallet">वॉलेट</string>
+    <string name="label_Withdraw">निकासी</string>
+    <string name="Withdrawal_Request">निकासी अनुरोध</string>
+    <string name="label_Deposit">जमा</string>
+    <string name="Faucet">फॉसेट का उपयोग करें - तुरंत मुफ्त $$ प्राप्त करें</string>
+    <!--    Future work - remove usages of nano "address", use nano "account" instead-->
+    <!--    Note, RoboServer uses nano "address" and this is fine to leave that usage on RoboServer-->
+    <!--    When moving values from RoboServer into the front end app however, please use nano "account"-->
+    <!--    as that is the proper terminology to use with everyone we speak to.-->
+    <string name="Nano_address">नैनो पता</string>
+    <string name="See_my_Nano_account">मेरा नैनो खाता देखें</string>
+    <string name="Nano_account">नैनो खाता</string>
+    <string name="Here_is_your_Nano_account">यहां आपका नैनो खाता है</string>
+    <string name="Cash_out_to_USD">USD में कैश आउट करें</string>
+    <string name="Nano_value">नैनो मूल्य</string>
+    <string name="USD">USD मूल्य</string>
+    <string name="USD_Funds">USD निधि</string>
+    <string name="Nano_Funds">नैनो निधि</string>
+    <string name="USD_Earned">USD अर्जित</string>
+
+
+    <string name="Update_My_Nano_Account">Update my nano account</string>
+    <string name="Submit_Ticket">Submit Ticket</string>
+    <string name="View_Gift_Cards">View Gift Cards</string>
+
+
+    <string name="My_Phone_Number">मेरा फ़ोन नंबर</string>
+    <string name="Update_My_Phone_Number">मेरा फोन नंबर अपडेट करें</string>
+    <string name="Verify_My_Phone_Number">मेरा फोन नंबर सत्यापित करें</string>
+    <string name="Register_My_Phone_Number">मेरा फोन नंबर पंजीकृत करें</string>
+    <string name="Enter_Phone_Number_For_OTP">कृपया इस डिवाइस का फ़ोन नंबर दर्ज करें ताकि आपको SMS के माध्यम से एक बार का पासवर्ड भेजा जा सके</string>
+    <string name="Enter_OTP_Response">कृपया वह पासवर्ड दर्ज करें जो आपको संदेश द्वारा भेजा गया था</string>
+    <string name="My_OTP">मेरा 6 अंकों का कोड</string>
+    <string name="Amount_To_Withdraw">निकालने के लिए नैनो की राशि दर्ज करें</string>
+    <string name="Enter_Nano_Account_To_Withdraw_To_Below">नीचे अपना बाहरी नैनो खाता दर्ज करें</string>
+    <string name="Open_navigation_drawer">नेविगेशन ड्रॉवर खोलें</string>
+    <string name="Close_navigation_drawer">नेविगेशन ड्रॉवर बंद करें</string>
+    <string name="label_Information">जानकारी</string>
+    <string name="label_Exit">बाहर निकलें</string>
+    <string name="SELECT_ALL">सभी चुनें</string>
+    <string name="label_DELETE">हटाएं</string>
+    <string name="label_CANCEL">रद्द करें</string>
+    <string name="label_CONTINUE">जारी रखें</string>
+    <string name="label_ADD">जोड़ें</string>
+    <string name="Adding_contact">संपर्क जोड़ा जा रहा है</string>
+    <string name="Saving_">सहेजा जा रहा है…</string>
+    <string name="call_is_blocked">कॉल अवरुद्ध है</string>
+    <string name="message_is_blocked">संदेश अवरुद्ध है</string>
+    <string name="message_is_received">संदेश प्राप्त हुआ है</string>
+    <string name="Search_action">खोजें</string>
+    <string name="Starts_with">से शुरू होता है:</string>
+    <string name="Ends_with">से समाप्त होता है:</string>
+    <string name="Delete_record">रिकॉर्ड हटाएं</string>
+    <string name="Copy_number">नंबर कॉपी करें</string>
+    <string name="Copy_text">टेक्स्ट कॉपी करें</string>
+    <string name="Find_similar_records">समान रिकॉर्ड खोजें</string>
+    <string name="Exclude_from_black_list">ब्लैकलिस्ट से संपर्क निकालें</string>
+    <string name="Move_to_white_list">संपर्क को व्हाइटलिस्ट में ले जाएं</string>
+    <string name="Move_to_black_list">संपर्क को ब्लैकलिस्ट में ले जाएं</string>
+    <string name="needs_permission">अनुमति की आवश्यकता है</string>
+    <string name="needs_permissions">अनुमतियों की आवश्यकता है</string>
+    <string name="Write_message">संदेश लिखें</string>
+    <string name="Copied_to_clipboard">क्लिपबोर्ड पर कॉपी किया गया</string>
+    <string name="Menu_button">मेनू बटन</string>
+    <string name="List_is_empty">सूची खाली है</string>
+    <string name="Logo_motto">स्पैम रोकने के लिए भुगतान प्राप्त करें</string>
+    <string name="label_About">हमारे बारे में</string>
+    <string name="Welcome">स्वागत है!</string>
+    <string name="Info_welcome">
+        हम सभी अज्ञात कॉल आपके वॉइसमेल पर भेज देंगे जब तक कि वे आपको $ 0.05 नैनो जमा न छोड़ें।
+        यदि कोई अज्ञात कॉल एक से अधिक बार आता है, तो इसका मतलब है कि उन्होंने आपके लिए नैनो जमा छोड़ा है।
+        यह पता लगाने के लिए कॉल का उत्तर दें कि किसने आपके लिए जमा छोड़ा।
+        यदि आपको कॉल पसंद नहीं है, तो बस 25 सेकंड से पहले फोन काट दें और जमा राशि रखें।
+    </string>
+    <string name="label_FAQ">अक्सर पूछे जाने वाले प्रश्न</string>
+    <string name="TBD_value">बाद में तय किया जाएगा</string>
+    <string name="permissionRequest">आपका कैश-बैक स्पैम ब्लॉकर बनने की अनुमति का अनुरोध किया जा रहा है</string>
+    <string name="permissionWarning">इन अनुमतियों के बिना, हम आपके लिए कॉल ब्लॉक नहीं कर सकते। क्या आप वाकई आगे बढ़ना चाहते हैं?
+        आप बाद में ऐप में कॉल-ब्लॉकिंग कार्यक्षमता के लिए अपना फोन नंबर पंजीकृत कर सकते हैं।
+    </string>
+    <string name="permissionPurpose">
+        हमें आपका निजी भुगतान वाल बनने के लिए अनुमतियों की आवश्यकता है।
+        \nहम इन अनुमतियों का उपयोग केवल कैश-कॉल और आपके दोस्तों/परिवार को अनुमति देने के लिए करते हैं, जबकि अवैतनिक, अवांछित कॉल को अवरुद्ध करते हैं
+    </string>
+    <string name="permissionRequired">अनुमतियां सक्षम करें</string>
+    <string name="permissionRequestInformation">
+        यदि आवश्यक हो तो यहां स्ट्रिंग के बारे में जानकारी दर्ज करें
+    </string>
+    <string name="attention">ध्यान दें</string>
+    <string name="messaging">संदेश</string>
+    <string name="Info_messaging">एसएमएस।</string>
+    <string name="Black_list">ब्लैक लिस्ट</string>
+    <string name="White_list">व्हाइट लिस्ट</string>
+    <string name="Info_white_list">व्हाइटलिस्ट।</string>
+    <string name="Info_journal">
+        यह कॉल/एसएमएस ब्लॉकिंग की घटनाओं के बारे में जानकारी वाले रिकॉर्ड की सूची है।
+        सेटिंग्स में घटनाओं का लॉगिंग अक्षम किया जा सकता है।
+    </string>
+    <string name="label_License">लाइसेंस</string>
+    <string name="Info_licence">कॉपीराइट</string>
+    <string name="label_Author">लेखक</string>
+    <string name="About_us_message">
+        एक ऐसा भविष्य की कल्पना करें जहां प्रत्येक अज्ञात फोन कॉल के साथ तत्काल वित्तीय क्षतिपूर्ति की गारंटी हो।
+        \nइस ऐप का उपयोग करके, आप उस भविष्य को साकार कर रहे हैं। धन्यवाद।
+
+        \n\nहमने यह एप्लिकेशन उन घोटालेबाजों के खिलाफ लड़ने के लिए विकसित किया है जो हर साल फोन धोखाधड़ी के माध्यम से कमजोर लोगों से $ 10 बिलियन से अधिक चुराते
+        हैं। हम आपको आपकी सबसे कीमती वस्तु पर शक्ति देंगे। आपका समय।
+
+        \n\nयह ऐप हमेशा उपयोग करने के लिए नि:शुल्क रहेगा, क्योंकि हमसे जुड़ने वाला प्रत्येक व्यक्ति डेटा क्रांति की बड़ी तस्वीर का हिस्सा बन जाता है। यदि हममें
+        से पर्याप्त संख्या में लोग कॉल का जवाब देने से इनकार कर देते हैं, तो बुरे अभिनेता ध्यान देंगे और आपको अपने डेटा के लिए भुगतान किया जाएगा।
+
+        \n\nकृपया बेरहमी से ईमानदार प्रतिक्रिया और बग रिपोर्ट के साथ हमारी मदद करें।
+
+        \n\nभवदीय,
+        \nAEG, DRJ, VJ, JC, PJG, CR।
+    </string>
+    <string name="Our_Commitment">हमारी प्रतिबद्धता</string>
+    <string name="Our_Commitment_Description">
+        हमारा मिशन एक ऐसा बाजार बनाना है जो अपने सभी प्रतिभागियों को वित्तीय रूप से पुरस्कृत करता है और संख्या से मजबूत होता है। KarmaCall के माध्यम से, आपका
+        डेटा एक वस्तु बन जाती है जिसे बेचने या खुद के पास रखने की शक्ति आपके पास होती है। हमारा मानना है कि महान व्यवसायों का भविष्य साझा समृद्धि में है और इसके
+        लिए आवश्यक है कि आपके डेटा और समय के लिए आपको वित्तीय रूप से मुआवजा दिया जाए।
+        \n\nहम नई यूरोपीय संघ की नीति का समर्थन करते हैं, जो हमारे ग्राहकों और उपयोगकर्ताओं को उनके डेटा के साथ क्या होता है, इस पर अधिक कहने का अधिकार देती है।
+    </string>
+    <string name="GDPR">GDPR क्या है?</string>
+    <!--    Would like to have the Cash in our name show our color like header_nav_bar_main.xml. Need to fix
+        the linking at the end as well. See
+        https://stackoverflow.com/questions/9204303/android-is-it-possible-to-add-a-clickable-link-into-a-string-resource-->
+    <string name="GDPR_Description">GDPR (सामान्य डेटा संरक्षण विनियमन) 25 मई, 2018 को यूरोपीय संघ में प्रभावी हुआ। GDPR उन सभी कंपनियों पर लागू होता है जो EU
+        नागरिकों के PII (व्यक्तिगत रूप से पहचान योग्य जानकारी) को संसाधित करती हैं। यह नया कानून कई प्रमुख क्षेत्रों में आपकी व्यक्तिगत जानकारी के संरक्षण और
+        गोपनीयता के महत्व को प्राथमिकता देता है। कैलिफोर्निया राज्य ने हाल ही में कैलिफोर्निया उपभोक्ता गोपनीयता अधिनियम (CCPA) पारित किया है। CCPA के सभी
+        अधिकार GDPR का अनुपालन करके पूरे किए जाते हैं जैसा कि KarmaCall नीचे वर्णित करता है।
+        \n\nसबसे पहले, KarmaCall आसानी से सुलभ प्रारूप में डेटा संग्रह के लिए सहमति देने की क्षमता प्रदान करता है। KarmaCall में, हम आपकी व्यक्तिगत संपर्क
+        जानकारी - फ़ोन नंबर, डिजिटल वॉलेट को स्टोर करते हैं, साथ ही साथ हमारे अनुबंध के प्रदर्शन से संबंधित डेटा जो आंशिक रूप से एंटी-स्पैम उद्देश्यों के लिए
+        डिजिटल वॉलेट लेनदेन को कैप्चर करता
+        है और हमारी सेवाओं में सुधार के लिए आपके कॉल समय की लंबाई। आपकी बुनियादी संपर्क जानकारी के साथ, हम फ्लरी एनालिटिक्स का उपयोग यह ट्रैक करने के लिए करते
+        हैं कि आप हमारे एप्लिकेशन का उपयोग कैसे करते हैं ताकि हम यह सीख सकें कि इसे कैसे सुधारा जाए ताकि आपका अनुभव जितना संभव हो उतना सुखद बनाया जा सके। कोई
+        अन्य डेटा जो आपके द्वारा स्वेच्छा से प्रदान किया जाता है (जनसांख्यिकी और मनोवैज्ञानिक), लेकिन हमारी स्पैम-ब्लॉकिंग सुविधाओं के लिए आवश्यक नहीं है, उसे
+        भी संग्रहीत किया जाएगा।
+        \n\nदूसरा, KarmaCall आपका डेटा अनुरोध करने का अवसर प्रदान करता है। हम वर्तमान में आपके उपयोगकर्ता और/या व्यावसायिक इकाई के अंतर्गत रखे गए डेटा को एक
+        उपयोगकर्ता के अनुकूल प्रारूप में प्रदर्शित करते हैं।
+        KarmaCall किसी भी कारण से आपका डेटा किसी तृतीय पक्ष के स्रोतों को नहीं बेचता या प्रदान करता है।
+        \n\nतीसरा, KarmaCall अनुरोध पर हमारे द्वारा एकत्र किए गए सभी डेटा को हटाने का विकल्प प्रस्तुत करता है।
+        यदि आप यह अनुरोध करते हैं, तो हम अन्य कानूनों द्वारा आवश्यक के अलावा बिना किसी देरी के इसका पालन करेंगे। उदाहरण के लिए, यदि यह कर रिकॉर्ड के लिए आवश्यक
+        है तो कुछ वित्तीय डेटा हटाया नहीं जा सकता।
+        \n\nअधिक जानकारी के लिए,
+        <a href="https://www.techrepublic.com/article/the-eu-general-data-protection-regulation-gdpr-the-smart-persons-guide/">EU GDPR विनियमों का एक ओवरव्यू
+            यहां पाया जा सकता है।
+        </a>
+    </string>
+    <string-array name="phone_metadata">
+        <item>के बराबर:</item>
+        <item>शामिल:</item>
+        <item>से शुरू होता है:</item>
+        <item>पर समाप्त होता है:</item>
+    </string-array>
+    <!-- Strings used for fragments for navigation -->
+    <string name="previous">पिछला</string>
+    <string name="label_CALL">कॉल</string>
+    <string name="readyToHandle">इनकमिंग कॉल्स संभालने के लिए तैयार</string>
+    <string name="protectedWord">सुरक्षित</string>
+    <string name="press">दबाएं</string>
+    <string name="toStop">रोकने के लिए</string>
+    <!--    From other repo  -->
+    <!--    From other repo  -->
+    <!--    From other repo  -->
+    <!--    From other repo  -->
+    <!--    From other repo  -->
+    <string name="onboarding_title">नवीन डिजिटल\nवित्तीय योजनाकार और\nप्रबंधक</string>
+    <string name="onboarding_message">आपके पैसे को आसानी से, कुशलता से और सुरक्षित रूप से प्रबंधित और स्थानांतरित करने में आपकी मदद करने के लिए डिज़ाइन किया
+        गया।
+    </string>
+    <string name="get_started">शुरू करें</string>
+    <string name="by_continue_you_agree_terms">जारी रखने से आप KarmaCall की शर्तों से सहमत होते हैं</string>
+    <string name="terms_and_conditions">नियम एवं शर्तें</string>
+    <string name="privacy_and_policies">गोपनीयता एवं नीतियां</string>
+    <string name="sign_in_with_apple">Apple से साइन इन करें</string>
+    <string name="sign_in_with_google">Google से साइन इन करें</string>
+    <string name="create_an_account">एक खाता बनाएं</string>
+    <string name="phone_number">फोन नंबर</string>
+    <string name="verify_phone_number">फोन नंबर सत्यापित करें</string>
+    <string name="need_help">मदद चाहिए?</string>
+    <string name="key">कुंजी</string>
+    <string name="you_will_receive_an_otp">इस फ़ोन को सत्यापित करने के लिए आपको एक OTP प्राप्त होगा।</string>
+    <string name="phone_verification">फोन सत्यापन</string>
+    <!-- todo update to shorter line in other languages...-->
+    <string name="please_enter_otp_sent">कृपया सत्यापन कोड दर्ज करें</string>
+    <string name="resend_code">कोड फिर से भेजें</string>
+    <!--    <string name="change_phone_number">फोन नंबर बदलें</string>-->
+    <string name="change_phone_number">नंबर बदलने की जरूरत है? वापस स्वाइप करें</string>
+    <string name="verify_code">कोड सत्यापित करें</string>
+    <string name="enter_phone_number">फोन नंबर दर्ज करें</string>
+    <string name="identity_verification">पहचान सत्यापन</string>
+    <string name="scan_national_id">अपनी पहचान सत्यापित करने के लिए\nID दस्तावेज़ स्कैन करें</string>
+    <string name="confirm_your_identity_with_few_taps">अपने फोन पर बस कुछ टैप\nकरके अपनी पहचान की पुष्टि करें</string>
+    <string name="camera_permission_required">जारी रखने के लिए कैमरे की अनुमति आवश्यक है, कृपया इसे प्रदान करें!</string>
+    <string name="why_is_it_required">ऐसा क्यों आवश्यक है?</string>
+    <string name="scan_id_tips">ID स्कैन करने के सुझाव</string>
+    <string name="find_a_well_lit_area">एक अच्छी रोशनी वाली जगह ढूंढें</string>
+    <string name="steady_your_camera">अपने कैमरे को स्थिर रखें</string>
+    <string name="position_the_id_properly">ID को सही ढंग से स्थापित करें</string>
+    <string name="zoom_in_if_necessary">यदि आवश्यक हो तो ज़ूम इन करें</string>
+    <string name="focus_on_the_id">ID पर ध्यान केंद्रित करें</string>
+    <string name="requiring_id_overall_desc">बैंक खाता खोलते समय राष्ट्रीय पहचान पत्र का अनुरोध करने से विनियमों का अनुपालन, धोखाधड़ी को रोकने और सुरक्षा बढ़ाने
+        को सुनिश्चित करके बैंक और ग्राहक दोनों की सुरक्षा में मदद मिलती है।
+    </string>
+    <string name="start_scanning">स्कैनिंग शुरू करें</string>
+    <string name="i_agree_on_id_scanning_policies">
+        <![CDATA[मैंने पढ़ा और समझा है और मैं सेवा के नियमों और शर्तों को स्वीकार करता हूं, और मैं सेवा प्रदाता को अपना राष्ट्रीय पहचान पत्र स्कैन करने और उसे सुरक्षित रूप से सहेजने और प्रदान की गई सेवाओं के लिए उपयोग करने की अनुमति देता हूं।]]></string>
+    <string name="id_reason_verification_of_identity">पहचान का सत्यापन: एक राष्ट्रीय पहचान पत्र एक विश्वसनीय और मानकीकृत पहचान का रूप है जो बैंकों को खाताधारक
+        की पहचान सत्यापित करने में मदद करता है।
+    </string>
+    <string name="id_reason_compliance_with_regulations">विनियमों का अनुपालन: बैंकों को विभिन्न विनियमों, जैसे कि धन शोधन निवारण (AML) और अपने ग्राहक को जानें
+        (KYC) नियमों का पालन करना आवश्यक है।
+    </string>
+    <string name="id_reason_enhance_security">बढ़ी हुई सुरक्षा: एक राष्ट्रीय पहचान पत्र का अनुरोध करके, बैंक अपने ग्राहकों के खातों की सुरक्षा बढ़ा सकते हैं। यह
+        अनधिकृत पहुंच के खिलाफ सुरक्षा में मदद करता है और यह सुनिश्चित करता है कि केवल खाता धारक ही लेनदेन कर सकते हैं।
+    </string>
+    <string name="id_reason_prevention_of_fin_crimes">वित्तीय अपराधों की रोकथाम: एक राष्ट्रीय पहचान पत्र वित्तीय अपराधों, जैसे कि मनी लॉन्ड्रिंग, आतंकवादी
+        वित्तपोषण और कर चोरी को रोकने के बैंकों के प्रयासों में मदद कर सकता है।
+    </string>
+    <string name="id_reason_streamlined_processes">सुव्यवस्थित प्रक्रियाएं: एक राष्ट्रीय पहचान पत्र का अनुरोध करने से बैंकों को अपनी खाता खोलने की प्रक्रियाओं
+        को सुव्यवस्थित करने में मदद मिलती है। यह पहचान का एक मानकीकृत और आसानी से सत्यापन योग्य रूप प्रदान करता है, जिससे बैंकों के लिए ग्राहक की जानकारी
+        सत्यापित करना और आवश्यक कागजी कार्रवाई पूरी करना आसान हो जाता है।
+    </string>
+    <string name="scan_front_of_id">कृपया ID के सामने की तरफ स्कैन करें</string>
+    <string name="scan_back_of_id">कृपया ID के पीछे की तरफ स्कैन करें</string>
+    <string name="verify_identity_requirements">शुरू करने से पहले, कृपया इन सुझावों का पालन करें</string>
+    <string name="start_verification">सत्यापन शुरू करें</string>
+    <string name="follow_instructions">मार्गदर्शन और निर्देशों का पालन करें</string>
+    <string name="get_cap_off">यदि आप टोपी पहनकर आए हैं तो सुनिश्चित करें कि उसे उतार दिया जाए।</string>
+    <string name="take_off_glasses">यदि आप चश्मा पहनकर आए हैं तो उसे उतारना सुनिश्चित करें।</string>
+    <string name="take_selfie_to_verify_identity">अपनी\nपहचान सत्यापित करने के लिए एक सेल्फी लें</string>
+    <string name="quick_and_easy_identity_verification">अपने फोन के कैमरे का उपयोग करके त्वरित और आसान पहचान सत्यापन। स्वयं खींची गई फोटो से अपनी पहचान की
+        पुष्टि करें
+    </string>
+    <string name="please_wait_a_seconds">कृपया कुछ सेकंड प्रतीक्षा करें…</string>
+    <string name="do_you_want_to_proceed_with_this_image">क्या आप इस छवि के साथ आगे बढ़ना चाहते हैं?</string>
+    <string name="ensure_image_is_completely_clear">यह आपकी पहचान सत्यापित करने के लिए उपयोग किया जाएगा, इसलिए कृपया सुनिश्चित करें कि यह पूरी तरह से स्पष्ट
+        हो।
+    </string>
+    <string name="verifying_your_identity">आपकी पहचान सत्यापित की जा रही है</string>
+    <string name="complete_account_registration">खाता पंजीकरण पूरा करें</string>
+    <string name="enter_your_pin">अपना PIN कोड दर्ज करें</string>
+    <string name="it_will_not_take_long">इसमें ज्यादा समय नहीं लगेगा</string>
+    <string name="id_verification_in_progress">ID सत्यापन\nप्रगति पर है</string>
+    <string name="available_balance">उपलब्ध शेष राशि</string>
+    <string name="see_all">सभी देखें</string>
+    <string name="current_activity">वर्तमान गतिविधि</string>
+    <string name="last_5">अंतिम 5</string>
+    <string name="last_3_days">पिछले 3 दिन</string>
+    <string name="last_week">पिछला सप्ताह</string>
+    <string name="last_month">पिछला महीना</string>
+    <string name="last_3_months">पिछले 3 महीने</string>
+    <string name="last_6_months">पिछले 6 महीने</string>
+    <string name="last_9_months">पिछले 9 महीने</string>
+    <string name="last_year">पिछला वर्ष</string>
+    <string name="add_money">पैसा जोड़ें</string>
+    <string name="send_money">पैसा भेजें</string>
+    <string name="request_money">पैसे का अनुरोध करें</string>
+    <string name="no_transactions_in_this_period">ऐसा लगता है कि आपने इस अवधि के दौरान कोई लेन-देन नहीं किया</string>
+    <string name="home">होम</string>
+    <string name="wallet">वॉलेट</string>
+    <string name="qr_code">QR कोड</string>
+    <string name="profile">प्रोफ़ाइल</string>
+    <string name="top_up">टॉप अप</string>
+    <string name="transactions">लेनदेन</string>
+    <string name="name_return">नाम\n</string>
+    <string name="exp">एक्सपायरी %1$s</string>
+    <string name="my_q_code">मेरा Q कोड</string>
+    <string name="scan_the_qr_to_send_the_money">पैसा भेजने के लिए QR स्कैन करें</string>
+    <string name="search_a_name">एक नाम खोजें</string>
+    <string name="contacts">संपर्क</string>
+    <!--    Converted String resources from iOS-->
+    <!--    Converted String resources from iOS-->
+    <!--    Converted String resources from iOS-->
+    <!--    Converted String resources from iOS-->
+    <string name="safeToAnswer">आपके लिए अपना फोन फिर से उठाना सुरक्षित है।</string>
+    <string name="finish">समाप्त</string>
+    <string name="sent_to">को भेजा गया</string>
+    <string name="verify">सत्यापित करें</string>
+    <string name="resend">पुन: भेजें</string>
+    <string name="new_question_mark">नया?</string>
+    <string name="friend">मित्र</string>
+    <string name="alreadyHaveAnAccount">पहले से ही एक खाता है?</string>
+    <string name="aboutUs">हमारे बारे में</string>
+    <string name="accept">स्वीकार करें</string>
+    <string name="accepting">स्वीकार किया जा रहा है</string>
+    <string name="account">खाता</string>
+    <string name="accountDetails">खाता विवरण</string>
+    <string name="addContact">संपर्क जोड़ें</string>
+    <string name="allowAccessToContactsToBlockSpamCalls">स्वचालित श्वेत सूची के लिए संपर्कों तक पहुँच की अनुमति दें</string>
+    <string name="grantAccessToContactsToAllowGoodCalls">अच्छे कॉल की अनुमति देने के लिए संपर्कों तक पहुंच प्रदान करें</string>
+    <string name="grantAccessToCallsToStopUnwantedOnes">अवांछित कॉल को रोकने के लिए कॉल तक पहुंच प्रदान करें</string>
+    <string name="granttCallManagerRole">KarmaCall को कॉल मैनेजर की भूमिका प्रदान करें</string>
+    <string name="areYouSureThatYouWantToBlockThisContact">क्या आप वाकई इस संपर्क को ब्लॉक करना चाहते हैं?</string>
+    <string name="areYouSureThatYouWantToDeleteYourAccount">क्या आप वाकई अपना खाता हटाना चाहते हैं?</string>
+    <string name="areYouSureThatYouWantToLogOut">क्या आप सुनिश्चित हैं कि आप लॉग आउट करना चाहते हैं?</string>
+    <string name="areYouSureThatYouWantToUnblockThisContact">क्या आप वाकई इस संपर्क को अनब्लॉक करना चाहते हैं?</string>
+    <string name="auto">ऑटो</string>
+    <string name="blockContact">संपर्क ब्लॉक करें</string>
+    <string name="blockScamCalls">धोखाधड़ी कॉल को\nब्लॉक करें</string>
+    <string name="blockScamCallsOneLine">स्कैम कॉल ब्लॉक करें</string>
+    <string name="blocked">अवरुद्ध</string>
+    <string name="blockedCallsWillAppearHere">अवरुद्ध कॉल यहां दिखाई देंगे</string>
+    <string name="blocking">ब्लॉक किया जा रहा है</string>
+    <string name="callForwarding">कॉल फ़ॉरवर्डिंग</string>
+    <string name="callLog">कॉल लॉग</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="cash">नकद</string>
+    <string name="cashCalls">नकद कॉल</string>
+    <string name="chooseCarrier">वाहक चुनें</string>
+    <string name="contactDetails">संपर्क विवरण</string>
+    <string name="contactName">संपर्क नाम</string>
+    <string name="contactNameHasToContainAtLeastTwoCharacters">संपर्क नाम में कम से कम दो अक्षर होने चाहिए</string>
+    <string name="contactUs">हमसे संपर्क करें</string>
+    <string name="continue_label">जारी रखें</string>
+    <string name="customAmount">कस्टम राशि</string>
+    <string name="delete">हटाएं</string>
+    <string name="deleteAccount">खाता हटाएं</string>
+    <string name="disable">अक्षम करें</string>
+    <string name="disableCallForwarding">कॉल फ़ॉरवर्डिंग अक्षम करें</string>
+    <string name="doLater">बाद में करें</string>
+    <string name="done">पूर्ण</string>
+    <string name="earnNanoForTheirFirstBlockedCall">उनके पहले अवरुद्ध कॉल के लिए नैनो अर्जित करें!</string>
+    <string name="editContact">संपर्क संपादित करें</string>
+    <string name="enable">सक्षम करें</string>
+    <string name="enterAddress">पता दर्ज करें</string>
+    <string name="enterAmount">राशि दर्ज करें</string>
+    <string name="enter_your_name">अपना नाम दर्ज करें</string>
+    <string name="enter_your_phone">अपना फोन दर्ज करें</string>
+    <string name="entertainment">मनोरंजन</string>
+    <string name="verificationFailedTryAgain">सत्यापन विफल रहा। कृपया पुनः प्रयास करें।</string>
+    <string name="failed_lower">विफल</string>
+    <string name="faQs">अक्सर पूछे जाने वाले प्रश्न</string>
+    <string name="food">भोजन</string>
+    <string name="freeNano">मुफ्त नैनो</string>
+    <string name="getPaidTo">के लिए भुगतान प्राप्त करें...</string>
+    <string name="giftCards">गिफ्ट कार्ड</string>
+    <string name="goodAfternoon">शुभ दोपहर</string>
+    <string name="goodEvening">शुभ संध्या</string>
+    <string name="goodMorning">शुभ प्रभात</string>
+    <string name="hello">नमस्ते</string>
+    <string name="history">इतिहास</string>
+    <string name="howItWorks">यह कैसे काम करता है</string>
+    <string name="iGetPaidToBlockPhoneSpamCallsWithKarmaCallNSignUpHereAndWeWillBothGetPaidExtraWhenYouBlockYourFirstCall">मैं KarmaCall के साथ फोन स्पैम कॉल
+        ब्लॉक करने के लिए
+        भुगतान प्राप्त करता हूं!\nयहां साइन अप करें और हम दोनों को अतिरिक्त भुगतान मिलेगा जब आप अपना पहला कॉल ब्लॉक करेंगे।
+    </string>
+    <string name="karmaCallInvite">KarmaCall आमंत्रण</string>
+    <string name="language">भाषा</string>
+    <string name="learnMoreAboutKarmaCall">KarmaCall के बारे में अधिक जानें</string>
+    <string name="loading">लोड हो रहा है…</string>
+    <string name="locked">लॉक है</string>
+    <string name="logo">लोगो</string>
+    <string name="logOut">लॉग आउट</string>
+    <string name="login">लॉग इन</string>
+    <string name="login_spaced">लॉग इन</string>
+    <string name="manageFunds">निधि प्रबंधित करें</string>
+    <string name="myWallet">मेरा वॉलेट</string>
+    <string name="name">नाम</string>
+    <string name="nanoAddress">नैनो पता</string>
+    <string name="next">अगला</string>
+    <string name="no">नहीं</string>
+    <string name="nothingFound">कुछ नहीं मिला</string>
+    <string name="notification">अधिसूचना</string>
+    <string name="openSettings">सेटिंग्स खोलें</string>
+    <string name="other">अन्य</string>
+    <string name="pleaseSelectCategoriesThatYouLike">कृपया अपनी पसंद की श्रेणियां चुनें।</string>
+    <string name="pointCameraAtQRCode">QR कोड पर कैमरा लक्ष्य करें</string>
+    <string name="premiumSubscription">प्रीमियम सदस्यता</string>
+    <string name="privacyPolicy">गोपनीयता नीति</string>
+    <string name="pushNotifications">पुश अधिसूचनाएं</string>
+    <string name="realEstate">रियल एस्टेट</string>
+    <string name="recentActivity">हाल की गतिविधि</string>
+    <string name="recentCallsFromContacts">संपर्कों से हाल ही के कॉल</string>
+    <string name="recentCallsFromContactsWillAppearHere">संपर्कों से हाल के कॉल यहां दिखाई देंगे</string>
+    <string name="recentTransactions">हाल के लेनदेन</string>
+    <string name="recentTransactionsWillAppearHere">हाल के लेनदेन यहां दिखाई देंगे</string>
+    <string name="referral">रेफरल</string>
+    <string name="requiredQuestion">आवश्यक प्रश्न</string>
+    <string name="retail">खुदरा</string>
+    <string name="saveChanges">परिवर्तन सहेजें</string>
+    <string name="saveContact">संपर्क सहेजें</string>
+    <string name="scamCalls">स्कैम कॉल</string>
+    <string name="scanQRCode">QR कोड स्कैन करें</string>
+    <string name="scanningNotSupported">स्कैनिंग समर्थित नहीं है</string>
+    <string name="searchContact">संपर्क खोजें</string>
+    <string name="searchEmailOrName">ईमेल या नाम खोजें</string>
+    <string name="searchPhoneNumberOrName">फोन नंबर या नाम खोजें</string>
+    <string name="send">भेजें</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="setupCallForwarding">कॉल फॉरवर्डिंग सेटअप करें</string>
+    <string name="shareYourLink">अपनी लिंक साझा करें</string>
+    <string name="signIn">साइन इन करें</string>
+    <string name="signUp">साइन अप करें</string>
+    <string name="skip">छोड़ें</string>
+    <string name="smsNotifications">SMS अधिसूचनाएं</string>
+    <string name="spamCallsAreBlocked">स्पैम कॉल अवरुद्ध हैं</string>
+    <string name="spamCallsAreUnblocked">स्पैम कॉल अनब्लॉक हैं</string>
+    <string name="startEarningMoney">पैसा कमाना शुरू करें</string>
+    <string name="syncContacts">संपर्क सिंक करें</string>
+    <string name="inTwoWays">दो तरीकों से</string>
+    <string name="surveyToUnlock">अनलॉक करने के लिए सर्वेक्षण</string>
+    <string name="takeSurveys">सर्वेक्षण लें</string>
+    <string name="thereIsNotEnoughFundsToProceed">आगे बढ़ने के लिए पर्याप्त धनराशि नहीं है</string>
+    <string name="thisPhoneNumberCannotReceiveFundsInNano">यह फोन नंबर नैनो में धनराशि प्राप्त नहीं कर सकता।</string>
+    <string name="toEnableSpamBlockingPleaseEnableCallForwardingAtTheSideOfYourCarrier">स्पैम ब्लॉकिंग को सक्षम करने के लिए, कृपया कॉल अग्रेषण को सक्षम करें। आप
+        अपना वही फोन नंबर रखेंगे और आप अपनी सेटिंग्स में कॉल अग्रेषण बंद कर सकते हैं।
+    </string>
+    <string name="totalBalance">कुल शेषराशि</string>
+    <string name="transfer">स्थानांतरण</string>
+    <string name="transferAmount">स्थानांतरण राशि:</string>
+    <string name="transferConfirmation">स्थानांतरण पुष्टि</string>
+    <string name="transferCustomAmount">कस्टम राशि स्थानांतरित करें</string>
+    <string name="transferToEmail">ईमेल पर स्थानांतरण</string>
+    <string name="transferToPhoneNumber">फोन नंबर पर स्थानांतरण</string>
+    <string name="transferred">स्थानांतरित</string>
+    <string name="unblockContact">संपर्क अनब्लॉक करें</string>
+    <string name="validationErrorFillOutFields">कृपया, सभी आवश्यक फ़ील्ड भरें</string>
+    <string name="validationErrorFillOutValidPhone">कृपया, एक मान्य फोन नंबर दर्ज करें</string>
+    <string name="validationErrorNameTooShort">आपके नाम में कम से कम दो अक्षर होने चाहिए</string>
+    <string name="wantToEarnMoneyByInvitingYourFriendsToJoin">अपने दोस्तों को जुड़ने के लिए आमंत्रित करके पैसे कमाना चाहते हैं?</string>
+    <string name="withdraw">निकालें</string>
+    <string name="withdrawIntoCash">नकद में निकालें</string>
+    <string name="withdrawToAGiftCard">एक गिफ्ट कार्ड में निकालें</string>
+    <string name="withdrawToANanoAddress">एक नैनो पते पर निकालें</string>
+    <string name="withdrawToNanoAddress">नैनो पते पर निकालें</string>
+    <string name="withdrawalConfirmation">निकासी पुष्टि</string>
+    <string name="youCurrentlyHave">आपके पास वर्तमान में है</string>
+    <string name="youWillBeAbleToSetCallForwardingInSettingsLater">आप बाद में सेटिंग्स में कॉल अग्रेषण सेट कर पाएंगे।</string>
+    <string name="yourCallsWillAppearHere">आपके कॉल यहां दिखाई देंगे</string>
+    <string name="yourPhoneNumber">आपका फोन नंबर</string>
+    <string name="karmaCallRequiresAccessToContactsToProceedGoToSettingsToGrantAccess">आगे बढ़ने के लिए KarmaCall को संपर्कों तक पहुंच की आवश्यकता है।
+        पहुँच प्रदान करने के लिए सेटिंग्स पर जाएँ।
+    </string>
+    <string name="nothingFoundYouCanEnterANewPhoneNumber">कुछ नहीं मिला। आप एक नया फोन नंबर दर्ज कर सकते हैं।</string>
+    <string name="yourDeviceDoesNotSupportScanningACodeFromAnItemPleaseUseADeviceWithACamera">आपका डिवाइस किसी आइटम से कोड स्कैन करने का समर्थन नहीं करता।
+        कृपया कैमरे वाले डिवाइस का उपयोग करें।
+    </string>
+    <string name="onboardingCashCalls">बस एक कॉल का जवाब देने के लिए तुरंत भुगतान प्राप्त करें। किसी भी समय चालू और बंद करें। व्यवसाय लोगों से बात करने के नए
+        तरीके तलाशते हैं। KarmaCall उन तरीकों में से एक है जो आपको पूर्ण नियंत्रण देता है। प्रीमियम सदस्यता आपको प्रति मिनट न्यूनतम दर निर्धारित करने देती है।
+        आप अपने समय के मूल्य का निर्णय लेते हैं!
+    </string>
+    <string name="onboardingBlockScamCalls">हर बार जब आप KarmaCall को स्कैम कॉल ब्लॉक करने के लिए अनुमति देते हैं, हम आपको भुगतान करते हैं! बिना किसी न्यूनतम
+        निकासी सीमा या शुल्क के, आप हमारे इन-ऐप वॉलेट के माध्यम से किसी भी समय नकद निकाल सकते हैं।
+    </string>
+    <string name="onboardingSurvyes">जितनी अधिक जानकारी व्यवसाय आपके बारे में जानते हैं, आप उनके लिए फीडबैक के लिए उतने ही मूल्यवान बन जाते हैं। यदि आप उनकी
+        योग्यता के अनुरूप हैं तो व्यवसाय आपको उनसे बात करने के लिए अधिक भुगतान करेंगे।
+    </string>
+    <string name="onboardingCallForwarding">स्कैम कॉल ब्लॉक करने के लिए भुगतान प्राप्त करने के लिए, कृपया कॉल अग्रेषण सक्षम करें। आप अपना फोन नंबर रखते हैं,
+        लेकिन कॉल को हमारे सर्वर के माध्यम से संसाधित करने की आवश्यकता होती है। यदि आप केवल कैश कॉल चाहते हैं, तो आपको इस चरण को पूरा करने की आवश्यकता नहीं है।
+    </string>
+    <string name="failed_capital">विफल</string>
+    <string name="cash_out_to">को कैश आउट करें</string>
+    <string name="failed_getting_preferences">प्राथमिकताएं प्राप्त करते समय विफल। फिर से प्रयास करें?</string>
+    <string name="unable_to_send_otp">OTP भेजने में असमर्थ। बाद में प्रयास करें।</string>
+    <string name="otp_entered_not_valid">OTP दर्ज किया गया, लेकिन मान्य नहीं है।</string>
+    <string name="error_capital">त्रुटि</string>
+    <string name="error_lower">त्रुटि</string>
+    <string name="unknown_capital">अज्ञात</string>
+    <string name="error_unknown">अज्ञात त्रुटि</string>
+    <string name="please_complete_your_reg">कृपया पहले अपना पंजीकरण पूरा करें</string>
+    <string name="first_name">प्रथम नाम</string>
+    <string name="first_low">प्रथम</string>
+    <string name="last_name">अंतिम नाम</string>
+    <string name="email_string">ईमेल</string>
+    <string name="unsaved_changes">असंचित परिवर्तन!</string>
+    <string name="are_sure_discard_changes">क्या आप वाकई अपने परिवर्तनों को त्यागना चाहते हैं?</string>
+    <string name="personalized">निजीकृत</string>
+    <string name="business_options">व्यावसायिक विकल्प</string>
+    <string name="profile_picture">प्रोफ़ाइल तस्वीर</string>
+    <string name="options_word">विकल्प</string>
+    <string name="inbox_label">इनबॉक्स</string>
+    <string name="spam_label">स्पैम</string>
+    <string name="promotions_label">प्रचार</string>
+    <string name="auto_respond_emails">ईमेल का स्वचालित उत्तर दें?</string>
+    <string name="change_auto_responder_template">स्वत: प्रतिवादी ईमेल टेम्पलेट बदलें?</string>
+    <string name="try_again_later">बाद में पुनः प्रयास करें</string>
+    <string name="pleaseConfirmYouAgreeToTransfer">कृपया पुष्टि करें कि आप %1$s को %2$s में स्थानांतरित करने से सहमत हैं</string>
+    <string name="confirm_string">पुष्टि करें</string>
+    <string name="transferToNanoAddress">nano पते पर ट्रांसफर करें</string>
+    <string name="transferSelectionChoice">अपनी ट्रांसफर विधि चुनें</string>
+    <string name="recipientPhoneNumber">प्राप्तकर्ता का फोन नंबर</string>
+    <string name="recipient_string">प्राप्तकर्ता</string>
+    <string name="recipientNumber">प्राप्तकर्ता संख्या</string>
+    <string name="recipientNumber">प्राप्तकर्ता संख्या</string>
+    <string name="recipientEmail">प्राप्तकर्ता ईमेल</string>
+    <string name="amount_greater_than_zero">राशि 0 से अधिक होनी चाहिए</string>
+    <string name="pageXofY">पृष्ठ %1$s का %2$s</string>
+    <string name="errorWithXHappened">Error with code %1$s happened!</string>
+    <string name="errorWithXHappened">कोड %1$s के साथ त्रुटि हुई!</string>
+    <string name="blockMoreCallGift">उपहार पाने के लिए अधिक कॉल ब्लॉक करें</string>
+    <string name="copyNumber">इस नंबर को कॉपी करें</string>
+    <string name="contactAdded">संपर्क जोड़ा गया</string>
+    <string name="share_word">साझा करें</string>
+    <string name="checkInSummer">गर्मियों 2024 में वापस जाँच करें</string>
+    <string name="venmoComingSoon">Venmo (केवल अमेरिका में) अगस्त 2024 तक आ रहा है</string>
+    <string name="unknownCallerMinimum">अनजान कॉलर को आपको कॉल करने के लिए %1$s%2$s (~ %3$s नैनो) जमा करना होगा। यदि आप उत्तर देते हैं और %4$s सेकंड से अधिक बात करते हैं तो वे इसे वापस पा लेंगे।</string>
+    <string name="unknownBusinessCalls">अनजान व्यावसायिक कॉलर आपसे बात करने के लिए प्रति मिनट %1$s%2$s (~ %3$s नैनो प्रति मिनट) का भुगतान कर सकते हैं।</string>
+    <string name="amountPaidPerCall">हमें ब्लॉक करने दिए गए प्रत्येक कॉल के लिए आपको %1$s %2$s मिलते हैं।</string>
+    <string name="setOwnRatesComingSoon">"अपनी दर स्वयं निर्धारित करें" जल्द आ रहा है!</string>
+    <string name="benefitsNotAvailableYet">नीचे दिए गए लाभ अनुमतियाँ प्रदान होने तक उपलब्ध नहीं हैं</string>
+</resources>

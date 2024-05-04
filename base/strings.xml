@@ -1,0 +1,610 @@
+<resources>
+    tools:ignore="id"
+    <string name="versionName" translatable="false">4.0.18</string>
+    <string name="app_name" translatable="false">KarmaCall</string>
+    <string name="karma" translatable="false">Karma</string>
+    <string name="call">Call</string>
+    <string name="permission_read_phone_state">Read Phone State</string>
+    <string name="permission_read_contacts">Read Contacts</string>
+    <string name="permission_answer_phone_calls">Answer Calls</string>
+    <string name="permission_call_phone">Make Calls</string>
+    <string name="My_Country_Code">My Country Code</string>
+    <string name="blocked_call_notifications">Select Blocked Call Alerts</string>
+    <string-array name="notification_options">
+        <item>Notify Immediately</item>
+        <!--        <item>Notify at Day's End</item>-->
+        <item>No Notifications</item>
+    </string-array>
+    <string name="call_was_blocked">call was blocked</string>
+    <string name="rate_limit_exceeded_message">You have reached the limit. Please wait 5 minutes and try again.</string>
+    <string name="delete_data_popup_message">I want to delete my data from KarmaCall. I understand I will no longer have access to my nano account
+        which is associated with my KarmaCall account.
+    </string>
+    <string name="delete_data_long">If you wish to delete your data from our records, please click the button below.
+        WARNING - once you delete your data, you will no longer be able to access your nano account.
+    </string>
+    <string name="delete_data">Delete My Data</string>
+    \
+    <string name="shareBody">I get paid to block phone spam calls with KarmaCall!&#160; Sign up here and we will both get paid extra when you block your first
+        call.\n
+    </string>
+    <string name="invite">Invite</string>
+    <string name="referrals">Referrals</string>
+    <string name="label_is">is</string>
+    <string name="errorRetrievingFunds">Error Retrieving Funds</string>
+    <string name="codeColon">Code:</string>
+    <string name="referralShare">Share My Referral</string>
+    <string name="referralInfo">Get paid every time your friend signs up with
+        your referral code and blocks their first call!
+    </string>
+    <string name="enjoyUsing">If you enjoy using&#160;</string>
+    <string name="rateUsPlease">, please take a moment to rate us. Thanks for your support!</string>
+    <string name="rate">Rate&#160;</string>
+    <string name="remindMeLater">Remind me later</string>
+    <string name="noThanks">No, thanks</string>
+    <string name="permissionRequestPaid">Requesting Permissions To Pay You To Block Spam</string>
+    <string name="registerToGetPaid">Register Your Phone Number To Get Paid</string>
+    <string name="referralRewards">Referral Rewards</string>
+    <string name="blockingOff">Blocking Off</string>
+    <string name="blockingOn">Blocking On</string>
+    <string name="stopBlockingCalls">Stop Blocking Calls</string>
+    <string name="stopBlocking">Stop Blocking</string>
+    <string name="startBlockingCalls">Start Blocking Calls</string>
+    <string name="managePhoneNumber">Manage Phone Number</string>
+    <string name="startBlocking">Start Blocking</string>
+    <string name="registerPhoneCashBack">Please register your phone number to get cash back.</string>
+    <string name="privateNumber">Private Number</string>
+    <string name="no_blocking_simple">No. Let anyone call me.</string>
+    <string name="yes_blocking_simple">Yes. Only cash calls or contacts should be able to call me.</string>
+    <string name="check_stop_blocking_simple">Do you want to block calls?</string>
+    <string name="iKnowProceedWithoutPermission">I know what I\'m doing, let me see your app first!</string>
+    <string name="iWantToSelectCheckboxPermission">I want to select the check box to make you My KarmaCall!</string>
+    <string name="yes">Yes</string>
+    <string name="welcomeBack">Welcome back!</string>
+    <string name="notRegisteredYet">not registered yet</string>
+    <string name="pleaseAcceptPermissions">Please accept the permissions first</string>
+    <string name="myPhoneNumberIs">My phone number is&#160;</string>
+    <string name="failedMakeNewNanoAccount">failed to make new nano Account. Do you already have one? Try verifying your phone number</string>
+    <string name="couldNotConfirmNumber">Could not confirm your number, please try updating your phone number, thank you</string>
+    <string name="errorGettingExistingNanoAccount">Error when retrieving existing nano account</string>
+    <string name="noPhoneEntered">No phone number was entered for verification</string>
+    <string name="smsCodeNotEntered">OTP not entered, please update or verify your phone number</string>
+    <string name="verifyFailed">Verification Failed</string>
+    <string name="successWelcomeFuture">Success! Welcome to the future!</string>
+    <string name="code_not_entered">SMS code not entered</string>
+    <string name="phoneNumberBlank">Phone number for update was left blank. Please try again.</string>
+    <string name="phoneNumberUpdateCancelled">Phone number update cancelled</string>
+    <string name="already_registered_phone_number">You Have Already Registered Your Phone Number</string>
+    <string name="sorry_some_error_balance">Sorry, some error happened when looking up your balance</string>
+    <string name="sorry_some_error">Sorry, some error happened</string>
+    <string name="withdraw_failed">Withdraw failed. Double check your amount or nano withdrawal address</string>
+    <string name="withdraw_success">Your send was successful!</string>
+    <string name="invalid_nano_format">Invalid nano account format. Please double-check your nano account entry for typos</string>
+    <string name="enter_amount_withdraw">You must enter an amount to withdraw</string>
+    <string name="error_with_faucet">Error when using faucet, please try again</string>
+    <string name="coming_soon">Coming soon!</string>
+    <string name="faucet_of_knowledge">You have already used the faucet, please allow others to drink from the fountain of knowledge</string>
+    <string name="no_nano_account_register_please">You do not have a nano account yet. Try registering your phone number</string>
+    <string name="faucet_nano_received">You have received 0.0001 nano!</string>
+    <string name="terms_conditions">By Using Our Services, You Hereby Accept Our Privacy Policy &amp; Terms and Conditions</string>
+    <string name="faucet_free">Faucet = Free $$$</string>
+    <string name="send_email">Send Email</string>
+    <string name="feedback_comments">Please Leave Us Feedback, Comments, Questions or Concerns. Thank you!</string>
+    <string name="choose_your_language">Please choose your language</string>
+    <string name="check_stop_blocking">I only want cash calls and contacts to ring my phone.</string>
+    <string name="stop_start_blocking">Stop/Start Blocking</string>
+    <string name="blockedCalls">Blocked Calls</string>
+    <string name="version">Version&#160;</string>
+    <string name="label_Wallet">Wallet</string>
+    <string name="label_Withdraw">Withdraw</string>
+    <string name="Withdrawal_Request">Withdrawal Request</string>
+    <string name="label_Deposit">Deposit</string>
+    <string name="Faucet">Use Faucet - Get Free $$ Instantly</string>
+    <!--    Future work - remove usages of nano "address", use nano "account" instead-->
+    <!--    Note, RoboServer uses nano "address" and this is fine to leave that usage on RoboServer-->
+    <!--    When moving values from RoboServer into the front end app however, please use nano "account"-->
+    <!--    as that is the proper terminology to use with everyone we speak to.-->
+    <string name="Nano_address">nano Address</string>
+    <string name="See_my_Nano_account">See my nano account</string>
+    <string name="Nano_account">nano account</string>
+    <string name="Here_is_your_Nano_account">Here is your nano account</string>
+    <string name="Cash_out_to_USD">Cash out to USD</string>
+    <string name="Nano_value">nano Value</string>
+    <string name="USD">USD value</string>
+    <string name="USD_Funds">USD Funds</string>
+    <string name="Nano_Funds">nano Funds</string>
+    <string name="USD_Earned">USD Earned</string>
+
+    <!--    Also, begin to use proper capitalization in app where possible.-->
+    <!--    Low priority - Should variable names in XML files follow Java standards?
+        e.g. "Update_My_Nano_Account changes to updateMyNanoAccount-->
+    <string name="Update_My_Nano_Account">Update my nano account</string>
+    <string name="Submit_Ticket">Submit Ticket</string>
+    <string name="View_Gift_Cards">View Gift Cards</string>
+
+    <string name="My_Phone_Number">My Phone Number</string>
+    <string name="Update_My_Phone_Number">Update my phone number</string>
+    <string name="Verify_My_Phone_Number">Verify my phone number</string>
+    <string name="Register_My_Phone_Number">Register my phone number</string>
+    <string name="Enter_Phone_Number_For_OTP">Please enter the phone number of this device to get a one-time password sent to you through SMS</string>
+    <string name="Enter_OTP_Response">Please enter the password that was messaged to you</string>
+    <string name="My_OTP">My 6 digit code</string>
+    <string name="Amount_To_Withdraw">Enter amount of nano to withdraw</string>
+    <string name="Enter_Nano_Account_To_Withdraw_To_Below">Enter your external nano account below</string>
+    <string name="Open_navigation_drawer">Open navigation drawer</string>
+    <string name="Close_navigation_drawer">Close navigation drawer</string>
+    <string name="label_Information">Information</string>
+    <string name="label_Exit">Exit</string>
+    <string name="SELECT_ALL">SELECT ALL</string>
+    <string name="label_DELETE">DELETE</string>
+    <string name="label_CANCEL">CANCEL</string>
+    <string name="label_CONTINUE">CONTINUE</string>
+    <string name="label_ADD">ADD</string>
+    <string name="Adding_contact">Adding a contact</string>
+    <string name="Saving_">Saving…</string>
+    <string name="call_is_blocked">call is blocked</string>
+    <string name="message_is_blocked">message is blocked</string>
+    <string name="message_is_received">message is received</string>
+    <string name="Search_action">Search</string>
+    <string name="Starts_with">Starts with:</string>
+    <string name="Ends_with">Ends with:</string>
+    <string name="Delete_record">Delete record</string>
+    <string name="Copy_number">Copy number</string>
+    <string name="Copy_text">Copy text</string>
+    <string name="Find_similar_records">Find similar records</string>
+    <string name="Exclude_from_black_list">Exclude contact from the Blacklist</string>
+    <string name="Move_to_white_list">Move contact to the Whitelist</string>
+    <string name="Move_to_black_list">Move contact to the Blacklist</string>
+    <string name="needs_permission">needs permission</string>
+    <string name="needs_permissions">needs permissions</string>
+    <string name="Write_message">Write message</string>
+    <string name="Copied_to_clipboard">Copied to clipboard</string>
+    <string name="Menu_button">Menu button</string>
+    <string name="List_is_empty">List is empty</string>
+    <string name="Logo_motto">Get Paid To Stop Spam</string>
+    <string name="label_About">About</string>
+    <string name="Welcome">Welcome!</string>
+    <string name="Info_welcome">
+        We will send all unknown calls to your voicemail unless they leave you a $0.05 NanoDeposit.
+        If an unknown call rings more than once, it means they have left you a NanoDeposit.
+        Answer the call to find out who left you a deposit.
+        If you don\'t like the call, just hang up before 25 seconds and keep the deposit.
+    </string>
+    <string name="label_FAQ">FAQ</string>
+    <string name="TBD_value">TBD</string>
+    <string name="permissionRequest">Requesting Permissions To Be Your Cash-Back Spam Blocker</string>
+    <string name="permissionWarning">Without these permissions, we cannot block calls for you. Are you sure you want to proceed?
+        You can register your phone number for call-blocking functionality in the app later.
+    </string>
+    <string name="permissionPurpose">
+        We need permissions to serve as your personal paywall.
+        \nWe only use these permissions to allow cash-calls and your friends/family through, while blocking unpaid, unsolicited calls
+    </string>
+    <string name="permissionRequired">Enable permissions</string>
+    <string name="permissionRequestInformation">
+        Put in here about string if needed
+    </string>
+    <string name="attention">Attention</string>
+    <string name="messaging">Messaging</string>
+    <string name="Info_messaging">SMS.</string>
+    <string name="Black_list">Black list</string>
+    <string name="White_list">White list</string>
+    <string name="Info_white_list">Whitelist.</string>
+    <string name="Info_journal">
+        This is the list of records with info about the events of calls/SMS blocking.
+        Disabling logging of the events can be done in the Settings.
+    </string>
+    <string name="label_License">License</string>
+    <string name="Info_licence">Copyright</string>
+    <string name="label_Author">Author</string>
+    <string name="About_us_message">
+        Imagine a future where every unknown phone call comes with a guarantee of IMMEDIATE financial
+        compensation.
+        \nBy using this app, you are making that future a reality. Thank you.
+
+        \n\nWe developed this application to fight back against scammers who steal more than $10 Billion
+
+        every year from vulnerable people through phone fraud. We will give you power over your most
+
+        precious commodity. Your Time.
+
+        \n\nThis app will always be free to use, because everyone that joins us becomes part of the
+
+        bigger picture of data revolution. If enough of us refuse to answer calls, the bad actors will notice and you will get paid for your data.
+
+        \n\nThank you for being part of the revolution.
+
+        \n\nHelp us with brutally honest feedback and bug reports.
+
+        \n\nSincerely,
+
+        \nAEG, DRJ, VJ, JC, PJG, CR.
+
+    </string>
+    <string name="Our_Commitment">Our Commitment</string>
+    <string name="Our_Commitment_Description">
+        Our mission is to create a market which financially rewards all its participants and is
+        strengthened by numbers. Through KarmaCall, your data becomes a commodity which you have
+        the power to sell or keep to yourself. We believe the future of great businesses is in
+        shared prosperity and that requires that you are financially compensated for your data and time.
+        \n\nWe stand by the new European Union policy, giving our clients and users a greater say in
+        what happens with their data.
+    </string>
+    <string name="GDPR">What is GDPR?</string>
+    <!--    Would like to have the Cash in our name show our color like header_nav_bar_main.xml. Need to fix
+        the linking at the end as well. See
+        https://stackoverflow.com/questions/9204303/android-is-it-possible-to-add-a-clickable-link-into-a-string-resource-->
+    <string name="GDPR_Description">The GDPR (General Data Protection Regulation) went into effect on May 25, 2018 in the
+        European Union. The GDPR applies to every company that processes EU citizens\' PII
+        (Personally Identifiable Information). This new law prioritizes the importance of the
+        protection and privacy of your personal information in several key areas. The state of
+        California recently passed the California Consumer Privacy Act (CCPA). All the rights of
+        CCPA are met by complying with the GDPR which KarmaCall does, as described below.
+        \n\nFirst, KarmaCall provides the ability to consent to data collection in an easily accessible
+        format. At KarmaCall, we store your personal contact information – phone number, digital wallet,
+        as well as data concerned with our performance of contract which in part captures digital
+        wallet transactions for anti-spam purposes and length of your call times for improving our
+        services. Along with your basic contact information, we use Flurry Analytics to track how you
+        use our application so we can learn how to improve it to make your experience as enjoyable as
+        possible. Any other data which is VOLUNTARILY provided by you (demographics and
+        psychographics), but is not required for our spam-blocking features, will be stored as well.
+        \n\nSecond, KarmaCall supplies the opportunity to request your data. We display the data
+        currently held under your user and/or business entity in a user-friendly format.
+        KarmaCall does not sell or provide your data to any 3rd party sources for any reason.
+        \n\nThird, KarmaCall presents the option to have all data we have collected, deleted on request.
+        If you make this request, we will comply without undue delay except as required by other
+        laws. For example, some financial data may not be deleted if it is required for tax records.
+        \n\nFor more information,
+        <a href="https://www.techrepublic.com/article/the-eu-general-data-protection-regulation-gdpr-the-smart-persons-guide/">an overview of the EU GDPR
+            regulations can be found here.
+        </a>
+    </string>
+    <string-array name="phone_metadata">
+        <item>equals to:</item>
+        <item>contains:</item>
+        <item>starts with:</item>
+        <item>ends with:</item>
+    </string-array>
+    <!-- Strings used for fragments for navigation -->
+    <string name="previous">Previous</string>
+    <string name="label_CALL">CALL</string>
+    <string name="readyToHandle">Ready to handle incoming calls</string>
+    <string name="protectedWord">Protected</string>
+    <string name="press">Press</string>
+    <string name="toStop">to stop</string>
+    <!--    From other repo  -->
+    <!--    From other repo  -->
+    <!--    From other repo  -->
+    <!--    From other repo  -->
+    <!--    From other repo  -->
+    <string name="onboarding_title">Innovative digital\nfinancial planner &amp;\n management</string>
+    <string name="onboarding_message">Designed to help you manage and transfer your money easily,\nefficiently, and securely.</string>
+    <string name="get_started">Get Started</string>
+    <string name="by_continue_you_agree_terms">By continuing you agree to KarmaCall\'s</string>
+    <string name="terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="privacy_and_policies">Privacy &amp; Policies</string>
+    <string name="sign_in_with_apple">Sign in with Apple</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="verify_phone_number">Verify Phone Number</string>
+    <string name="need_help">Need Help?</string>
+    <string name="key">Key</string>
+    <string name="you_will_receive_an_otp">You will receive an OTP to verify this phone.</string>
+    <string name="phone_verification">Phone Verification</string>
+    <!-- todo update to shorter line in other languages...-->
+    <string name="please_enter_otp_sent">Please enter the verification code</string>
+    <string name="resend_code">Resend code</string>
+    <!--    <string name="change_phone_number">Change phone number</string>-->
+    <string name="change_phone_number">Need to change numbers? Swipe back</string>
+    <string name="verify_code">Verify Code</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="identity_verification">Identity Verification</string>
+    <string name="scan_national_id">Scan ID document to\n verify your identity</string>
+    <string name="confirm_your_identity_with_few_taps">Confirm your identity with just a few taps on\n your phone</string>
+    <string name="camera_permission_required">Camera permission is required, please provide it to continue!</string>
+    <string name="why_is_it_required">Why is it required ?</string>
+    <string name="scan_id_tips">Scanning ID tips</string>
+    <string name="find_a_well_lit_area">Find a well-lit area</string>
+    <string name="steady_your_camera">Steady your camera</string>
+    <string name="position_the_id_properly">Position the ID properly</string>
+    <string name="zoom_in_if_necessary">Zoom in if necessary</string>
+    <string name="focus_on_the_id">Focus on the ID</string>
+    <string name="requiring_id_overall_desc">Requesting a national ID when opening a bank account helps protect both the bank and the customer by ensuring
+        compliance with regulations, preventing fraud, and enhancing security.
+    </string>
+    <string name="start_scanning">Start Scanning</string>
+    <string name="i_agree_on_id_scanning_policies">
+        <![CDATA[I have read & understood and accept the terms and conditions of the service, and I allow the service provider to scan my national ID and save it and use it securely for the provided services.]]></string>
+    <string name="id_reason_verification_of_identity">Verification of identity: A national ID is a reliable and standardized form of identification that helps
+        banks verify the identity of the account holder.
+    </string>
+    <string name="id_reason_compliance_with_regulations">Compliance with regulations: Banks are required to comply with various regulations, such as anti-money
+        laundering (AML) and know your customer (KYC) rules.
+    </string>
+    <string name="id_reason_enhance_security">Enhanced security: By requesting a national ID, banks can enhance the security of their customers\' accounts. It
+        helps protect against unauthorized access and ensures that only the account holder can perform transactions.
+    </string>
+    <string name="id_reason_prevention_of_fin_crimes">Prevention of financial crimes: A national ID can help banks in their efforts to prevent financial crimes,
+        such as money laundering, terrorist financing, and tax evasion.
+    </string>
+    <string name="id_reason_streamlined_processes">Streamlined processes: Requesting a national ID helps banks streamline their account opening processes. It
+        provides a standardized and easily verifiable form of identification, making it easier for banks to verify customer information and complete the
+        necessary paperwork.
+    </string>
+    <string name="scan_front_of_id">Please scan the front side of the ID</string>
+    <string name="scan_back_of_id">Please scan the back side of the ID</string>
+    <string name="verify_identity_requirements">Before start, please follow this tips</string>
+    <string name="start_verification">Start Verification</string>
+    <string name="follow_instructions">Follow guide and instructions</string>
+    <string name="get_cap_off">Ensure to take off your cap in case you are wearing it.</string>
+    <string name="take_off_glasses">Ensure to take off your glasses in case you are wearing it.</string>
+    <string name="take_selfie_to_verify_identity">Take a selfie to verify\n your identity</string>
+    <string name="quick_and_easy_identity_verification">Quick and easy identity verification using\n your phone\'s camera. Confirm your identity with a
+        self-captured photo
+    </string>
+    <string name="please_wait_a_seconds">Please wait a seconds …</string>
+    <string name="do_you_want_to_proceed_with_this_image">Do you want to proceed with this image?</string>
+    <string name="ensure_image_is_completely_clear">It will be used to verify your identity, so please ensure it\'s completely clear.</string>
+    <string name="verifying_your_identity">Verifying your identity</string>
+    <string name="it_will_take_seconds">It will take |%1$d| seconds, please wait …</string>
+    <string name="complete_account_registration">Complete Account Registration</string>
+    <string name="enter_your_pin">Enter your PIN code</string>
+    <string name="it_will_not_take_long">It will not take long</string>
+    <string name="id_verification_in_progress">ID verification\nin progress</string>
+    <string name="available_balance">Available Balance</string>
+    <string name="see_all">See all</string>
+    <string name="current_activity">Current Activity</string>
+    <string name="last_5">Last 5</string>
+    <string name="last_3_days">Last 3 days</string>
+    <string name="last_week">Last week</string>
+    <string name="last_month">Last month</string>
+    <string name="last_3_months">Last 3 months</string>
+    <string name="last_6_months">Last 6 months</string>
+    <string name="last_9_months">Last 9 months</string>
+    <string name="last_year">Last Year</string>
+    <string name="add_money">Add money</string>
+    <string name="send_money">Send money</string>
+    <string name="request_money">Request money</string>
+    <string name="no_transactions_in_this_period">Looks like you didn\'t made any transactions during this period</string>
+    <string name="home">Home</string>
+    <string name="wallet">Wallet</string>
+    <string name="qr_code">QR Code</string>
+    <string name="profile">Profile</string>
+    <string name="top_up">Top Up</string>
+    <string name="transactions">Transactions</string>
+    <string name="name_return">Name\n</string>
+    <string name="exp">Exp %1$s</string>
+    <string name="my_q_code">My Q Code</string>
+    <string name="scan_the_qr_to_send_the_money">Scan the QR to send the money</string>
+    <string name="search_a_name">Search a name</string>
+    <string name="contacts">Contacts</string>
+    <!--    Converted String resources from iOS-->
+    <!--    Converted String resources from iOS-->
+    <!--    Converted String resources from iOS-->
+    <!--    Converted String resources from iOS-->
+    <string name="safeToAnswer">It\'s safe to answer your phone again.</string>
+    <string name="finish">Finish</string>
+    <string name="sent_to">Sent to</string>
+    <string name="verify">Verify</string>
+    <string name="resend">Resend</string>
+    <string name="new_question_mark">New?</string>
+    <string name="friend">Friend</string>
+    <string name="alreadyHaveAnAccount">Already have an account?</string>
+    <string name="aboutUs">About Us</string>
+    <string name="accept">Accept</string>
+    <string name="accepting">Accepting</string>
+    <string name="account">Account</string>
+    <string name="accountDetails">Account Details</string>
+    <string name="addContact">Add contact</string>
+    <string name="allowAccessToContactsToBlockSpamCalls">Allow Contacts Access for automatic whitelist</string>
+    <string name="grantAccessToContactsToAllowGoodCalls">Grant Contacts Access to Allow Good Calls</string>
+    <string name="grantAccessToCallsToStopUnwantedOnes">Grant Calls Access to Stop Unwanted Ones</string>
+    <string name="granttCallManagerRole">Grant Call Manager Role to KarmaCall</string>
+    <string name="areYouSureThatYouWantToBlockThisContact">Are you sure that you want to block this contact?</string>
+    <string name="areYouSureThatYouWantToDeleteYourAccount">Are you sure that you want to delete your account?</string>
+    <string name="areYouSureThatYouWantToLogOut">Are you sure that you want to log out?</string>
+    <string name="areYouSureThatYouWantToUnblockThisContact">Are you sure that you want to unblock this contact?</string>
+    <string name="auto">Auto</string>
+    <string name="blockContact">Block Contact</string>
+    <string name="blockScamCalls">Block\nScam Calls</string>
+    <string name="blockScamCallsOneLine">Block Scam Calls</string>
+    <string name="blocked">Blocked</string>
+    <string name="blockedCallsWillAppearHere">Blocked calls will appear here</string>
+    <string name="blocking">Blocking</string>
+    <string name="callForwarding">Call Forwarding</string>
+    <string name="callLog">Call Log</string>
+    <string name="cancel">Cancel</string>
+    <string name="cash">Cash</string>
+    <string name="cashCalls">Cash Calls</string>
+    <string name="chooseCarrier">Choose carrier</string>
+    <string name="contactDetails">Contact Details</string>
+    <string name="contactName">Contact name</string>
+    <string name="contactNameHasToContainAtLeastTwoCharacters">Contact name has to contain at least two characters</string>
+    <string name="contactUs">Contact Us</string>
+    <string name="continue_label">Continue</string>
+    <string name="customAmount">Custom Amount</string>
+    <string name="delete">Delete</string>
+    <string name="deleteAccount">Delete Account</string>
+    <string name="disable">Disable</string>
+    <string name="disableCallForwarding">Disable Call Forwarding</string>
+    <string name="doLater">Do later</string>
+    <string name="done">Done</string>
+    <string name="earnNanoForTheirFirstBlockedCall">Earn Nano for their first blocked call!</string>
+    <string name="editContact">Edit contact</string>
+    <string name="enable">Enable</string>
+    <string name="enterAddress">Enter Address</string>
+    <string name="enterAmount">Enter Amount</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_phone">Enter your phone</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="verificationFailedTryAgain">Verification failed. Please try again.</string>
+    <string name="failed_lower">failed</string>
+    <string name="faQs">FAQs</string>
+    <string name="food">Food</string>
+    <string name="freeNano">Free Nano</string>
+    <string name="getPaidTo">Get paid to...</string>
+    <string name="giftCards">Gift Cards</string>
+    <string name="goodAfternoon">Good Afternoon</string>
+    <string name="goodEvening">Good Evening</string>
+    <string name="goodMorning">Good Morning</string>
+    <string name="hello">Hello</string>
+    <string name="history">History</string>
+    <string name="howItWorks">How it works</string>
+    <string name="iGetPaidToBlockPhoneSpamCallsWithKarmaCallNSignUpHereAndWeWillBothGetPaidExtraWhenYouBlockYourFirstCall">I get paid to block phone spam calls
+        with KarmaCall!\nSign up here and we will both get paid extra when you block your first call.
+    </string>
+    <string name="karmaCallInvite">KarmaCall Invite</string>
+    <string name="language">Language</string>
+    <string name="learnMoreAboutKarmaCall">Learn more about KarmaCall</string>
+    <string name="loading">Loading…</string>
+    <string name="locked">Locked</string>
+    <string name="logo">Logo</string>
+    <string name="logOut">Log Out</string>
+    <string name="login">Login</string>
+    <string name="login_spaced">Log In</string>
+    <string name="manageFunds">Manage Funds</string>
+    <string name="myWallet">My Wallet</string>
+    <string name="name">Name</string>
+    <string name="nanoAddress">Nano Address</string>
+    <string name="next">Next</string>
+    <string name="no">No</string>
+    <string name="nothingFound">Nothing found</string>
+    <string name="notification">Notification</string>
+    <string name="openSettings">Open Settings</string>
+    <string name="other">Other</string>
+    <string name="pleaseSelectCategoriesThatYouLike">Please select categories that you like.</string>
+    <string name="pointCameraAtQRCode">Point camera at QR Code</string>
+    <string name="premiumSubscription">Premium Subscription</string>
+    <string name="privacyPolicy">Privacy Policy</string>
+    <string name="pushNotifications">Push Notifications</string>
+    <string name="realEstate">Real Estate</string>
+    <string name="recentActivity">Recent Activity</string>
+    <string name="recentCallsFromContacts">Recent Calls from Contacts</string>
+    <string name="recentCallsFromContactsWillAppearHere">Recent Calls from Contacts will appear here</string>
+    <string name="recentTransactions">Recent Transactions</string>
+    <string name="recentTransactionsWillAppearHere">Recent Transactions will appear here</string>
+    <string name="referral">Referral</string>
+    <string name="requiredQuestion">Required question</string>
+    <string name="retail">Retail</string>
+    <string name="saveChanges">Save changes</string>
+    <string name="saveContact">Save contact</string>
+    <string name="scamCalls">Scam Calls</string>
+    <string name="scanQRCode">Scan QR Code</string>
+    <string name="scanningNotSupported">Scanning not supported</string>
+    <string name="searchContact">Search contact</string>
+    <string name="searchEmailOrName">Search email or name</string>
+    <string name="searchPhoneNumberOrName">Search phone number or name</string>
+    <string name="send">Send</string>
+    <string name="settings">Settings</string>
+    <string name="setupCallForwarding">Setup Call Forwarding</string>
+    <string name="shareYourLink">Share your link</string>
+    <string name="signIn">Sign In</string>
+    <string name="signUp">Sign Up</string>
+    <string name="skip">Skip</string>
+    <string name="smsNotifications">SMS Notifications</string>
+    <string name="spamCallsAreBlocked">Spam Calls are Blocked</string>
+    <string name="spamCallsAreUnblocked">Spam Calls are Unblocked</string>
+    <string name="startEarningMoney">Start earning money</string>
+    <string name="syncContacts">Sync Contacts</string>
+    <string name="inTwoWays">in two ways</string>
+    <string name="surveyToUnlock">Survey to Unlock</string>
+    <string name="takeSurveys">Take Surveys</string>
+    <string name="thereIsNotEnoughFundsToProceed">There is not enough funds to proceed</string>
+    <string name="thisPhoneNumberCannotReceiveFundsInNano">This phone number cannot receive funds in Nano.</string>
+    <string name="toEnableSpamBlockingPleaseEnableCallForwardingAtTheSideOfYourCarrier">To enable Spam Blocking, please enable Call Forwarding. You will keep
+        your same phone number and you can turn Call Forwarding in your settings.
+    </string>
+    <string name="totalBalance">Total Balance</string>
+    <string name="transfer">Transfer</string>
+    <string name="transferAmount">Transfer amount:</string>
+    <string name="transferConfirmation">Transfer Confirmation</string>
+    <string name="transferCustomAmount">Transfer Custom Amount</string>
+    <string name="transferToEmail">Transfer to email</string>
+    <string name="transferToPhoneNumber">Transfer to phone number</string>
+    <string name="transferToNanoAddress">Transfer to nano address</string>
+    <string name="transferSelectionChoice">Choose your transfer method</string>
+    <string name="recipientPhoneNumber">Recipient Phone Number</string>
+    <string name="recipientNumber">Recipient Number</string>
+    <string name="recipientEmail">Recipient Email</string>
+    <string name="recipient_string">Recipient</string>
+    <string name="transferred">Transferred</string>
+    <string name="unblockContact">Unblock Contact</string>
+    <string name="validationErrorFillOutFields">Please, fill out all the required fields</string>
+    <string name="validationErrorFillOutValidPhone">Please, enter a valid phone number</string>
+    <string name="validationErrorNameTooShort">Your name has to contain at least two characters</string>
+    <string name="wantToEarnMoneyByInvitingYourFriendsToJoin">Want to earn money by inviting your friends to join?</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="withdrawIntoCash">Withdraw into cash</string>
+    <string name="withdrawToAGiftCard">Withdraw to a gift card</string>
+    <string name="withdrawToANanoAddress">Withdraw to a nano address</string>
+    <string name="withdrawToNanoAddress">Withdraw to Nano Address</string>
+    <string name="withdrawalConfirmation">Withdrawal Confirmation</string>
+    <string name="youCurrentlyHave">You currently have</string>
+    <string name="youWillBeAbleToSetCallForwardingInSettingsLater">You will be able to set Call Forwarding in Settings later.</string>
+    <string name="yourCallsWillAppearHere">Your calls will appear here</string>
+    <string name="yourPhoneNumber">Your phone number</string>
+    <string name="karmaCallRequiresAccessToContactsToProceedGoToSettingsToGrantAccess">KarmaCall requires access to Contacts to proceed. Go to Settings to grant
+        access.
+    </string>
+    <string name="nothingFoundYouCanEnterANewPhoneNumber">Nothing found. You can enter a new phone number.</string>
+    <string name="yourDeviceDoesNotSupportScanningACodeFromAnItemPleaseUseADeviceWithACamera">Your device does not support scanning a code from an item. Please
+        use a device with a camera.
+    </string>
+    <string name="onboardingCashCalls">Get instantly paid just for answering a call. Turn on and off any time. Businesses look for new ways to talk to people.
+        KarmaCall is one of those ways that puts you in full control. A premium subscription lets you set a minimum rate per minute. You decide the value of
+        your time!
+    </string>
+    <string name="onboardingBlockScamCalls">Everytime you let KarmaCall block a scam call for you, we pay you! With no minimum withdrawal limits or fees, you
+        can cash out at any time through our in-app wallet.
+    </string>
+    <string name="onboardingSurvyes">The more information businesses know about you, the more valuable you become to become to them for feedback. Businesses
+        will pay you more to talk to them if you fit their qualifications.
+    </string>
+    <string name="onboardingCallForwarding">To get paid for blocking scam calls, please enable Call Forwarding. You keep your phone number, but calls need to
+        pass through our servers for us to process them. If you only want Cash Calls, you do not need to complete this step.
+    </string>
+    <string name="failed_capital">Failed</string>
+    <string name="cash_out_to">Cash out to&#160;</string>
+    <string name="failed_getting_preferences">Failed while getting preferences. Try again?</string>
+    <string name="unable_to_send_otp">Unable to send OTP right now. Try later.</string>
+    <string name="otp_entered_not_valid">OTP entered, but not valid.</string>
+    <string name="error_capital">Error</string>
+    <string name="error_lower">error</string>
+    <string name="unknown_capital">Unknown</string>
+    <string name="error_unknown">Unknown Error</string>
+    <string name="please_complete_your_reg">Please complete your registration first</string>
+    <string name="first_name">First Name</string>
+    <string name="first_low">first</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_string">Email</string>
+    <string name="unsaved_changes">Unsaved Changes!</string>
+    <string name="are_sure_discard_changes">Are you sure you want to discard your changes?</string>
+    <string name="personalized">Personalized</string>
+    <string name="business_options">Business Options</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="options_word">Options</string>
+    <string name="inbox_label">Inbox</string>
+    <string name="spam_label">Spam</string>
+    <string name="promotions_label">Promotions</string>
+    <string name="auto_respond_emails">Automatically Response to Emails?</string>
+    <string name="change_auto_responder_template">Change Auto Responder Email Template?</string>
+    <string name="try_again_later">Try again later</string>
+    <string name="pleaseConfirmYouAgreeToTransfer">Please confirm that you agree to transfer %1$s to %2$s</string>
+    <string name="confirm_string">Confirm</string>
+    <string name="amount_greater_than_zero">Amount must be greater than 0</string>
+    <string name="pageXofY">Page %1$s of %2$s</string>
+    <string name="errorWithXHappened">Error with codee %1$s happened!</string>
+    <string name="blockMoreCallGift">Block more calls to get a gift</string>
+    <string name="copyNumber">Copy this number</string>
+    <string name="contactAdded">Contact was added</string>
+    <string name="share_word">Share</string>
+    <string name="checkInSummer">Check back in Summer 2024</string>
+    <string name="venmoComingSoon">Venmo (US only) coming by August 2024</string>
+    <string name="unknownCallerMinimum">Unknown callers must deposit %1$s%2$s (~ %3$s nano) to call you. They get it back if you answer and talk for more than %4$s seconds.</string>
+    <string name="unknownBusinessCalls">Unknown business callers can pay you %1$s%2$s per minute to talk to you (~ %3$s nano per minute) .</string>
+    <string name="amountPaidPerCall">You get paid %1$s %2$s for each call you let us block.</string>
+    <string name="setOwnRatesComingSoon">"Set your own rate" coming soon!</string>
+    <string name="benefitsNotAvailableYet">Benefits below not available until permissions granted</string>
+
+</resources>
