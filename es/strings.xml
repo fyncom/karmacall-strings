@@ -519,7 +519,7 @@
     <string name="withdrawIntoCash">Retirar en efectivo</string>
     <string name="withdrawToAGiftCard">Retirar a una tarjeta de regalo</string>
     <string name="withdrawToANanoAddress">Retirar a una dirección nano</string>
-    <string name="withdrawToNanoAddress">Retirar a una dirección Nano</string>
+    <string name="withdrawToNanoAddress">Retirar a una dirección nano</string>
     <string name="withdrawalConfirmation">Confirmación de retiro</string>
     <string name="youCurrentlyHave">Actualmente tienes</string>
     <string name="youWillBeAbleToSetCallForwardingInSettingsLater">Podrás configurar el desvío de llamadas en Ajustes más tarde.</string>
@@ -549,7 +549,7 @@
     <string name="failed_capital">Fallido</string>
     <string name="cash_out_to">Retirar a&#160;</string>
     <string name="failed_getting_preferences">Error al obtener preferencias. ¿Intentar otra vez?</string>
-    <string name="unable_to_send_otp">No se puede enviar OTP en este momento. Intenta más tarde.</string>
+    <string name="unable_to_send_otp">No se puede enviar un OTP en este momento. Intenta más tarde.</string>
     <string name="otp_entered_not_valid">OTP ingresado, pero no es válido.</string>
     <string name="error_capital">Error</string>
     <string name="error_lower">error</string>
@@ -563,8 +563,8 @@
     <string name="unsaved_changes">" ¡Cambios no guardados!"</string>
     <string name="are_sure_discard_changes">"¿Estás seguro de que quieres descartar los cambios? "</string>
     <string name="personalized">Personalizado</string>
-    <string name="business_options">Opciones de Negocios</string>
-    <string name="profile_picture">" Larawan sa Profile"</string>
+    <string name="business_options">Opciones para Negocios</string>
+    <string name="profile_picture">" Foto de Perfil"</string>
     <string name="options_word">Opciones</string>
     <string name="inbox_label">Bandeja de entrada</string>
     <string name="spam_label">Spam</string>
