@@ -13,7 +13,7 @@
     </string-array>
     <string name="call_was_blocked">La llamada fue bloqueada</string>
     <string name="rate_limit_exceeded_message">Ha alcanzado el límite. Por favor, espere 5 minutos y vuelva a intentarlo.</string>
-    <string name="delete_data_popup_message">Quiero eliminar mis datos de KarmaCall. Entiendo que ya no tendré acceso a mi cuenta nano
+    <string name="delete_data_popup_message">Quiero eliminar mis datos de KarmaCall. Entiendo que ya no tendré acceso a la cuenta nano
         que está asociada a mi cuenta de KarmaCall.
     </string>
     <string name="delete_data_long">Si desea eliminar sus datos de nuestros registros, haga clic en el botón de abajo.
@@ -21,7 +21,7 @@
     </string>
     <string name="delete_data">Eliminar mis datos</string>
     <string name="shareBody">¡Me pagan por bloquear llamadas de spam telefónico con KarmaCall!&#160;
-        Regístrese aquí y ambos recibiremos un pago adicional cuando bloquee su primera llamada.\n
+        Regístrate aquí y ambos recibiremos un pago adicional cuando bloquees la primera llamada.\n
     </string>
     <string name="permission_read_contacts">Leer Contactos</string>
     <string name="invite">Invitar</string>
@@ -31,7 +31,7 @@
     <string name="codeColon">Código:</string>
     <string name="referralShare">Compartir mi referencia</string>
     <string name="referralInfo">¡Recibe un pago cada vez que tu amigo se registre con
-        tu código de referencia y bloquea su primera llamada!
+        tu código de referencia y se bloquee la primera llamada!
     </string>
     <string name="enjoyUsing">Si disfrutas usar&#160;</string>
     <string name="rateUsPlease">, por favor, tómate un momento para calificarnos. ¡Gracias por tu apoyo!</string>
@@ -64,7 +64,7 @@
     <string name="couldNotConfirmNumber">No se pudo confirmar su número, intente actualizar su número de teléfono, gracias</string>
     <string name="errorGettingExistingNanoAccount">Error al recuperar la cuenta nano existente</string>
     <string name="noPhoneEntered">No se ingresó ningún número de teléfono para la verificación</string>
-    <string name="smsCodeNotEntered">No se ingresó el código OTP, actualice o verifique su número de teléfono</string>
+    <string name="smsCodeNotEntered">No se ingresó el código OTP. Actualice o verifique su número de teléfono</string>
     <string name="verifyFailed">Error de verificación</string>
     <string name="successWelcomeFuture">¡Éxito! ¡Bienvenido al futuro!</string>
     <string name="code_not_entered">No se ingresó el código SMS</string>
@@ -75,7 +75,7 @@
     <string name="sorry_some_error">Lo sentimos, se produjo un error</string>
     <string name="withdraw_failed">El retiro falló. Verifica tu monto o dirección de retiro de nano</string>
     <string name="withdraw_success">¡Tu envío fue exitoso!</string>
-    <string name="invalid_nano_format">Formato de cuenta nano inválido. Verifica tu entrada de cuenta nano para ver si hay errores tipográficos</string>
+    <string name="invalid_nano_format">Formato de cuenta nano inválido. Verifica el formato de la cuenta nano para ver si hay errores tipográficos</string>
     <string name="enter_amount_withdraw">Debes ingresar un monto para retirar</string>
     <string name="error_with_faucet">Error al usar el grifo, inténtalo de nuevo</string>
     <string name="coming_soon">¡Próximamente!</string>
@@ -86,7 +86,7 @@
     <string name="faucet_free">Faucet = $$$ Gratis</string>
     <string name="send_email">Enviar correo electrónico</string>
     <string name="feedback_comments">Por favor, déjanos tus comentarios, preguntas o dudas. ¡Gracias!</string>
-    <string name="choose_your_language">Por favor, elige tu idioma</string>
+    <string name="choose_your_language">Elige tu idioma</string>
     <string name="check_stop_blocking">Solo quiero que las llamadas en efectivo y los contactos suenen en mi teléfono.</string>
     <string name="stop_start_blocking">Detener/Iniciar bloqueo</string>
     <string name="blockedCalls">Llamadas bloqueadas</string>
@@ -124,7 +124,7 @@
     <string name="Enter_Phone_Number_For_OTP">Ingresa el número de teléfono de este dispositivo para recibir una contraseña de un solo uso por SMS</string>
     <string name="Enter_OTP_Response">Ingresa la contraseña que te enviaron por mensaje</string>
     <string name="My_OTP">Mi código de 6 dígitos</string>
-    <string name="Amount_To_Withdraw">Ingresa la cantidad de nano para retirar</string>
+    <string name="Amount_To_Withdraw">Ingresa la cantidad de nano a retirar</string>
     <string name="Enter_Nano_Account_To_Withdraw_To_Below">Ingresa tu cuenta nano externa a continuación</string>
     <string name="Open_navigation_drawer">Abrir el cajón de navegación</string>
     <string name="Close_navigation_drawer">Cerrar el cajón de navegación</string>
@@ -173,7 +173,7 @@
     </string>
     <string name="permissionPurpose">
         Necesitamos permisos para servir como su muro de pago personal.
-        \nSolo usamos estos permisos para permitir llamadas en efectivo y que sus amigos/familiares pasen, mientras bloqueamos llamadas no solicitadas y no
+        \nSolo usamos estos permisos para permitir llamadas en efectivo y que las llamadas de amigos/familiares pasen, mientras bloqueamos llamadas no solicitadas y no
         pagadas.
     </string>
     <string name="permissionRequired">Habilitar permisos</string>
@@ -188,7 +188,7 @@
     <string name="Info_white_list">Lista blanca.</string>
     <string name="Info_journal">
         Esta es la lista de registros con información sobre los eventos de bloqueo de llamadas/SMS.
-        El registro de eventos se puede desactivar en la Configuración.
+        El registro de eventos se puede desactivar en Configuración.
     </string>
     <string name="label_License">Licencia</string>
     <string name="Info_licence">Derechos de autor</string>
@@ -198,7 +198,7 @@
         \nAl usar esta aplicación, estás haciendo realidad ese futuro. Gracias.
 
         \n\nDesarrollamos esta aplicación para luchar contra los estafadores que roban más de $10 mil millones cada año de personas vulnerables a través
-        del fraude telefónico. Le daremos poder sobre su bien más preciado. Su tiempo.
+        del fraude telefónico. Le daremos poder sobre su bien más preciado: Su tiempo.
 
         \n\nEsta aplicación siempre será gratuita, porque todos los que se unen a nosotros se convierten en parte del panorama general de la revolución
         de datos. Si suficientes de nosotros nos negamos a contestar llamadas, los malos actores se darán cuenta y te pagarán por tus datos.
@@ -212,9 +212,9 @@
         \nAEG, DRJ, VJ, JC, PJG, CR.
 
     </string>
-    <string name="Our_Commitment">Nuestro compromiso</string>
+    <string name="Our_Commitment">Nuestro Compromiso</string>
     <string name="Our_Commitment_Description">
-        Nuestra misión es crear un mercado que recompense financieramente a todos sus participantes y se fortalezca con los números. A través de
+        Nuestra Misión es crear un mercado que recompense financieramente a todos sus participantes y se fortalezca con los números. A través de
         KarmaCall, sus datos se convierten en un bien que usted tiene el poder de vender o guardar para sí mismo. Creemos que el futuro de las grandes
         empresas está en la prosperidad compartida y eso requiere que usted sea compensado financieramente por sus datos y su tiempo.
         \n\nApoyamos la nueva política de la Unión Europea, que da a nuestros clientes y usuarios una mayor voz en lo que sucede con sus datos.
