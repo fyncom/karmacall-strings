@@ -1,10 +1,74 @@
 <resources>
+    tools:ignore="id"
+    <string name="showLabel">दिखाएं</string>
+    <string name="showValuesPPP">क्रय शक्ति समता दिखाएं?</string>
+    <string name="showValuesPPP">क्रय शक्ति समता द्वारा मूल्य दिखाएं?</string>
+    <string name="showValuesPurchasingPowerParity">क्रय शक्ति समता द्वारा मूल्य दिखाएं?</string>
+    <string name="purchasingPowerParity">क्रय शक्ति समता</string>
+    <string name="showValuesExchangeRate">विनिमय दर द्वारा मूल्य दिखाएं?</string>
+    <string name="exchangeRate">विनिमय दर</string>
+    <string name="selectCurrency">मुद्रा चुनें</string>
+    <string name="searchCurrencyName">मुद्रा का नाम खोजें</string>
+    <string name="perMinute">प्रति मिनट</string>
+    <string name="tryOurSupremePlanToSet">व्यावसायिक कॉलर्स द्वारा आपको दी जाने वाली न्यूनतम राशि निर्धारित करने के लिए हमारा सुप्रीम प्लान आज़माएं।</string>
+    <string name="fiatLabel">फिएट</string>
+    <string name="requiredLabel">आवश्यक</string>
+    <string name="neededLabel">ज़रूरी</string>
+    <string name="wantMore">और चाहिए?</string>
+    <string name="get10xOr100xMore">प्रति ब्लॉक किए गए कॉल पर अपनी भुगतान राशि का 10 या 100 गुना पाएं! हमारे पेड प्लान आजमाने के लिए अपग्रेड देखें।</string>
+    <string name="wantMoreGetUpTo">और चाहिए? पेड प्लान के साथ प्रति ब्लॉक किए गए कॉल पर %1$s तक वापस पाएं!</string>
+    <string name="seeUpgrades">अपग्रेड देखें</string>
+    <string name="getMore">और पाएं</string>
+    <string name="purchaseLabel">खरीदें</string>
+    <string name="premiumLabel">प्रीमियम</string>
+    <string name="premiumSubscription">प्रीमियम सदस्यता</string>
+    <string name="subscription_label">सदस्यता</string>
+    <string name="supremeLabel">सर्वोच्च</string>
+    <string name="planLabel">योजनाएं</string>
+    <string name="andMore">और अधिक</string>
+    <string name="minimumOfferForBizCaller">न्यूनतम प्रस्ताव जो व्यावसायिक कॉलर्स को आपसे बात करने के लिए, प्रति मिनट, देना चाहिए।</string>
+    <string name="minimumOffers">न्यूनतम प्रस्ताव</string>
+    <string name="cashBackInfo">परेशान करने वाली कॉल्स को अलविदा कहें और पुरस्कारों का स्वागत करें! KarmaCall आपको स्पैम को ब्लॉक करते हुए कमाई करने देता है।</string>
+    <string name="cashBack">कैशबैक</string>
+    <string name="miniumDepositForCallers">अज्ञात कॉलर्स को आपका फोन बजाने के लिए देना पड़ने वाला न्यूनतम जमा</string>
+    <string name="minimumKarmacallTimeForRefund">कॉल के स्वचालित रिफंड के लिए न्यूनतम कर्माकॉल समय</string>
+    <string name="minimumDeposit">न्यूनतम जमा</string>
+    <string name="minimumKarmacallTime">न्यूनतम कर्माकॉल समय</string>
+    <string name="minimumCallTime">न्यूनतम कॉल समय</string>
+    <string name="infoLabel">जानकारी</string>
+    <string name="informationLabel">सूचना</string>
+    <string name="detailsLabel">विवरण</string>
+    <string name="saved_ex">सहेजा गया!</string>
+    <string name="editToUpdate">अपडेट करने के लिए संपादित करें</string>
+    <string name="enabled_label">सक्षम</string>
+    <string name="disabled_label">अक्षम</string>
+    <string name="on_label">चालू</string>
+    <string name="off_label">बंद</string>
+    <string name="update_label">अपडेट करें</string>
+    <string name="current_label">वर्तमान</string>
+    <string name="secondsCallDeadlineDeposit">रिफंड के लिए KarmaCall के सक्रिय रहने की आवश्यक सेकंड संख्या</string>
+    <string name="minCallDeposit">आपका फोन बजाने के लिए कॉलर को जोखिम में डालने की न्यूनतम जमा राशि</string>
+    <string name="minCallOffer">आपका फोन बजाने के लिए व्यावसायिक कॉलर को देने की न्यूनतम राशि</string>
+    <string name="maxCallDeposit">अधिकतम जमा राशि जो आप जोखिम में डालने को तैयार हैं</string>
+    <string name="maxCallOffer">अधिकतम प्रस्ताव जो आप देने को तैयार हैं</string>
+    <string name="checkGmailInbox">Gmail इनबॉक्स जांचें?</string>
+    <string name="checkGmailSpam">Gmail स्पैम टैब जांचें?</string>
+    <string name="checkGmailPromotions">Gmail प्रोमोशन टैब जांचें?</string>
+    <string name="daysDeadlineDeposit">KarmaEmail के पास जवाब प्राप्त करने या आपको अपनी जमा राशि खोने के लिए दिनों की संख्या</string>
+    <string name="minOfferEmail">आपके इनबॉक्स में आने के लिए व्यावसायिक ईमेल को देने की न्यूनतम प्रस्ताव राशि</string>
+    <string name="minDepositEmail">आपके इनबॉक्स में आने के लिए ईमेल को जोखिम में डालने की न्यूनतम जमा राशि</string>
+    <string name="no_blocked_calls_yet">ऐसा लगता है कि आपने अभी तक किसी कॉल को ब्लॉक नहीं किया है! जल्द ही...</string>
+    <string name="no_referrals_yet">अभी तक किसी ने आपके रेफरल कोड से साइन अप नहीं किया है। चलो इसे बदलते हैं।</string>
+    <string name="seePendingReferrals">लंबित रेफरल देखें</string>
+    <string name="call">कॉल</string>
     <string name="permission_read_phone_state">फोन की स्थिति पढ़ें</string>
     <string name="permission_read_contacts">संपर्क पढ़ें</string>
     <string name="permission_answer_phone_calls">कॉल का जवाब दें</string>
     <string name="permission_call_phone">कॉल करें</string>
     <string name="My_Country_Code">मेरा देश कोड</string>
     <string name="blocked_call_notifications">अवरुद्ध कॉल सूचनाएं चुनें</string>
+    <string name="notification_options_immediate">तुरंत सूचित करें</string>
+    <string name="notification_options_no">सूचनाएं नहीं</string>
     <string-array name="notification_options">
         <item>तुरंत सूचित करें</item> <!-- <item>दिन के अंत में सूचित करें</item>-->
         <item>सूचनाएं नहीं</item>
@@ -189,55 +253,7 @@
     </string>
     <string name="label_License">लाइसेंस</string>
     <string name="Info_licence">कॉपीराइट</string>
-    <string name="label_Author">लेखक</string>
-    <string name="About_us_message">
-        एक ऐसा भविष्य की कल्पना करें जहां प्रत्येक अज्ञात फोन कॉल के साथ तत्काल वित्तीय क्षतिपूर्ति की गारंटी हो।
-        \nइस ऐप का उपयोग करके, आप उस भविष्य को साकार कर रहे हैं। धन्यवाद।
 
-        \n\nहमने यह एप्लिकेशन उन घोटालेबाजों के खिलाफ लड़ने के लिए विकसित किया है जो हर साल फोन धोखाधड़ी के माध्यम से कमजोर लोगों से $ 10 बिलियन से अधिक चुराते
-        हैं। हम आपको आपकी सबसे कीमती वस्तु पर शक्ति देंगे। आपका समय।
-
-        \n\nयह ऐप हमेशा उपयोग करने के लिए नि:शुल्क रहेगा, क्योंकि हमसे जुड़ने वाला प्रत्येक व्यक्ति डेटा क्रांति की बड़ी तस्वीर का हिस्सा बन जाता है। यदि हममें
-        से पर्याप्त संख्या में लोग कॉल का जवाब देने से इनकार कर देते हैं, तो बुरे अभिनेता ध्यान देंगे और आपको अपने डेटा के लिए भुगतान किया जाएगा।
-
-        \n\nकृपया बेरहमी से ईमानदार प्रतिक्रिया और बग रिपोर्ट के साथ हमारी मदद करें।
-
-        \n\nभवदीय,
-        \nAEG, DRJ, VJ, JC, PJG, CR।
-    </string>
-    <string name="Our_Commitment">हमारी प्रतिबद्धता</string>
-    <string name="Our_Commitment_Description">
-        हमारा मिशन एक ऐसा बाजार बनाना है जो अपने सभी प्रतिभागियों को वित्तीय रूप से पुरस्कृत करता है और संख्या से मजबूत होता है। KarmaCall के माध्यम से, आपका
-        डेटा एक वस्तु बन जाती है जिसे बेचने या खुद के पास रखने की शक्ति आपके पास होती है। हमारा मानना है कि महान व्यवसायों का भविष्य साझा समृद्धि में है और इसके
-        लिए आवश्यक है कि आपके डेटा और समय के लिए आपको वित्तीय रूप से मुआवजा दिया जाए।
-        \n\nहम नई यूरोपीय संघ की नीति का समर्थन करते हैं, जो हमारे ग्राहकों और उपयोगकर्ताओं को उनके डेटा के साथ क्या होता है, इस पर अधिक कहने का अधिकार देती है।
-    </string>
-    <string name="GDPR">GDPR क्या है?</string>
-    <!--    Would like to have the Cash in our name show our color like header_nav_bar_main.xml. Need to fix
-        the linking at the end as well. See
-        https://stackoverflow.com/questions/9204303/android-is-it-possible-to-add-a-clickable-link-into-a-string-resource-->
-    <string name="GDPR_Description">GDPR (सामान्य डेटा संरक्षण विनियमन) 25 मई, 2018 को यूरोपीय संघ में प्रभावी हुआ। GDPR उन सभी कंपनियों पर लागू होता है जो EU
-        नागरिकों के PII (व्यक्तिगत रूप से पहचान योग्य जानकारी) को संसाधित करती हैं। यह नया कानून कई प्रमुख क्षेत्रों में आपकी व्यक्तिगत जानकारी के संरक्षण और
-        गोपनीयता के महत्व को प्राथमिकता देता है। कैलिफोर्निया राज्य ने हाल ही में कैलिफोर्निया उपभोक्ता गोपनीयता अधिनियम (CCPA) पारित किया है। CCPA के सभी
-        अधिकार GDPR का अनुपालन करके पूरे किए जाते हैं जैसा कि KarmaCall नीचे वर्णित करता है।
-        \n\nसबसे पहले, KarmaCall आसानी से सुलभ प्रारूप में डेटा संग्रह के लिए सहमति देने की क्षमता प्रदान करता है। KarmaCall में, हम आपकी व्यक्तिगत संपर्क
-        जानकारी - फ़ोन नंबर, डिजिटल वॉलेट को स्टोर करते हैं, साथ ही साथ हमारे अनुबंध के प्रदर्शन से संबंधित डेटा जो आंशिक रूप से एंटी-स्पैम उद्देश्यों के लिए
-        डिजिटल वॉलेट लेनदेन को कैप्चर करता
-        है और हमारी सेवाओं में सुधार के लिए आपके कॉल समय की लंबाई। आपकी बुनियादी संपर्क जानकारी के साथ, हम फ्लरी एनालिटिक्स का उपयोग यह ट्रैक करने के लिए करते
-        हैं कि आप हमारे एप्लिकेशन का उपयोग कैसे करते हैं ताकि हम यह सीख सकें कि इसे कैसे सुधारा जाए ताकि आपका अनुभव जितना संभव हो उतना सुखद बनाया जा सके। कोई
-        अन्य डेटा जो आपके द्वारा स्वेच्छा से प्रदान किया जाता है (जनसांख्यिकी और मनोवैज्ञानिक), लेकिन हमारी स्पैम-ब्लॉकिंग सुविधाओं के लिए आवश्यक नहीं है, उसे
-        भी संग्रहीत किया जाएगा।
-        \n\nदूसरा, KarmaCall आपका डेटा अनुरोध करने का अवसर प्रदान करता है। हम वर्तमान में आपके उपयोगकर्ता और/या व्यावसायिक इकाई के अंतर्गत रखे गए डेटा को एक
-        उपयोगकर्ता के अनुकूल प्रारूप में प्रदर्शित करते हैं।
-        KarmaCall किसी भी कारण से आपका डेटा किसी तृतीय पक्ष के स्रोतों को नहीं बेचता या प्रदान करता है।
-        \n\nतीसरा, KarmaCall अनुरोध पर हमारे द्वारा एकत्र किए गए सभी डेटा को हटाने का विकल्प प्रस्तुत करता है।
-        यदि आप यह अनुरोध करते हैं, तो हम अन्य कानूनों द्वारा आवश्यक के अलावा बिना किसी देरी के इसका पालन करेंगे। उदाहरण के लिए, यदि यह कर रिकॉर्ड के लिए आवश्यक
-        है तो कुछ वित्तीय डेटा हटाया नहीं जा सकता।
-        \n\nअधिक जानकारी के लिए,
-        <a href="https://www.techrepublic.com/article/the-eu-general-data-protection-regulation-gdpr-the-smart-persons-guide/">EU GDPR विनियमों का एक ओवरव्यू
-            यहां पाया जा सकता है।
-        </a>
-    </string>
     <string-array name="phone_metadata">
         <item>के बराबर:</item>
         <item>शामिल:</item>
@@ -256,10 +272,6 @@
     <!--    From other repo  -->
     <!--    From other repo  -->
     <!--    From other repo  -->
-    <string name="onboarding_title">नवीन डिजिटल\nवित्तीय योजनाकार और\nप्रबंधक</string>
-    <string name="onboarding_message">आपके पैसे को आसानी से, कुशलता से और सुरक्षित रूप से प्रबंधित और स्थानांतरित करने में आपकी मदद करने के लिए डिज़ाइन किया
-        गया।
-    </string>
     <string name="get_started">शुरू करें</string>
     <string name="by_continue_you_agree_terms">जारी रखने से आप KarmaCall की शर्तों से सहमत होते हैं</string>
     <string name="terms_and_conditions">नियम एवं शर्तें</string>
@@ -280,60 +292,7 @@
     <string name="change_phone_number">नंबर बदलने की जरूरत है? वापस स्वाइप करें</string>
     <string name="verify_code">कोड सत्यापित करें</string>
     <string name="enter_phone_number">फोन नंबर दर्ज करें</string>
-    <string name="identity_verification">पहचान सत्यापन</string>
-    <string name="scan_national_id">अपनी पहचान सत्यापित करने के लिए\nID दस्तावेज़ स्कैन करें</string>
-    <string name="confirm_your_identity_with_few_taps">अपने फोन पर बस कुछ टैप\nकरके अपनी पहचान की पुष्टि करें</string>
-    <string name="camera_permission_required">जारी रखने के लिए कैमरे की अनुमति आवश्यक है, कृपया इसे प्रदान करें!</string>
-    <string name="why_is_it_required">ऐसा क्यों आवश्यक है?</string>
-    <string name="scan_id_tips">ID स्कैन करने के सुझाव</string>
-    <string name="find_a_well_lit_area">एक अच्छी रोशनी वाली जगह ढूंढें</string>
-    <string name="steady_your_camera">अपने कैमरे को स्थिर रखें</string>
-    <string name="position_the_id_properly">ID को सही ढंग से स्थापित करें</string>
-    <string name="zoom_in_if_necessary">यदि आवश्यक हो तो ज़ूम इन करें</string>
-    <string name="focus_on_the_id">ID पर ध्यान केंद्रित करें</string>
-    <string name="requiring_id_overall_desc">बैंक खाता खोलते समय राष्ट्रीय पहचान पत्र का अनुरोध करने से विनियमों का अनुपालन, धोखाधड़ी को रोकने और सुरक्षा बढ़ाने
-        को सुनिश्चित करके बैंक और ग्राहक दोनों की सुरक्षा में मदद मिलती है।
-    </string>
-    <string name="start_scanning">स्कैनिंग शुरू करें</string>
-    <string name="i_agree_on_id_scanning_policies">
-        <![CDATA[मैंने पढ़ा और समझा है और मैं सेवा के नियमों और शर्तों को स्वीकार करता हूं, और मैं सेवा प्रदाता को अपना राष्ट्रीय पहचान पत्र स्कैन करने और उसे सुरक्षित रूप से सहेजने और प्रदान की गई सेवाओं के लिए उपयोग करने की अनुमति देता हूं।]]></string>
-    <string name="id_reason_verification_of_identity">पहचान का सत्यापन: एक राष्ट्रीय पहचान पत्र एक विश्वसनीय और मानकीकृत पहचान का रूप है जो बैंकों को खाताधारक
-        की पहचान सत्यापित करने में मदद करता है।
-    </string>
-    <string name="id_reason_compliance_with_regulations">विनियमों का अनुपालन: बैंकों को विभिन्न विनियमों, जैसे कि धन शोधन निवारण (AML) और अपने ग्राहक को जानें
-        (KYC) नियमों का पालन करना आवश्यक है।
-    </string>
-    <string name="id_reason_enhance_security">बढ़ी हुई सुरक्षा: एक राष्ट्रीय पहचान पत्र का अनुरोध करके, बैंक अपने ग्राहकों के खातों की सुरक्षा बढ़ा सकते हैं। यह
-        अनधिकृत पहुंच के खिलाफ सुरक्षा में मदद करता है और यह सुनिश्चित करता है कि केवल खाता धारक ही लेनदेन कर सकते हैं।
-    </string>
-    <string name="id_reason_prevention_of_fin_crimes">वित्तीय अपराधों की रोकथाम: एक राष्ट्रीय पहचान पत्र वित्तीय अपराधों, जैसे कि मनी लॉन्ड्रिंग, आतंकवादी
-        वित्तपोषण और कर चोरी को रोकने के बैंकों के प्रयासों में मदद कर सकता है।
-    </string>
-    <string name="id_reason_streamlined_processes">सुव्यवस्थित प्रक्रियाएं: एक राष्ट्रीय पहचान पत्र का अनुरोध करने से बैंकों को अपनी खाता खोलने की प्रक्रियाओं
-        को सुव्यवस्थित करने में मदद मिलती है। यह पहचान का एक मानकीकृत और आसानी से सत्यापन योग्य रूप प्रदान करता है, जिससे बैंकों के लिए ग्राहक की जानकारी
-        सत्यापित करना और आवश्यक कागजी कार्रवाई पूरी करना आसान हो जाता है।
-    </string>
-    <string name="scan_front_of_id">कृपया ID के सामने की तरफ स्कैन करें</string>
-    <string name="scan_back_of_id">कृपया ID के पीछे की तरफ स्कैन करें</string>
-    <string name="verify_identity_requirements">शुरू करने से पहले, कृपया इन सुझावों का पालन करें</string>
-    <string name="start_verification">सत्यापन शुरू करें</string>
-    <string name="follow_instructions">मार्गदर्शन और निर्देशों का पालन करें</string>
-    <string name="get_cap_off">यदि आप टोपी पहनकर आए हैं तो सुनिश्चित करें कि उसे उतार दिया जाए।</string>
-    <string name="take_off_glasses">यदि आप चश्मा पहनकर आए हैं तो उसे उतारना सुनिश्चित करें।</string>
-    <string name="take_selfie_to_verify_identity">अपनी\nपहचान सत्यापित करने के लिए एक सेल्फी लें</string>
-    <string name="quick_and_easy_identity_verification">अपने फोन के कैमरे का उपयोग करके त्वरित और आसान पहचान सत्यापन। स्वयं खींची गई फोटो से अपनी पहचान की
-        पुष्टि करें
-    </string>
-    <string name="please_wait_a_seconds">कृपया कुछ सेकंड प्रतीक्षा करें…</string>
-    <string name="do_you_want_to_proceed_with_this_image">क्या आप इस छवि के साथ आगे बढ़ना चाहते हैं?</string>
-    <string name="ensure_image_is_completely_clear">यह आपकी पहचान सत्यापित करने के लिए उपयोग किया जाएगा, इसलिए कृपया सुनिश्चित करें कि यह पूरी तरह से स्पष्ट
-        हो।
-    </string>
-    <string name="verifying_your_identity">आपकी पहचान सत्यापित की जा रही है</string>
-    <string name="complete_account_registration">खाता पंजीकरण पूरा करें</string>
     <string name="enter_your_pin">अपना PIN कोड दर्ज करें</string>
-    <string name="it_will_not_take_long">इसमें ज्यादा समय नहीं लगेगा</string>
-    <string name="id_verification_in_progress">ID सत्यापन\nप्रगति पर है</string>
     <string name="available_balance">उपलब्ध शेष राशि</string>
     <string name="see_all">सभी देखें</string>
     <string name="current_activity">वर्तमान गतिविधि</string>
@@ -357,9 +316,8 @@
     <string name="transactions">लेनदेन</string>
     <string name="name_return">नाम\n</string>
     <string name="exp">एक्सपायरी %1$s</string>
-    <string name="my_q_code">मेरा Q कोड</string>
     <string name="scan_the_qr_to_send_the_money">पैसा भेजने के लिए QR स्कैन करें</string>
-    <string name="search_a_name">एक नाम खोजें</string>
+    <string name="search_a_name">नाम से खोजें</string>
     <string name="contacts">संपर्क</string>
     <!--    Converted String resources from iOS-->
     <!--    Converted String resources from iOS-->
@@ -458,7 +416,6 @@
     <string name="other">अन्य</string>
     <string name="pleaseSelectCategoriesThatYouLike">कृपया अपनी पसंद की श्रेणियां चुनें।</string>
     <string name="pointCameraAtQRCode">QR कोड पर कैमरा लक्ष्य करें</string>
-    <string name="premiumSubscription">प्रीमियम सदस्यता</string>
     <string name="privacyPolicy">गोपनीयता नीति</string>
     <string name="pushNotifications">पुश अधिसूचनाएं</string>
     <string name="realEstate">रियल एस्टेट</string>
@@ -586,9 +543,21 @@
     <string name="share_word">साझा करें</string>
     <string name="checkInSummer">गर्मियों 2024 में वापस जाँच करें</string>
     <string name="venmoComingSoon">Venmo (केवल अमेरिका में) अगस्त 2024 तक आ रहा है</string>
-    <string name="unknownCallerMinimum">अनजान कॉलर को आपको कॉल करने के लिए %1$s%2$s (~ %3$s नैनो) जमा करना होगा। यदि आप उत्तर देते हैं और %4$s सेकंड से अधिक बात करते हैं तो वे इसे वापस पा लेंगे।</string>
+    <string name="unknownCallerMinimum">अनजान कॉलर को आपको कॉल करने के लिए %1$s%2$s (~ %3$s नैनो) जमा करना होगा। यदि आप उत्तर देते हैं और %4$s सेकंड से अधिक बात
+        करते हैं तो वे इसे वापस पा लेंगे।
+    </string>
     <string name="unknownBusinessCalls">अनजान व्यावसायिक कॉलर आपसे बात करने के लिए प्रति मिनट %1$s%2$s (~ %3$s नैनो प्रति मिनट) का भुगतान कर सकते हैं।</string>
     <string name="amountPaidPerCall">हमें ब्लॉक करने दिए गए प्रत्येक कॉल के लिए आपको %1$s %2$s मिलते हैं।</string>
     <string name="setOwnRatesComingSoon">"अपनी दर स्वयं निर्धारित करें" जल्द आ रहा है!</string>
     <string name="benefitsNotAvailableYet">नीचे दिए गए लाभ अनुमतियाँ प्रदान होने तक उपलब्ध नहीं हैं</string>
+    <string name="verifySetup">मेरी सेटअप सत्यापित करें</string>
+    <string name="allGood">सब ठीक है</string>
+    <string name="needsPermissionsPhrase">अनुमतियों की आवश्यकता है</string>
+    <string name="needsCallRole">कॉल भूमिका की आवश्यकता है</string>
+    <string name="needsPermissionSingle">%1$s अनुमति की आवश्यकता है</string>
+    <string name="needsPermissionsBoth">%1$s और %2$s अनुमति की आवश्यकता है</string>
+    <string name="setupComplete">सेटअप पूर्ण!</string>
+    <string name="numberPermission">%1$d अनुमति अनुरोध</string>
+    <string name="pressButtonBelowToGrant">प्रदान करने के लिए नीचे दिए गए बटन को दबाएं</string>
+    <string name="ignoreThisCall">इस कॉल को अनदेखा करें</string>
 </resources>

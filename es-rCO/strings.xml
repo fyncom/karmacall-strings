@@ -16,7 +16,7 @@
     <string name="neededLabel">Necesario</string>
     <string name="wantMore">¿Quieres Más?</string>
     <string name="get10xOr100xMore">¡Obtén 10 o 100 veces tu cantidad de pago por llamada bloqueada! Ve las mejoras para probar nuestros planes de pago hoy.</string>
-    <string name="wantMoreGetUpTo">¿Quieres más beneficios? ¡Gana hasta %1$s por cada llamada bloqueada con nuestros planes de pago!</string>
+    <string name="wantMoreGetUpTo">¿Quieres más? ¡Obtén hasta %1$s de reintegro por llamada bloqueada con planes pagos!</string>
     <string name="seeUpgrades">Ver Mejoras</string>
     <string name="getMore">Obtener Más</string>
     <string name="purchaseLabel">Comprar</string>
@@ -25,10 +25,10 @@
     <string name="supremeLabel">Supremo</string>
     <string name="planLabel">Planes</string>
     <string name="andMore">y Más</string>
-    <string name="minimumOfferForBizCaller">Oferta mínima que los llamantes de negocios deben darle, por minuto, para tener una conversación con usted.</string>
+    <string name="minimumOfferForBizCaller">Oferta mínima que los llamantes de negocios deben darte, por minuto, para hablar contigo.</string>
     <string name="minimumOffers">Ofertas Mínimas</string>
-    <string name="cashBackInfo">¡Diga adiós a las llamadas molestas y hola a las recompensas! KarmaCall le permite ganar mientras bloquea el spam.</string>
-    <string name="cashBack">Reembolso</string>
+    <string name="cashBackInfo">¡Despídete de las llamadas molestas y saluda a las recompensas! KarmaCall te permite ganar mientras bloqueas el spam.</string>
+    <string name="cashBack">Reintegro</string>
     <string name="miniumDepositForCallers">Depósito mínimo que deben dar los llamantes desconocidos para que suene su teléfono</string>
     <string name="minimumKarmacallTimeForRefund">Tiempo mínimo de KarmaCall para reembolso automático de la llamada</string>
     <string name="minimumDeposit">Depósito Mínimo</string>
@@ -46,16 +46,16 @@
     <string name="update_label">Actualizar</string>
     <string name="current_label">Actual</string>
     <string name="secondsCallDeadlineDeposit">Número de segundos que una KarmaCall debe estar activa para un reembolso</string>
-    <string name="minCallDeposit">Depósito mínimo que un llamante debe arriesgar para hacer sonar tu teléfono</string>
-    <string name="minCallOffer">Cantidad mínima que un llamante de negocios debe ofrecer para hacer sonar tu teléfono</string>
+    <string name="minCallDeposit">Depósito mínimo que un llamante debe arriesgar para hacer sonar tu celular</string>
+    <string name="minCallOffer">Cantidad mínima que un llamante de negocios debe ofrecer para hacer sonar tu celular</string>
     <string name="maxCallDeposit">Depósito máximo que estás dispuesto a arriesgar</string>
     <string name="maxCallOffer">Oferta máxima que estás dispuesto a dar</string>
     <string name="checkGmailInbox">¿Revisar bandeja de entrada de Gmail?</string>
-    <string name="checkGmailSpam">¿Revisar pestaña de spam de Gmail?</string>
+    <string name="checkGmailSpam">¿Revisar pestaña de correo no deseado de Gmail?</string>
     <string name="checkGmailPromotions">¿Revisar pestaña de promociones de Gmail?</string>
     <string name="daysDeadlineDeposit">Número de días que un KarmaEmail tiene para recibir una respuesta o perder su depósito a tu favor</string>
-    <string name="minOfferEmail">Oferta mínima que un email de negocios debe ofrecer para llegar a tu bandeja de entrada</string>
-    <string name="minDepositEmail">Depósito mínimo que un email debe arriesgar para llegar a tu bandeja de entrada</string>
+    <string name="minOfferEmail">Oferta mínima que un correo de negocios debe ofrecer para llegar a tu bandeja de entrada</string>
+    <string name="minDepositEmail">Depósito mínimo que un correo debe arriesgar para llegar a tu bandeja de entrada</string>
     <string name="no_blocked_calls_yet">¡Parece que aún no has bloqueado ninguna llamada! Pronto...</string>
     <string name="no_referrals_yet">Nadie se ha registrado con tu código de referencia todavía. Vamos a cambiar eso.</string>
     <string name="call">Llamar</string>
@@ -561,6 +561,5 @@
     <string name="pressButtonBelowToGrant">Presione el botón de abajo para otorgar</string>
     <string name="ignoreThisCall">Ignorar esta llamada</string>
     <string name="seePendingReferrals">Ver referencias pendientes</string>
-
 
 </resources>

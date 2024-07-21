@@ -1,4 +1,63 @@
 <resources>
+    tools:ignore="id"
+    <string name="showLabel">Mostrar</string>
+    <string name="showValuesPPP">Mostrar PPC?</string>
+    <string name="showValuesPPP">Mostrar Valores por PPC?</string>
+    <string name="showValuesPurchasingPowerParity">Mostrar Valores por Paridade do Poder de Compra?</string>
+    <string name="purchasingPowerParity">Paridade do Poder de Compra</string>
+    <string name="showValuesExchangeRate">Mostrar Valores por Taxa de Câmbio?</string>
+    <string name="exchangeRate">Taxa de Câmbio</string>
+    <string name="selectCurrency">Selecionar Moeda</string>
+    <string name="searchCurrencyName">Pesquisar Nome da Moeda</string>
+    <string name="perMinute">por Minuto</string>
+    <string name="tryOurSupremePlanToSet">Experimente nosso Plano Supremo para definir o valor mínimo que os chamadores comerciais devem pagar a você.</string>
+    <string name="fiatLabel">Fiat</string>
+    <string name="requiredLabel">Obrigatório</string>
+    <string name="neededLabel">Necessário</string>
+    <string name="wantMore">Quer Mais?</string>
+    <string name="get10xOr100xMore">Receba 10 ou 100 vezes o valor do seu pagamento por chamada bloqueada! Veja as atualizações para experimentar nossos planos pagos hoje.</string>    <string name="wantMoreGetUpTo">Quer mais vantagens? Receba até %1$s de volta por chamada bloqueada com nossos planos pagos!</string>
+    <string name="seeUpgrades">Ver Atualizações</string>
+    <string name="getMore">Obter Mais</string>
+    <string name="purchaseLabel">Comprar</string>
+    <string name="premiumLabel">Premium</string>
+    <string name="subscription_label">Assinatura</string>
+    <string name="supremeLabel">Supremo</string>
+    <string name="planLabel">Planos</string>
+    <string name="andMore">e Mais</string>
+    <string name="minimumOfferForBizCaller">Oferta mínima que os chamadores comerciais devem dar a você, por minuto, para ter uma conversa com você.</string>
+    <string name="minimumOffers">Ofertas Mínimas</string>
+    <string name="cashBackInfo">Diga adeus às chamadas irritantes e olá às recompensas! O KarmaCall permite que você ganhe enquanto bloqueia spam.</string>
+    <string name="cashBack">Dinheiro de Volta</string>
+    <string name="miniumDepositForCallers">Depósito mínimo que chamadores desconhecidos devem dar para tocar seu telefone</string>
+    <string name="minimumKarmacallTimeForRefund">Tempo mínimo de KarmaCall para reembolso automático da chamada</string>
+    <string name="minimumDeposit">Depósito Mínimo</string>
+    <string name="minimumKarmacallTime">Tempo Mínimo de KarmaCall</string>
+    <string name="minimumCallTime">Tempo Mínimo de Chamada</string>
+    <string name="infoLabel">Info</string>
+    <string name="informationLabel">Informação</string>
+    <string name="detailsLabel">Detalhes</string>
+    <string name="saved_ex">Salvo!</string>
+    <string name="editToUpdate">Edite para atualizar</string>
+    <string name="enabled_label">Ativado</string>
+    <string name="disabled_label">Desativado</string>
+    <string name="on_label">Ligado</string>
+    <string name="off_label">Desligado</string>
+    <string name="update_label">Atualizar</string>
+    <string name="current_label">Atual</string>
+    <string name="secondsCallDeadlineDeposit">Número de segundos que uma KarmaCall deve estar ativa para um reembolso</string>
+    <string name="minCallDeposit">Depósito mínimo que um chamador deve arriscar para tocar seu telefone</string>
+    <string name="minCallOffer">Valor mínimo que um chamador comercial deve oferecer para tocar seu telefone</string>
+    <string name="maxCallDeposit">Depósito máximo que você está disposto a arriscar</string>
+    <string name="maxCallOffer">Oferta máxima que você está disposto a dar</string>
+    <string name="checkGmailInbox">Verificar caixa de entrada do Gmail?</string>
+    <string name="checkGmailSpam">Verificar aba de spam do Gmail?</string>
+    <string name="checkGmailPromotions">Verificar aba de promoções do Gmail?</string>
+    <string name="daysDeadlineDeposit">Número de dias que um KarmaEmail tem para receber uma resposta ou perder seu depósito para você</string>
+    <string name="minOfferEmail">Oferta mínima que um email comercial deve oferecer para entrar na sua caixa de entrada</string>
+    <string name="minDepositEmail">Depósito mínimo que um email deve arriscar para entrar na sua caixa de entrada</string>
+    <string name="no_blocked_calls_yet">Parece que você ainda não bloqueou nenhuma chamada! Em breve...</string>
+    <string name="no_referrals_yet">Ninguém se inscreveu com seu código de referência ainda. Vamos mudar isso.</string>
+    <string name="seePendingReferrals">Ver referências pendentes</string>
     <string name="call">Chamada</string>
     <string name="permission_read_phone_state">Ler Estado do Telefone</string>
     <string name="permission_read_contacts">Ler Contatos</string>
@@ -6,10 +65,12 @@
     <string name="permission_call_phone">Fazer chamadas</string>
     <string name="My_Country_Code">Meu código de país</string>
     <string name="blocked_call_notifications">Selecionar alertas de chamadas bloqueadas</string>
+    <string name="notification_options_immediate">Notificar imediatamente</string>
+    <string name="notification_options_no">Sem notificações</string>
     <string-array name="notification_options">
         <item>Notificar imediatamente</item>
-        <!--        <item>Notificar no final do dia</item>-->
         <item>Sem notificações</item>
+        <!--        <item>Notificar no final do dia</item>-->
     </string-array>
     <string name="call_was_blocked">chamada foi bloqueada</string>
     <string name="rate_limit_exceeded_message">Você atingiu o limite. Aguarde 5 minutos e tente novamente.</string>
@@ -20,8 +81,8 @@
         AVISO - depois de excluir seus dados, você não poderá mais acessar sua conta nano.
     </string>
     <string name="delete_data">Excluir meus dados</string>
-    <string name="shareBody">Eu sou pago para bloquear chamadas de spam com o KarmaCall!&#160;
-        Inscreva-se aqui e ambos seremos pagos quando você bloquear sua primeira chamada.\n
+    <string name="shareBody">Eu sou pago para bloquear chamadas de spam com o KarmaCall!&#160; Inscreva-se aqui e ambos seremos pagos quando você bloquear sua
+        primeira chamada.\n
     </string>
     <string name="invite">Convidar</string>
     <string name="referrals">Indicações</string>
@@ -85,7 +146,7 @@
     <string name="faucet_free">Torneira = $$$ grátis</string>
     <string name="send_email">Enviar e-mail</string>
     <string name="feedback_comments">Deixe-nos comentários, perguntas ou preocupações. Obrigado!</string>
-    <string name="choose_your_language">Por favor, escolha seu idioma</string>
+    <string name="choose_your_language">Escolha Seu Idioma</string>
     <string name="check_stop_blocking">Eu só quero que chamadas de dinheiro e contatos toquem no meu telefone.</string>
     <string name="stop_start_blocking">Parar/Iniciar bloqueio</string>
     <string name="blockedCalls">Chamadas bloqueadas</string>
@@ -189,70 +250,6 @@
     </string>
     <string name="label_License">Licença</string>
     <string name="Info_licence">Direitos autorais</string>
-    <string name="label_Author">Autor</string>
-    <string name="About_us_message">
-        Imagine um futuro onde cada chamada telefônica desconhecida vem com uma garantia de compensação financeira IMEDIATA.
-        \nAo usar este aplicativo, você está tornando esse futuro uma realidade. Obrigado.
-
-        \n\nDesenvolvemos este aplicativo para combater os golpistas que roubam mais de US$ 10 bilhões
-
-        todos os anos de pessoas vulneráveis por meio de fraude telefônica. Daremos a você poder sobre seu mais
-
-        precioso bem. Seu tempo.
-
-        \n\nEste aplicativo será sempre gratuito, porque todos que se juntam a nós se tornam parte de um
-
-        quadro maior da revolução dos dados. Se um número suficiente de nós se recusar a atender chamadas, os maus atores perceberão e você será pago por seus
-        dados.
-
-        \n\nObrigado por fazer parte da revolução.
-
-        \n\nAjude-nos com feedback e relatórios de bugs brutalmente honestos.
-
-        \n\nAtenciosamente,
-
-        \nAEG, DRJ, VJ, JC, PJG, CR.
-
-    </string>
-    <string name="Our_Commitment">Nosso compromisso</string>
-    <string name="Our_Commitment_Description">
-        Nossa missão é criar um mercado que recompense financeiramente todos os seus participantes e seja
-        fortalecido pelos números. Através do KarmaCall, seus dados se tornam uma mercadoria que você tem
-        o poder de vender ou guardar para si mesmo. Acreditamos que o futuro de grandes empresas está na
-        prosperidade compartilhada e isso exige que você seja financeiramente compensado por seus dados e tempo.
-        \n\nApoiamos a nova política da União Europeia, dando aos nossos clientes e usuários uma voz maior em
-        o que acontece com seus dados.
-    </string>
-    <string name="GDPR">O que é GDPR?</string>
-    <!--    Would like to have the Cash in our name show our color like header_nav_bar_main.xml. Need to fix
-        the linking at the end as well. See
-        https://stackoverflow.com/questions/9204303/android-is-it-possible-to-add-a-clickable-link-into-a-string-resource-->
-    <string name="GDPR_Description">O GDPR (Regulamento Geral de Proteção de Dados) entrou em vigor em 25 de maio de 2018 na
-        União Europeia. O GDPR se aplica a todas as empresas que processam PII de cidadãos da UE
-        (Informações Pessoais Identificáveis). Esta nova lei prioriza a importância da
-        proteção e privacidade de suas informações pessoais em várias áreas-chave. O estado da
-        Califórnia aprovou recentemente a Lei de Privacidade do Consumidor da Califórnia (CCPA). Todos os direitos da
-        CCPA são atendidos em conformidade com o GDPR, que o KarmaCall faz, conforme descrito abaixo.
-        \n\nPrimeiro, o KarmaCall oferece a capacidade de consentir com a coleta de dados em um formato facilmente acessível.
-        No KarmaCall, armazenamos suas informações pessoais de contato – número de telefone, carteira digital,
-        bem como dados relativos ao nosso desempenho do contrato, que em parte captura transações de carteira digital para fins anti-spam e a duração de seus
-        tempos de chamada para melhorar nossos
-        serviços. Juntamente com suas informações básicas de contato, usamos o Flurry Analytics para rastrear como você
-        usa nosso aplicativo para que possamos aprender como melhorá-lo para tornar sua experiência o mais agradável possível. Quaisquer outros dados que sejam
-        fornecidos VOLUNTARIAMENTE por você (demográficos e
-        psicográficos), mas não sejam necessários para nossos recursos de bloqueio de spam, também serão armazenados.
-        \n\nSegundo, o KarmaCall oferece a oportunidade de solicitar seus dados. Exibimos os dados
-        atualmente mantidos sob seu usuário e/ou entidade comercial em um formato amigável.
-        O KarmaCall não vende ou fornece seus dados a fontes de terceiros por qualquer motivo.
-        \n\nTerceiro, o KarmaCall apresenta a opção de ter todos os dados que coletamos excluídos mediante solicitação.
-        Se você fizer essa solicitação, atenderemos sem demora indevida, exceto conforme exigido por outras
-        leis. Por exemplo, alguns dados financeiros podem não ser excluídos se forem necessários para registros fiscais.
-        \n\nPara mais informações,
-        <a href="https://www.techrepublic.com/article/the-eu-general-data-protection-regulation-gdpr-the-smart-persons-guide/">uma visão geral dos regulamentos
-            GDPR da UE
-            pode ser encontrada aqui.
-        </a>
-    </string>
     <string-array name="phone_metadata">
         <item>igual a:</item>
         <item>contém:</item>
@@ -271,8 +268,6 @@
     <!--    From other repo  -->
     <!--    From other repo  -->
     <!--    From other repo  -->
-    <string name="onboarding_title">Planejador e gerenciador\nfinanceiro digital inovador</string>
-    <string name="onboarding_message">Projetado para ajudá-lo a gerenciar e transferir seu dinheiro com facilidade,\neficiência e segurança.</string>
     <string name="get_started">Começar</string>
     <string name="by_continue_you_agree_terms">Ao continuar, você concorda com os</string>
     <string name="terms_and_conditions">Termos e Condições</string>
@@ -293,66 +288,7 @@
     <string name="change_phone_number">Precisa mudar de número? Deslize para trás</string>
     <string name="verify_code">Verificar código</string>
     <string name="enter_phone_number">Digite o número de telefone</string>
-    <string name="identity_verification">Verificação de identidade</string>
-    <string name="scan_national_id">Digitalize o documento de identidade para\n verificar sua identidade</string>
-    <string name="confirm_your_identity_with_few_taps">Confirme sua identidade com apenas alguns toques no\n seu telefone</string>
-    <string name="camera_permission_required">A permissão da câmera é necessária, forneça-a para continuar!</string>
-    <string name="why_is_it_required">Por que é necessário?</string>
-    <string name="scan_id_tips">Dicas para digitalizar ID</string>
-    <string name="find_a_well_lit_area">Encontre uma área bem iluminada</string>
-    <string name="steady_your_camera">Firme sua câmera</string>
-    <string name="position_the_id_properly">Posicione o ID corretamente</string>
-    <string name="zoom_in_if_necessary">Aproxime se necessário</string>
-    <string name="focus_on_the_id">Concentre-se no ID</string>
-    <string name="requiring_id_overall_desc">Solicitar um documento de identidade nacional ao abrir uma conta bancária ajuda a proteger o banco e o cliente,
-        garantindo
-        conformidade com os regulamentos, prevenindo fraudes e aprimorando a segurança.
-    </string>
-    <string name="start_scanning">Iniciar digitalização</string>
-    <string name="i_agree_on_id_scanning_policies">
-        <![CDATA[Li, compreendi e aceito os termos e condições do serviço e autorizo o provedor de serviços a digitalizar meu documento de identidade nacional, salvá-lo e usá-lo com segurança para os serviços prestados.]]></string>
-    <string name="id_reason_verification_of_identity">Verificação de identidade: Um documento de identidade nacional é uma forma confiável e padronizada de
-        identificação que ajuda
-        os bancos a verificar a identidade do titular da conta.
-    </string>
-    <string name="id_reason_compliance_with_regulations">Conformidade com os regulamentos: Os bancos são obrigados a cumprir vários regulamentos, como
-        as regras de combate à lavagem de dinheiro (AML) e de conhecimento do cliente (KYC).
-    </string>
-    <string name="id_reason_enhance_security">Segurança aprimorada: Ao solicitar um documento de identidade nacional, os bancos podem aprimorar a segurança das
-        contas de seus clientes. Isso
-        ajuda a proteger contra acesso não autorizado e garante que apenas o titular da conta possa realizar transações.
-    </string>
-    <string name="id_reason_prevention_of_fin_crimes">Prevenção de crimes financeiros: Um documento de identidade nacional pode ajudar os bancos em seus
-        esforços para prevenir crimes financeiros,
-        como lavagem de dinheiro, financiamento do terrorismo e evasão fiscal.
-    </string>
-    <string name="id_reason_streamlined_processes">Processos simplificados: Solicitar um documento de identidade nacional ajuda os bancos a simplificar seus
-        processos de abertura de contas. Isso
-        fornece uma forma padronizada e facilmente verificável de identificação, facilitando para os bancos verificar as informações do cliente e preencher a
-        documentação necessária.
-    </string>
-    <string name="scan_front_of_id">Digitalize a frente do documento de identidade</string>
-    <string name="scan_back_of_id">Digitalize o verso do documento de identidade</string>
-    <string name="verify_identity_requirements">Antes de iniciar, siga estas dicas</string>
-    <string name="start_verification">Iniciar verificação</string>
-    <string name="follow_instructions">Siga o guia e as instruções</string>
-    <string name="get_cap_off">Certifique-se de tirar o boné, caso esteja usando.</string>
-    <string name="take_off_glasses">Certifique-se de tirar os óculos, caso esteja usando.</string>
-    <string name="take_selfie_to_verify_identity">Tire uma selfie para verificar\n sua identidade</string>
-    <string name="quick_and_easy_identity_verification">Verificação de identidade rápida e fácil usando\n a câmera do seu telefone. Confirme sua identidade com
-        uma
-        foto capturada por você mesmo
-    </string>
-    <string name="please_wait_a_seconds">Aguarde alguns segundos …</string>
-    <string name="do_you_want_to_proceed_with_this_image">Deseja continuar com esta imagem?</string>
-    <string name="ensure_image_is_completely_clear">Ela será usada para verificar sua identidade, portanto, certifique-se de que esteja completamente nítida.
-    </string>
-    <string name="verifying_your_identity">Verificando sua identidade</string>
-    <string name="it_will_take_seconds">Levará |%1$d| segundos, aguarde …</string>
-    <string name="complete_account_registration">Concluir registro da conta</string>
     <string name="enter_your_pin">Digite seu código PIN</string>
-    <string name="it_will_not_take_long">Não vai demorar muito</string>
-    <string name="id_verification_in_progress">Verificação de identidade\nem andamento</string>
     <string name="available_balance">Saldo disponível</string>
     <string name="see_all">Ver tudo</string>
     <string name="current_activity">Atividade atual</string>
@@ -376,9 +312,8 @@
     <string name="transactions">Transações</string>
     <string name="name_return">Nome\n</string>
     <string name="exp">Exp %1$s</string>
-    <string name="my_q_code">Meu código Q</string>
     <string name="scan_the_qr_to_send_the_money">Digitalize o QR para enviar o dinheiro</string>
-    <string name="search_a_name">Pesquisar um nome</string>
+    <string name="search_a_name">Pesquisar por nome</string>
     <string name="contacts">Contatos</string>
     <!--    Converted String resources from iOS-->
     <!--    Converted String resources from iOS-->
@@ -605,10 +540,23 @@
     <string name="share_word">Compartilhar</string>
     <string name="checkInSummer">Verifique novamente no verão de 2024</string>
     <string name="venmoComingSoon">Venmo (apenas nos EUA) chegando em agosto de 2024</string>
-    <string name="unknownCallerMinimum">Chamadores desconhecidos devem depositar %1$s%2$s (~ %3$s nano) para ligar para você. Eles recebem de volta se você atender e falar por mais de %4$s segundos.</string>
-    <string name="unknownBusinessCalls">Chamadores comerciais desconhecidos podem pagar %1$s%2$s por minuto para falar com você (~ %3$s nano por minuto).</string>
+    <string name="unknownCallerMinimum">Chamadores desconhecidos devem depositar %1$s%2$s (~ %3$s nano) para ligar para você. Eles recebem de volta se você
+        atender e falar por mais de %4$s segundos.
+    </string>
+    <string name="unknownBusinessCalls">Chamadores comerciais desconhecidos podem pagar %1$s%2$s por minuto para falar com você (~ %3$s nano por minuto).
+    </string>
     <string name="amountPaidPerCall">Você recebe %1$s %2$s por chamada que nos permite bloquear.</string>
     <string name="setOwnRatesComingSoon">"Defina sua própria taxa" em breve!</string>
     <string name="benefitsNotAvailableYet">Os benefícios abaixo não estão disponíveis até que as permissões sejam concedidas</string>
+    <string name="verifySetup">Verificar Minha Configuração</string>
+    <string name="allGood">Tudo Certo</string>
+    <string name="needsPermissionsPhrase">Precisa de Permissões</string>
+    <string name="needsCallRole">Precisa de Função de Chamada</string>
+    <string name="needsPermissionSingle">Precisa de Permissão %1$s</string>
+    <string name="needsPermissionsBoth">Precisa de Permissão %1$s E %2$s</string>
+    <string name="setupComplete">Configuração Concluída!</string>
+    <string name="numberPermission">%1$d solicitações de permissão</string>
+    <string name="pressButtonBelowToGrant">Pressione o botão abaixo para conceder</string>
+    <string name="ignoreThisCall">Ignorar esta chamada</string>
 
 </resources>
